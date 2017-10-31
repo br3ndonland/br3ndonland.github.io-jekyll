@@ -19,17 +19,18 @@ Brendon Smith | br3ndonland
 
 ## Table of Contents
 
-* [Website description](#website-description)
+* [Description](#description)
 * [Repository contents](#repository-contents)
 * [Instructions](#instructions)
 * [Rubric comparison](#rubric-comparison)
 
 
-## Website description
+## Description
 
-This was my second project for the Udacity Full Stack Web Developer nanodegree. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
+This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
+<img src="https://www.dropbox.com/s/jg2vals0hmqc1q0/design-mockup-portfolio-thumbnail-square.png?dl=1">
 
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css:* for additional custom styling.
+I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css* for additional custom styling.
 
 The repository for this project is available at https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio. 
 
@@ -40,18 +41,13 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 * css
     - *portfolio.css:* CSS stylesheet for the webpage
+* img
+    - Images used in the site
 * info
     - *notes.md*: detailed notes about how I built the webpage.
     - *udacity_docs.md*: project rubric and documentation from Udacity
 * *index.html*: main webpage
 * *README.md*: concise description of the repository
-
-
-## Instructions
-
-<!-- TODO update when you have GitHub pages website up -->
-* Clone or download repository
-* Open *index.html* in a web browser.
 
 
 ## Rubric comparison
@@ -66,7 +62,6 @@ Also see *udacity_docs.md* for project rubric and documentation from Udacity
 * Custom Design
 * Grid-Based Layout
     - Website built with Bootstrap. All grids wrapped in `container` class elements.
-    - 
 
 ### Responsiveness
 
@@ -76,6 +71,7 @@ Also see *udacity_docs.md* for project rubric and documentation from Udacity
     - All content rendered on all three devices. 
 * Viewport `meta` tag included in HTML
 * Responsive Images
+    - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
 
 Additional responsive features:
 
@@ -87,6 +83,8 @@ Additional responsive features:
     - Structure (HTML) separated from style (CSS). 
 * File Structure
     - Directory structure separates files based on functionality.
+    `css/` for stylesheets
+    `img/` for images
 
 ### Code Quality
 

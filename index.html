@@ -13,20 +13,20 @@
     <link rel="stylesheet" type="text/css" href="css/portfolio.css">
     
     <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300|Roboto" type="text/css">   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300|Roboto" type="text/css">
   </head>
 
   <body>
     <!-- Header -->
-    <!-- TODO change header class? -->
-    <!-- TODO use a separate class for svg? -->
+    <!-- TODO align text and udacity logo -->
     <div class="container">
       <header class="header">
         <div class="row">
           <div class="col-md">
-            <img class="header-logo" src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" alt="Udacity logo svg">
+            <a href="https://udacity.com">
+              <img class="header-logo" src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" alt="Udacity logo svg">
+            </a>
           </div>
-          <!-- TODO align text and udacity logo -->
           <div class="col-md">
             <h1 class="header-title">
               Brendon Smith
@@ -35,75 +35,50 @@
         </div>
         <div class="row">
           <div class="col">
-            <h1 class="header-subtitle">
+            <h2 class="header-subtitle">
               Udacity portfolio
-            </h1>
+            </h2>
           </div>
         </div>
       </header>
     </div>
 
-    <!-- Large center jumbotron container -->
-    <!-- TODO background image -->
+    <!-- Large center jumbotron container --> 
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron background-udacity">
         <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">This website showcases the Udacity work I have shared in my GitHub repository. Check it out, and stay Udacious!</p>
-        <p><a class="btn btn-primary btn-lg" href="https://github.com/br3ndonland" role="button">Go to repository &raquo;</a></p>
+        <p class="lead font-weight-bold">This website showcases the Udacity work I have shared on GitHub. Check it out, and Stay Udacious!</p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/br3ndonland" role="button">GitHub profile &raquo;</a></p>
       </div>
     </div>
 
-
     <!-- Portfolio thumbnails -->
-
     <!-- TODO align details buttons -->
-    <!-- TODO thumbnail pics above descriptions -->
-    <!-- TODO make thumbnails small and responsive. Use Bootstrap class-->
-
-    <div class="container">
+     <div class="container">
       <h1 class="text-muted">
         Featured work
       </h1>
-      <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg">
+          <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
           <h2>Udacity FSND</h2>
-          <p>General repository for course notes and materials. Step right up and learn about the cool things I'm doing with Udacity!</p>
+          <p>General repository for Udacity Full Stack Nanodegree program course notes and materials. Step right up and learn about the cool things I'm doing with Udacity!</p>
           <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd/blob/master/README.md" role="button">Read more &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <img src="https://www.dropbox.com/s/r0u3cmb4inprdhl/fresh_tomatoes_noir.png?dl=1">
+          <img src="img/fresh_tomatoes_noir_thumbnail-square.png" alt="Movie site" class="img-thumbnail">
           <h2>Movie site</h2>
           <p>Server-side code written in Python to store a list of my favorite movies, including artwork and trailers, then serve the data to a local webpage with HTML and CSS.</p>
           <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p01-movies/blob/master/README.md" role="button">Read more &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <embed src="https://www.dropbox.com/s/2t9ottvtdpmayo7/design-mockup-portfolio.jpg?dl=1" />
+          <img src="img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio site design mockup" class="img-thumbnail">
           <h2>Portfolio site</h2>
           <p>This website! We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS.</p>
           <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio/blob/master/README.md" role="button">See how I made it &raquo;</a></p>
         </div>
-        <!-- Proteomics section for br3ndonland.github.io:
-        <div class="col-md-4">
-          <img src="http://api.url2png.com/v6/P5441C759E0FFE/e6593077db5bf05af4ebec889686ae7c/png/?thumbnail_max_width=200&unique=1507749844&url=http%3A%2F%2Frstudio-pubs-static.s3.amazonaws.com%2F317388_a130b5912ccf4288aaa217b474666674.html&viewport=960x960">
-          <h2>Science</h2>
-          <p>Check out some of my data!</p>
-          <p><a class="btn btn-secondary" href="https://rpubs.com/br3ndonland/Nrf1proteomics_20160316" role="button">Read more &raquo;</a></p>
-        </div>
-        -->
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          asdfa
-        </div>
-        <div class="col-md-4">
-          asdfa
-        </div>
-        <div class="col-md-4">
-          asdfa
-        </div>
-      </div>
+
       <hr>
 
       <footer>
@@ -111,7 +86,7 @@
       </footer>
     </div> 
 
-    <!-- BootStrap core JavaScript -->
+    <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

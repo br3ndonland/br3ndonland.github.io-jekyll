@@ -1,7 +1,5 @@
 
-/* TODO can i make anything shorthand? */
 /* Header and Headings */
-
 h1, .h1 {
   font-family: 'Lobster', cursive;
 }
@@ -20,39 +18,66 @@ h1, .h1 {
   color: #02b3e4;
   text-align: right;
   text-transform: uppercase;
+  line-height: 1.5;
 }
 
 .header-subtitle {
   color: #2d3c49;
   text-align: right;
+  font-family: 'Lobster', cursive;
 }
-
 
 /* Body */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Portfolio thumbnails */
-
-/* Align buttons at the bottom of the row */
-
-.btn {
-  vertical-align: bottom;
+/* Jumbotron */
+.background-udacity {
+  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
 }
 
-/* Center header text in small viewports */
+.btn-primary {
+  background-color: #7d97ad;
+  border-color: #7d97ad;
+}
+
+/* Center header text and shrink thumbnails in small viewports */
 @media screen and (max-width: 767px) {
   .header, .header-logo, .header-title, .header-subtitle {
     text-align: center;
   }
+  .img-thumbnail {
+    max-height: 200px;
+  }
 }
 
-/* TODO make text more responsive */
+/* Responsive typography */
+/* Haven't had much success with this yet */
+/*
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}*/
 
 /* Additional CSS from Bootstrap narrow-jumbotron template */
-
-
 /* Space out content a bit */
 body {
   padding-top: 1.5rem;
@@ -100,8 +125,8 @@ body {
 }
 .jumbotron .btn {
   padding: 0.75rem 1.5rem;
-/*  font-size: 1.5rem;
-*/}
+  font-size: 1.5rem;
+}
 
 /* Supporting marketing content */
 .marketing {
