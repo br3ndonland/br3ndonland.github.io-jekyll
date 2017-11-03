@@ -5,7 +5,7 @@ h1, .h1 {
 }
 
 .header {
-  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
   border-bottom: 0.2rem solid #7d97ad;
 }
 
@@ -30,11 +30,15 @@ h1, .h1 {
 /* Body */
 body {
   font-family: 'Roboto', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-
-/* Jumbotron */
-.background-udacity {
-  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
+  /* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
 }
 
 .btn-primary {
@@ -42,49 +46,7 @@ body {
   border-color: #7d97ad;
 }
 
-/* Center header text and shrink thumbnails in small viewports */
-@media screen and (max-width: 767px) {
-  .header, .header-logo, .header-title, .header-subtitle {
-    text-align: center;
-  }
-  .img-thumbnail {
-    max-height: 200px;
-  }
-}
-
-/* Responsive typography */
-/* Haven't had much success with this yet */
-/*
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}*/
-
-/* Additional CSS from Bootstrap narrow-jumbotron template */
-/* Space out content a bit */
-body {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
+  /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
 .footer {
@@ -92,13 +54,26 @@ body {
   padding-left: 1rem;
 }
 
-/* Custom page header-see above in my CSS*/
+  /* Jumbotron */
+    /* Background */
+.background-udacity {
+  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
+}
 
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
+    /* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+  /* Portfolio thumbnails */
+.img-thumbnail {
+  max-height: 300px;
 }
 
 /* Custom page footer */
@@ -108,46 +83,38 @@ body {
   border-top: 0.05rem solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 46rem;
+/* Media queries for responsive text and images */
+@media (max-width: 991px) {
+  html {
+    font-size: 0.7rem;
+  }
+  .header-logo {
+  width: 250px;
   }
 }
-.container-narrow > hr {
-  margin: 2rem 0;
-}
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: 0.75rem 1.5rem;
-  font-size: 1.5rem;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 3rem 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
+@media (max-width: 767px) {
+  html {
+    font-size: 0.7rem;
+  }
+  .header, .header-logo, .header-title {
+    text-align: center;
+  }
+  .header-subtitle {
+    display: none;
+  }
+  .header-logo {
+  max-width: 200px;
+  }
+  .img-thumbnail {
+    max-height: 200px;
+  }
   /* Remove the padding we set earlier */
   .header,
   .marketing,
   .footer {
     padding-right: 0;
     padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 2rem;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
