@@ -64,26 +64,22 @@ See the **Rubric comparison** section of README.md for details.
 * I first focused on building basic structure with HTML. In parallel, I created CSS styling for each new HTML element I added.
     <img src="https://www.dropbox.com/s/2vbja9wj340r76z/Screen-Shot-2017-10-24-at-10.38.52-AM.png?dl=1">
 * I used some elements from [narrow-jumbotron](https://getbootstrap.com/docs/4.0/examples/narrow-jumbotron/).
-* I used [Google Fonts](https://fonts.google.com). Font weights are specified when referencing the CSS, for example:
-    ```html
-    <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300|Roboto" type="text/css">
-    ```
+* I used [Google Fonts](https://fonts.google.com). Font weights are specified when referencing the CSS.
 * I kept code as concise as possible, and used CSS shorthand wherever possible.
-* *Responsive design:* Bootstrap is mobile-first, meaning that the site structure is designed for extra small devices (portrait phones, less than 576px), and the media queries use `min-width` to scale up. In this case, I had to design desktop-first. I had to design the site based on a desktop markup, then adjust it for smaller sizes. See below for responsive design of each section.
+* *Responsive design:* Bootstrap is mobile-first, meaning that the website structure is designed for extra small devices (portrait phones, less than 576px), and then scaled up with `min-width` media queries. In this case, I had to design desktop-first. I had to design the site based on a desktop webpage mockup, then adjust it for smaller sizes. See below for responsive design of each section.
 
 ## Header
 
 * *[Container](https://getbootstrap.com/docs/4.0/layout/overview/#containers):* I placed the `header` inside a `container` to keep it in line with other elements, as shown in the portfolio site mockup. A `container` should usually be the top-level div, but not always. For example, in the Bootstrap [docs](https://getbootstrap.com/docs/4.0/content/typography/), `header` is not in a `container`, and is outside the margins of the container below.
 * *[Grid](https://getbootstrap.com/docs/4.0/layout/grid/):* I created a grid in the header to show the Udacity logo and the text as two columns in the same row. Bootstrap has most of the optimal [flexbox formatting](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) built in already. There are 12 columns by default. I also tried including header elements as spans, but they did not align vertically.
-* *Udacity logo:* I set `max-width: 400px;` in the CSS to limit size of the svg file. I also hyperlinked the image to the Udacity website.
+* *Udacity logo:* I set `max-width: 400px;` in the CSS to limit size of the SVG file. I also hyperlinked the image to the Udacity website.
 * *Responsive text horizontal alignment:* I created a media query to center align the text when the header reduces to one column. Bootstrap provides text alignment classes like `text-right` and `text-uppercase` that I could reference directly in the HTML, but this makes things more complicated, because I would have to coordinate style between CSS and HTML, so I opted to align the text with my own CSS.
 * *Header text vertical alignment:* I wanted the "Brendon Smith" text at the right side of the header to be centered with the Udacity logo svg text. 
     - I tried `vertical-align: middle;` and the [Bootstrap vertical alignment](https://getbootstrap.com/docs/4.0/utilities/vertical-align/) class `align-middle` to no avail. 
     - I searched the Bootstrap documentation and found the [text section](https://getbootstrap.com/docs/4.0/utilities/text/#text-alignment), but that didn't fix it either. 
     - I found a [Stack Overflow question](https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3#20548578) that addressed this issue, but the solution didn't work for me.
     - I temporarily squashed the bug by inspecting the text with Chrome Developer Tools, and looking at the inherited properties. I found `line-height: 1.1;` switched it off, and... text centered! 
-        <img src="https://www.dropbox.com/s/19zdupti2cj2n8o/Screen-Shot-2017-10-27-at-11.56.32-AM.png?dl=1">
+        <img src="https://www.dropbox.com/s/19zdupti2cj2n8o/Screen-Shot-2017-10-27-at-11.56.32-AM.png?dl=1" alt="Header text vertical alignment">
     - Now to change the code. It took a long time to find the solution. Like, days. I eventually realized that, when I turned off `line-height: 1.1;` with Developer Tools, the text was reverting to the previously applied style. After searching through the Bootstrap core CSS with the query line-height, I eventually found that the default for `body` is 1.5.
     - **I had to set the header text to `line-height: 1.5;`:**
     ```css
@@ -100,31 +96,152 @@ See the **Rubric comparison** section of README.md for details.
 ## Jumbotron
 
 * *Background:* I used the signature Udacity gradient. I also liked the simple gray default, and tried using different background images, such as the ones from the [Google Material Design guidelines](https://material.io/guidelines/material-design/introduction.html).
-* *Responsive design:* I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap CSS that put in a breakpoint at `48em`, then 
+* *Responsive design:* I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap `narrow-jumbotron` CSS that put in a breakpoint at `48em`, then coordinated the media queries with the column sizes set with classes in the HTML. **I finally got it: `col-md-6` header columns on medium displays, `col-sm-4` columns for thumbnails, and two media queries to shrink the page down at `991px` and `768px`.**
+* *Buttons:* I chose not to use a button group, so the buttons would stay separated. In order to prevent the buttons from breaking onto multiple lines on mobile, I simply reduced the font size to `font-size: 1.2rem;`.
 
 
 ## Portfolio thumbnails
 
-* *Responsive images:* 
+* *Responsive design:* 
     - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
     - All images same height: Bootstrap gives the images `max-width: 100%` and `height: auto`, which means they are not the same height. I created alternate thumbnail versions of the images, and cropped and resized them so they were 300px square (the largest they will be is 276px).
     - Smaller images on mobile: added `max-height: 200px;` to the media query mentioned above.
 * *Link buttons:* I want to vertically align the three link buttons below the thumbnail descriptions. If I moved the buttons onto a separate row, they would not stay with the rest of the column when the site resizes for small viewports.
 * *PDF rendering:* I wanted to use the design mockup as a thumbnail for my portfolio site, but it was a PDF. PDF rendering in browsers requires plugins and may not be consistent. I just converted it to an image.
 
-**Here is a screenshot after finishing the [Jumbotron](#jumbotron) and [Portfolio thumbnails](#portfolio-thumbnails):**
+**Here is a screenshot after completing the [Jumbotron](#jumbotron) and [Portfolio thumbnails](#portfolio-thumbnails):**
 
-<img src="https://www.dropbox.com/s/i8earqnecs6fnti/Screen-Shot-2017-10-30-at-9.54.35-PM.png?dl=1">
+<img src="https://www.dropbox.com/s/i8earqnecs6fnti/Screen-Shot-2017-10-30-at-9.54.35-PM.png?dl=1" alt="Completed Jumbotron and thumbnails">
 
-## Color schemes
+**Here are screenshots, after completing the responsive homepage, on desktop, iPad, and Nexus:**
 
-I prefer dark themes, like many developers. Dark themes are becoming more popular. DuckDuckGo now has a dark theme option. I followed the guidelines from [design shack](https://designshack.net/articles/css/lightsoff/) to create the dark theme toggle. 
+*Desktop*
+<img src="https://www.dropbox.com/s/b6uh4mxlv9pmawg/Screen-Shot-2017-11-03-at-11.32.21-AM.png?dl=1" alt="Completed responsive homepage on desktop">
 
-[TODO dark theme toggle]
-use tomorrow and tomorrow night colors
+*iPad*
+<img src="https://www.dropbox.com/s/4tluhgt3sho4iew/Screen-Shot-2017-11-03-at-11.32.44-AM.png?dl=1" alt="Completed responsive homepage on iPad">
 
-USE THE GRAY FROM UDACITY #2d3c49
+*Nexus*
+<img src="https://www.dropbox.com/s/lrbtxft5ylwgg1t/Screen-Shot-2017-11-03-at-11.35.08-AM.png?dl=1" alt="Completed responsive homepage on Nexus">
 
+
+## Footer
+
+* I kept the footer relatively simple, in terms of formatting. I centered it with CSS and used the `text-muted` class to gray it out. 
+* The sizing of the GitHub icon was a bit complicated.
+* I included a button to toggle [color schemes](#color-schemes). See below.
+
+
+## Theme toggle
+
+### Colors
+
+I prefer dark themes, like many developers, so **I wanted to provide a dark theme option on my website.** Dark themes are becoming more popular. See [DuckDuckGo](https://duckduckgo.com/settings#theme) and [Jekyll](https://jekyllrb.com/) for examples of dark themes. 
+
+* I started with the guidelines from [design shack](https://designshack.net/articles/css/lightsoff/), which explain how to create a dark theme toggle purely with CSS. I wasn't able to get it to successfully toggle any events, at least with a local website preview, and it's a somewhat dirty hack. I'm already loading jQuery for Bootstrap, so why not build in some jQuery functionality? 
+* **I didn't know JavaScript at this point. Time to learn!**
+* I started by creating `js/portfolio.js`, and loading it at the end of the HTML:
+    ```html
+    <script src="js/portfolio.js" type="text/javascript"></script>
+    ```
+* I added [Bootstrap buttons](https://getbootstrap.com/docs/4.0/components/buttons/) instead of fake CSS "buttons" like the design shack tutorial.
+
+* The jQuery website had some helpful tips in their [documentation](http://learn.jquery.com/about-jquery/how-jquery-works/#adding-and-removing-an-html-class). I used some basic code to make sure jQuery was working:
+    *Test CSS added to `portfolio.css`:*
+    ```css
+    .jQuery-test {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    ```
+    *Test jQuery JavaScript added to `portfolio.js`:*
+    ```javascript
+    // test code
+
+    // make text capitalized and bold
+    $( "a" ).addClass( "jQuery-test");
+
+    // make links disappear when clicked
+    $( "a" ).click(function( event ) {
+        event.preventDefault();
+        $( this ).hide( "slow" );
+    });
+    ```
+* All the links were bold and uppercase, and the buttons disappeared when clicked! Success!
+* Next, I applied the disappear-on-click action to the dark toggle button, to make sure that this specific button was working. A period is needed at the beginning of the class name to indicate CSS. 
+    ```javascript
+    $( ".btn-dark" ).click(function( event ) {
+    event.preventDefault();
+    $( this ).hide( "slow" );
+    });
+    ```
+* Next, I used `toggleClass` to toggle the dark theme on and off with a single button. I found the `toggleClass` function with a documentation search. Note that a period is required when initially *referencing* the class (after the `$`, before `toggleClass`) because it is referring to CSS, but not when *toggling* the class (after `toggleClass`), because the class name is added to HTML, where periods are not used. Specify multiple classes with spaces between them, just as in HTML. See [w3schools docs](https://www.w3schools.com/jquery/html_toggleclass.asp) (I also checked out the [jQuery docs](https://api.jquery.com/toggleClass/), but found them clunky and difficult to read).
+    *CSS:*
+    ```css
+    /* Dark theme */
+    .theme-dark {
+      background-color: #2d3c49;
+      color: #fff;
+    }
+    ```
+    *jQuery JavaScript:*
+    ```javascript
+    // Theme toggle
+    $( '.btn-dark' ).click(function() {
+        $( 'body' ).toggleClass( 'theme-dark' );
+    });
+    ```
+
+
+### SVG toggle
+
+**When the dark theme is toggled, I want the "Udacity" text in the header to invert to white to stand out against the dark theme background.** The Udacity logo is an SVG, and it shouldn't be difficult to work with SVG, because it's just simple code. Right? Wrong.
+
+* I tried manipulating the SVG as an image with CSS. I found the `filter: invert(100%);` CSS property, but I only want to invert the text, not the U. 
+* I wanted to manipulate the SVG code with jQuery or CSS, instead of creating two separate files for light and dark versions of the image. This turned out to be challenging, and is a known issue (see GitHub issue [jQuery Class Operations on SVG DOM Attributes #2199](https://github.com/jquery/jquery/issues/2199)). 
+* I tried [this code](https://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement?rq=1) to embed the SVG and change the color as if it was inline, but it didn't work right away and I didn't think it would be an effective strategy.
+* The [w3schools jQuery HTML / CSS Methods page](https://www.w3schools.com/jquery/jquery_ref_html.asp) was helpful.
+* I checked out the CSS tricks [using SVG page](https://css-tricks.com/using-svg/) by Chris Coyier. It was very helpful.
+    - I could [use the SVG as a background image in a CSS class](https://css-tricks.com/using-svg/#article-header-id-4). I tried this, using the file path as the URL, but it didn't work, so I would have to paste the code inline into my CSS, and possibly [convert it to a URI](https://css-tricks.com/using-svg/#article-header-id-13). Including inline SVG code is definitely an option, but I decided not to so I could keep my code cleaner for Udacity code review.
+    - I tried [referencing the SVG as an object instead of an image](https://css-tricks.com/using-svg/#article-header-id-11), but the hyperlink sat below the image instead of right on top of it (remember, I created a link so the image takes the user to the Udacity website).
+    - The article had a link to [SVG.js](http://svgjs.com/), which looks like a helpful library. It is a leaner code library than Raphael, and would probably do what I want. For simplicity in this project though, I will not use it.
+* The easiest option was just to save two versions of the file and swap out the file path itself when the dark theme button is clicked. I directly edited the Udacity logo SVG code in Sublime Text to convert the text to white, and saved it as a separate file. I then wrote some jQuery:
+    ```javascript
+    // Set up variables for image replacement
+    var oldSrc = 'img/udacity-long.svg';
+    var newSrc = 'img/udacity-long-white.svg';
+    // Dark theme toggle
+    $( '.btn-dark' ).click(function() {
+        $( 'body' ).toggleClass( 'theme-dark' );
+        $('img[src="' + oldSrc + '"]').prop('src', newSrc);
+    });
+    ```
+* `prop` is a newer alternative to `attr`. This successfully replaced the image, but it didn't toggle, it just stayed replaced.
+* I had to dig into the documentation for the `toggle` function to figure this out. It was difficult and confusing. There was a [previous `toggle` function](http://api.jquery.com/toggle-event/) that was deprecated, adding to the confusion. The current `toggle` function is an animation function that shows and hides elements by appending `style="display: none;"` to the HTML. Again, I discovered this by watching the code with Chrome developer tools as I clicked the toggle button. I eventually succeeded by including both versions of the Udacity logo SVG in the HTML from the get-go, using the `.header-logo` class from my CSS file as a [*selector*](https://www.w3schools.com/jquery/jquery_selectors.asp) for both, but including `style="display: none;"` in the HTML for the one with white text. This allowed me to toggle between versions of the SVG with one line of jQuery code:
+    *HTML:*
+    ```html
+    <a href="https://udacity.com">
+      <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
+      <img class="header-logo svg" src="img/udacity-long-white.svg" alt="Udacity logo svg alt" style="display: none;">
+    </a>
+    ```
+    *jQuery JavaScript:*
+    ```javascript
+    // Theme toggle
+    $( '.btn-dark' ).click(function() {
+        $( 'body' ).toggleClass( 'theme-dark' );
+        $( '.header-logo' ).toggle();
+    });
+    ```
+* I am aware that it is not ideal to include two versions of an image on a website. In the future, I will try something more efficient, like including the SVG code inline in my CSS, and styling it by changing CSS classes.
+
+Here are screenshots of the webpage after completing the theme toggle:
+
+*Light*
+<img src="https://www.dropbox.com/s/bhw11bupkwf9m4d/Screen-Shot-2017-11-10-at-6.54.01-PM.png?dl=1">
+
+*Dark*
+<img src="https://www.dropbox.com/s/utkoe06qbn16uty/Screen-Shot-2017-11-10-at-6.54.34-PM.png?dl=1">
 
 ## Website hosting with GitHub Pages and Jekyll
 
@@ -167,6 +284,7 @@ I used this project as an opportunity to expand my skills from building single w
     - I made this repository into a project page at **br3ndonland.github.io/udacity-fsnd01-p02-portfolio**
     - I also built a personal site to expand on the Udacity portfolio site at **br3ndonland.github.io**. 
 
+https://github.com/toddmotto/toddmotto.github.io
 
 ### Resources
 
@@ -178,13 +296,8 @@ I used this project as an opportunity to expand my skills from building single w
 * [GitHub Pages guide from Anna Debenham at 24 ways](https://24ways.org/2013/get-started-with-github-pages/)
 * [GitHub Pages guide from Thinkful](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
 
+User pages
+https://github.com/toddmotto/toddmotto.github.io
+https://github.com/svgdotjs/svgdotjs.github.io
 
-## Future plans
-
-<!-- APIs -->
-
-<!-- TODO use GitHub API to pull in info from repos, instead of using static text. JavaScript? 
-THEY DO THIS ON PACKAGE CONTROL!!!
-https://packagecontrol.io/packages/GitSavvy
-
--->
+Project pages
