@@ -1,5 +1,5 @@
-documentation
-========================
+Udacity portfolio website project documentation
+===============================================
 
 <p align="left">
     <a href="https://www.udacity.com/">
@@ -11,18 +11,44 @@ documentation
 
 Part 01. Programming fundamentals and the web
 
-Project 02. Build a portfolio site
+Project 02. Build a portfolio 
+site
 
 Brendon Smith | br3ndonland
 
 ---
 
-## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-* [Overview](#overview)
-* [Details](#details)
-* [Rubric](#rubric)
-* [Submission](#submission)
+- [Overview](#overview)
+  - [Project Overview](#project-overview)
+  - [Why this project?](#why-this-project)
+  - [What will I learn?](#what-will-i-learn)
+  - [Why is this important to my career?](#why-is-this-important-to-my-career)
+  - [Note](#note)
+- [Details](#details)
+  - [How do I Complete this Project?](#how-do-i-complete-this-project)
+  - [Instructions:](#instructions)
+  - [Additional resources](#additional-resources)
+  - [Supporting Materials](#supporting-materials)
+- [Rubric](#rubric)
+- [Project Specification](#project-specification)
+  - [Build a Portfolio Site
+](#build-a-portfolio-site)
+  - [Suggestions to Make Your Project Stand Out!](#suggestions-to-make-your-project-stand-out)
+- [Submission](#submission)
+- [Project Submission](#project-submission)
+- [Evaluation](#evaluation)
+- [Style Guidelines](#style-guidelines)
+  - [CSS Guidelines](#css-guidelines)
+  - [HTML Guidelines](#html-guidelines)
+- [Submission](#submission-1)
+- [What's Next?](#whats-next)
+    - [Supporting Materials](#supporting-materials-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Overview
 

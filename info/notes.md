@@ -1,5 +1,5 @@
-portfolio website project notes
-===============================
+Portfolio website construction notes
+====================================
 
 <p align="left">
     <a href="https://www.udacity.com/">
@@ -17,10 +17,30 @@ Brendon Smith | br3ndonland
 
 ---
 
-## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-[TOC]
- 
+- [Development environment](#development-environment)
+- [Bootstrap](#bootstrap)
+  - [Bootstrap installation and use options](#bootstrap-installation-and-use-options)
+  - [Using Bootstrap](#using-bootstrap)
+- [General webpage style and structure](#general-webpage-style-and-structure)
+- [Header](#header)
+- [Jumbotron](#jumbotron)
+- [Portfolio thumbnails](#portfolio-thumbnails)
+- [Footer](#footer)
+- [Theme toggle](#theme-toggle)
+  - [Colors](#colors)
+  - [SVG toggle](#svg-toggle)
+- [Website hosting with GitHub Pages and Jekyll](#website-hosting-with-github-pages-and-jekyll)
+  - [Jekyll and Ruby installation](#jekyll-and-ruby-installation)
+  - [Jekyll website creation](#jekyll-website-creation)
+  - [GitHub Pages](#github-pages)
+  - [Resources](#resources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 
 ## Development environment
@@ -54,7 +74,7 @@ I explored the different ways to use Bootstrap.
 * Modifying Bootstrap’s core files is not recommended. See [Theming Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/theming/). I created an additional CSS file called *portfolio.css* to modify and extend the Bootstrap core CSS when necessary. 
 * I kept the core Bootstrap CSS open in Sublime Text for reference. It was also helpful to open the [Bootstrap template examples](https://getbootstrap.com/docs/4.0/examples/) in Chrome, then inspect with developer tools.
 * I frequently referred to the [Bootstrap docs](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and [Bootstrap GitHub readme](https://github.com/twbs/bootstrap).
-* **Bootstrap was difficult to use.** The documentation is not comprehensive enough, so it lacks detailed explanations of class definitions and web elements. There are online [Bootstrap editors](https://bootstrapbay.com/blog/bootstrap-editors/) like [Codeply](https://www.codeply.com/) and [Bootply](https://www.bootply.com/) that can make development easier. There are also templates available (like the [premium themes from Bootstrap](https://themes.getbootstrap.com/)) from [WrapBootstrap](https://wrapbootstrap.com/) and [BootstrapBay](https://bootstrapbay.com/). **It was helpful to work directly with the Bootstrap code as a learning experience, but it would be too slow for professional web development.**
+* **Bootstrap has a steep learning curve.** The documentation is not comprehensive enough, so it lacks detailed explanations of class definitions and web elements. There are online [Bootstrap editors](https://bootstrapbay.com/blog/bootstrap-editors/) like [Codeply](https://www.codeply.com/) and [Bootply](https://www.bootply.com/) that can make development easier. There are also templates available (like the [premium themes from Bootstrap](https://themes.getbootstrap.com/)) from [WrapBootstrap](https://wrapbootstrap.com/) and [BootstrapBay](https://bootstrapbay.com/). **It was helpful to work directly with the Bootstrap code as a learning experience, but it would be too slow for professional web development.**
 
 
 ## General webpage style and structure
@@ -62,11 +82,17 @@ I explored the different ways to use Bootstrap.
 See the **Rubric comparison** section of README.md for details.
 
 * I first focused on building basic structure with HTML. In parallel, I created CSS styling for each new HTML element I added.
-    <img src="https://www.dropbox.com/s/2vbja9wj340r76z/Screen-Shot-2017-10-24-at-10.38.52-AM.png?dl=1">
+    ![Screen shot](https://www.dropbox.com/s/2vbja9wj340r76z/Screen-Shot-2017-10-24-at-10.38.52-AM.png?dl=1)
 * I used some elements from [narrow-jumbotron](https://getbootstrap.com/docs/4.0/examples/narrow-jumbotron/).
 * I used [Google Fonts](https://fonts.google.com). Font weights are specified when referencing the CSS.
 * I kept code as concise as possible, and used CSS shorthand wherever possible.
-* *Responsive design:* Bootstrap is mobile-first, meaning that the website structure is designed for extra small devices (portrait phones, less than 576px), and then scaled up with `min-width` media queries. In this case, I had to design desktop-first. I had to design the site based on a desktop webpage mockup, then adjust it for smaller sizes. See below for responsive design of each section.
+* *Responsive design:* Bootstrap is mobile-first, meaning that the website structure is designed for extra small devices (portrait phones, less than 576px), and then scaled up with `min-width` media queries. In this case, I had to design desktop-first. I had to design the site based on a desktop webpage mockup, then adjust it for smaller sizes. See below for design of each section.
+* I generated TOC for all markdown files with [doctoc](https://github.com/thlorenz/doctoc):
+    ```bash
+    $ npm install -g doctoc
+    $ cd .../udacity-fsnd01-p02-portfolio
+    $ doctoc . --github
+    ```
 
 ## Header
 
@@ -79,18 +105,19 @@ See the **Rubric comparison** section of README.md for details.
     - I searched the Bootstrap documentation and found the [text section](https://getbootstrap.com/docs/4.0/utilities/text/#text-alignment), but that didn't fix it either. 
     - I found a [Stack Overflow question](https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3#20548578) that addressed this issue, but the solution didn't work for me.
     - I temporarily squashed the bug by inspecting the text with Chrome Developer Tools, and looking at the inherited properties. I found `line-height: 1.1;` switched it off, and... text centered! 
-        <img src="https://www.dropbox.com/s/19zdupti2cj2n8o/Screen-Shot-2017-10-27-at-11.56.32-AM.png?dl=1" alt="Header text vertical alignment">
+    ![Header text vertical alignment](https://www.dropbox.com/s/19zdupti2cj2n8o/Screen-Shot-2017-10-27-at-11.56.32-AM.png?dl=1)
+
     - Now to change the code. It took a long time to find the solution. Like, days. I eventually realized that, when I turned off `line-height: 1.1;` with Developer Tools, the text was reverting to the previously applied style. After searching through the Bootstrap core CSS with the query line-height, I eventually found that the default for `body` is 1.5.
     - **I had to set the header text to `line-height: 1.5;`:**
-    ```css
-    .header-title {
-      font-family: 'Raleway', sans-serif;
-      color: #02b3e4;
-      text-align: right;
-      text-transform: uppercase;
-      line-height: 1.5;
-    }
-    ```
+        ```css
+        .header-title {
+          font-family: 'Raleway', sans-serif;
+          color: #02b3e4;
+          text-align: right;
+          text-transform: uppercase;
+          line-height: 1.5;
+        }
+        ```
 
 
 ## Jumbotron
@@ -111,18 +138,18 @@ See the **Rubric comparison** section of README.md for details.
 
 **Here is a screenshot after completing the [Jumbotron](#jumbotron) and [Portfolio thumbnails](#portfolio-thumbnails):**
 
-<img src="https://www.dropbox.com/s/i8earqnecs6fnti/Screen-Shot-2017-10-30-at-9.54.35-PM.png?dl=1" alt="Completed Jumbotron and thumbnails">
+![Completed Jumbotron and thumbnails](https://www.dropbox.com/s/i8earqnecs6fnti/Screen-Shot-2017-10-30-at-9.54.35-PM.png?dl=1)
 
 **Here are screenshots, after completing the responsive homepage, on desktop, iPad, and Nexus:**
 
 *Desktop*
-<img src="https://www.dropbox.com/s/b6uh4mxlv9pmawg/Screen-Shot-2017-11-03-at-11.32.21-AM.png?dl=1" alt="Completed responsive homepage on desktop">
+![Completed responsive homepage on desktop](https://www.dropbox.com/s/b6uh4mxlv9pmawg/Screen-Shot-2017-11-03-at-11.32.21-AM.png?dl=1)
 
 *iPad*
-<img src="https://www.dropbox.com/s/4tluhgt3sho4iew/Screen-Shot-2017-11-03-at-11.32.44-AM.png?dl=1" alt="Completed responsive homepage on iPad">
+![Completed responsive homepage on iPad](https://www.dropbox.com/s/4tluhgt3sho4iew/Screen-Shot-2017-11-03-at-11.32.44-AM.png?dl=1)
 
 *Nexus*
-<img src="https://www.dropbox.com/s/lrbtxft5ylwgg1t/Screen-Shot-2017-11-03-at-11.35.08-AM.png?dl=1" alt="Completed responsive homepage on Nexus">
+![Completed responsive homepage on Nexus](https://www.dropbox.com/s/lrbtxft5ylwgg1t/Screen-Shot-2017-11-03-at-11.35.08-AM.png?dl=1)
 
 
 ## Footer
@@ -176,6 +203,7 @@ I prefer dark themes, like many developers, so **I wanted to provide a dark them
     });
     ```
 * Next, I used `toggleClass` to toggle the dark theme on and off with a single button. I found the `toggleClass` function with a documentation search. Note that a period is required when initially *referencing* the class (after the `$`, before `toggleClass`) because it is referring to CSS, but not when *toggling* the class (after `toggleClass`), because the class name is added to HTML, where periods are not used. Specify multiple classes with spaces between them, just as in HTML. See [w3schools docs](https://www.w3schools.com/jquery/html_toggleclass.asp) (I also checked out the [jQuery docs](https://api.jquery.com/toggleClass/), but found them clunky and difficult to read).
+
     *CSS:*
     ```css
     /* Dark theme */
@@ -218,6 +246,7 @@ I prefer dark themes, like many developers, so **I wanted to provide a dark them
     ```
 * `prop` is a newer alternative to `attr`. This successfully replaced the image, but it didn't toggle, it just stayed replaced.
 * I had to dig into the documentation for the `toggle` function to figure this out. It was difficult and confusing. There was a [previous `toggle` function](http://api.jquery.com/toggle-event/) that was deprecated, adding to the confusion. The current `toggle` function is an animation function that shows and hides elements by appending `style="display: none;"` to the HTML. Again, I discovered this by watching the code with Chrome developer tools as I clicked the toggle button. I eventually succeeded by including both versions of the Udacity logo SVG in the HTML from the get-go, using the `.header-logo` class from my CSS file as a [*selector*](https://www.w3schools.com/jquery/jquery_selectors.asp) for both, but including `style="display: none;"` in the HTML for the one with white text. This allowed me to toggle between versions of the SVG with one line of jQuery code:
+
     *HTML:*
     ```html
     <a href="https://udacity.com">
@@ -233,15 +262,16 @@ I prefer dark themes, like many developers, so **I wanted to provide a dark them
         $( '.header-logo' ).toggle();
     });
     ```
-* I am aware that it is not ideal to include two versions of an image on a website. In the future, I will try something more efficient, like including the SVG code inline in my CSS, and styling it by changing CSS classes.
+* I am aware that it is not ideal to include two versions of an image on a website. In the future, I will try something more efficient, like including the SVG code inline in my CSS, and styling it by changing CSS classes. I found some ideas in the [awesome-svg GitHub repo](https://github.com/willianjusten/awesome-svg).
 
 Here are screenshots of the webpage after completing the theme toggle:
 
 *Light*
-<img src="https://www.dropbox.com/s/bhw11bupkwf9m4d/Screen-Shot-2017-11-10-at-6.54.01-PM.png?dl=1">
+![Completed responsive homepage on desktop with light theme](https://www.dropbox.com/s/bhw11bupkwf9m4d/Screen-Shot-2017-11-10-at-6.54.01-PM.png?dl=1)
 
 *Dark*
-<img src="https://www.dropbox.com/s/utkoe06qbn16uty/Screen-Shot-2017-11-10-at-6.54.34-PM.png?dl=1">
+![Completed responsive homepage on desktop with dark theme](https://www.dropbox.com/s/utkoe06qbn16uty/Screen-Shot-2017-11-10-at-6.54.34-PM.png?dl=1)
+
 
 ## Website hosting with GitHub Pages and Jekyll
 
@@ -251,11 +281,16 @@ I used this project as an opportunity to expand my skills from building single w
 
 > Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity.
 
+There are two ways to create a GitHub pages site: create locally with Jekyll, or create on GitHub directly. I chose to create the site locally, as recommended in [Jonathan McGlone's tutorial](http://jmcglone.com/guides/github-pages/):
+
+> I recommend setting up Jekyll on your own computer so you can edit and preview your site locally, and when ready, push those changes to your GitHub repo
+
+
 ### [Jekyll and Ruby installation](https://jekyllrb.com/docs/installation/)
 
 * [Install Ruby on command line with Homebrew](https://www.ruby-lang.org/en/documentation/installation/#homebrew): `$ brew install ruby`
 * [Install RubyGems](https://rubygems.org/pages/download): RubyGems is a Ruby package manager. A gem is a Ruby software package. `$ gem install rubygems-update`, then `update_rubygems`. Can also just use `$ gem update --system`. 
-* Verified that GCC and Make already installed: `gcc -v` `make -v`
+* Verify that GCC and Make are already installed: `gcc -v` `make -v`
 * Install Jekyll and bundler: `gem install jekyll bundler`
 * Optional Extras: I kept the default [Rouge](http://rouge.jneen.net/) highlighting.
 
@@ -273,18 +308,15 @@ I used this project as an opportunity to expand my skills from building single w
     - [YAML front matter](https://jekyllrb.com/docs/frontmatter/)
 
 
-### [GitHub Pages](https://pages.github.com/)
+### GitHub Pages
 
-* [Deploying Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages)
-* Create GitHub Pages website
-    - Repository content must be pushed to GitHub before the page can be created.
-    - Activate GitHub pages as described [here](https://pages.github.com/)
-        + Click on the Settings tab and scroll down to the GitHub Pages section. 
-        + Then select the master branch source and click on the Save button.
-    - I made this repository into a project page at **br3ndonland.github.io/udacity-fsnd01-p02-portfolio**
-    - I also built a personal site to expand on the Udacity portfolio site at **br3ndonland.github.io**. 
+* Jekyll sites can be deployed to GitHub pages either as user or project pages, as described in the [Jekyll docs](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages). User pages have a dedicated repository and are built from the `master` branch. Project pages are built either from the `docs/` folder on the `master` branch, or  on a `gh-pages` branch.
+* Repository content must be pushed to GitHub before the page can be created.
+* Activate GitHub pages for the repo as described [here](https://pages.github.com/)
+    - Click on the Settings tab and scroll down to the GitHub Pages section. 
+    - Then select the master branch source and click on the Save button.
+* I made this repository into a project page at **br3ndonland.github.io/udacity-fsnd01-p02-portfolio**
 
-https://github.com/toddmotto/toddmotto.github.io
 
 ### Resources
 
@@ -296,8 +328,3 @@ https://github.com/toddmotto/toddmotto.github.io
 * [GitHub Pages guide from Anna Debenham at 24 ways](https://24ways.org/2013/get-started-with-github-pages/)
 * [GitHub Pages guide from Thinkful](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
 
-User pages
-https://github.com/toddmotto/toddmotto.github.io
-https://github.com/svgdotjs/svgdotjs.github.io
-
-Project pages

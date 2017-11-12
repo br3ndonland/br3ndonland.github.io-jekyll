@@ -1,4 +1,4 @@
-readme
+README
 ======
 
 <p align="left">
@@ -17,18 +17,27 @@ Brendon Smith | br3ndonland
 
 ---
 
-## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-* [Description](#description)
-* [Repository contents](#repository-contents)
-* [Instructions](#instructions)
-* [Rubric comparison](#rubric-comparison)
+- [Description](#description)
+- [Repository contents](#repository-contents)
+- [Rubric comparison](#rubric-comparison)
+  - [Design](#design)
+  - [Responsiveness](#responsiveness)
+  - [Separation of Concerns](#separation-of-concerns)
+  - [Code Quality](#code-quality)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
 
 ## Description
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
-<img src="https://www.dropbox.com/s/jg2vals0hmqc1q0/design-mockup-portfolio-thumbnail-square.png?dl=1">
+
+![Portfolio website mockup](https://www.dropbox.com/s/jg2vals0hmqc1q0/design-mockup-portfolio-thumbnail-square.png?dl=1)
 
 I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css* for additional custom styling.
 
@@ -39,13 +48,15 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 ## Repository contents
 
-* css
+* css/
     - *portfolio.css:* CSS stylesheet for the webpage
-* img
+* img/
     - Images used in the site
-* info
+* info/
     - *notes.md*: detailed notes about how I built the webpage.
     - *udacity_docs.md*: project rubric and documentation from Udacity
+* js/
+    - *portfolio.js*: jQuery JavaScript
 * *index.html*: main webpage
 * *README.md*: concise description of the repository
 
@@ -109,6 +120,3 @@ Additional responsive features:
     `<!-- TODO [description of task] -->` for HTML
     `/* TODO [description of task] */` for CSS
 
-### Suggestions
-
-* Used `srcset` to optimize `img` elements, using guidelines from [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images).
