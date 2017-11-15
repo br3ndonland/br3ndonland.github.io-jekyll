@@ -1,3 +1,8 @@
+---
+layout: page
+title: Rubric
+permalink: /rubric/
+---
 Udacity portfolio website project documentation
 ===============================================
 
@@ -14,58 +19,69 @@ Part 01. Programming fundamentals and the web
 Project 02. Build a portfolio 
 site
 
-Brendon Smith | br3ndonland
-
----
+Brendon Smith (br3ndonland)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Overview](#overview)
-  - [Project Overview](#project-overview)
-  - [Why this project?](#why-this-project)
-  - [What will I learn?](#what-will-i-learn)
-  - [Why is this important to my career?](#why-is-this-important-to-my-career)
-  - [Note](#note)
-- [Details](#details)
-  - [How do I Complete this Project?](#how-do-i-complete-this-project)
-  - [Instructions:](#instructions)
-  - [Additional resources](#additional-resources)
-  - [Supporting Materials](#supporting-materials)
-- [Rubric](#rubric)
-- [Project Specification](#project-specification)
-  - [Build a Portfolio Site
+
+- [Rubric Comparison](#rubric-comparison)
+  - [Design](#design)
+  - [Responsiveness](#responsiveness)
+  - [Separation of Concerns](#separation-of-concerns)
+  - [Code Quality](#code-quality)
+  - [Suggestions](#suggestions)
+- [Udacity Project Overview](#udacity-project-overview)
+  - [*Why this project?*](#why-this-project)
+  - [*What will I learn?*](#what-will-i-learn)
+  - [*Why is this important to my career?*](#why-is-this-important-to-my-career)
+  - [*Note*](#note)
+- [Udacity Project Details](#udacity-project-details)
+  - [*How do I complete this project?*](#how-do-i-complete-this-project)
+  - [*Instructions:*](#instructions)
+  - [*Additional resources*](#additional-resources)
+  - [*Supporting materials*](#supporting-materials)
+- [Udacity Rubric](#udacity-rubric)
+  - [Project Specification](#project-specification)
+    - [Build a Portfolio Site
 ](#build-a-portfolio-site)
-  - [Suggestions to Make Your Project Stand Out!](#suggestions-to-make-your-project-stand-out)
-- [Submission](#submission)
-- [Project Submission](#project-submission)
-- [Evaluation](#evaluation)
-- [Style Guidelines](#style-guidelines)
-  - [CSS Guidelines](#css-guidelines)
-  - [HTML Guidelines](#html-guidelines)
-- [Submission](#submission-1)
-- [What's Next?](#whats-next)
-    - [Supporting Materials](#supporting-materials-1)
+    - [Suggestions to Make Your Project Stand Out!](#suggestions-to-make-your-project-stand-out)
+  - [Submission](#submission)
+  - [Project Submission](#project-submission)
+  - [Evaluation](#evaluation)
+  - [Style Guidelines](#style-guidelines)
+    - [CSS Guidelines](#css-guidelines)
+    - [HTML Guidelines](#html-guidelines)
+  - [Submission](#submission-1)
+  - [What's Next?](#whats-next)
+      - [Supporting Materials](#supporting-materials)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
----
+
+# Rubric Comparison
+
+See below for Udacity rubric.
 
 
-## Rubric comparison
-
-### Design
+## Design
 
 * Required Elements
-    - Logo: linked to Udacity logo .svg for easy scaling
+    - Images: Two png thumbnails, three svg logos
+    - Logo: svg for easy scaling
+    - Header text
+    - Paragraph text
 * Semantic HTML
+    - All divs have CSS classes.
 * Custom Design
+    - Custom images and text
+    - Custom CSS
+    - Custom jQuery JavaScript to toggle HTML and CSS changes.
 * Grid-Based Layout
-* 
     - Website built with Bootstrap. All grids wrapped in `container` class elements.
 
-### Responsiveness
+
+## Responsiveness
 
 * Cross-Device Compatibility
     - All content responsive. Tested on Desktop, Mobile: Google Nexus 5, Tablet: Apple iPad
@@ -79,7 +95,8 @@ Additional responsive features:
 
 * Header: I created a media query to center align the text when the header grid reduces to one column. 
 
-### Separation of Concerns
+
+## Separation of Concerns
 
 * Styles Separated from HTML
     - Structure (HTML) separated from style (CSS). 
@@ -87,69 +104,80 @@ Additional responsive features:
     - Directory structure separates files based on functionality.
     `css/` for stylesheets
     `img/` for images
+    `js/` for JavaScript
 
-### Code Quality
+
+## Code Quality
 
 * HTML Formatting Rules
     - Two spaces used for indentation. Indentation for nested elements.
     - Elements on new lines. Child elements indented.
-    - No trailing whitespace
-    - All HTML lowercase
+    - No trailing whitespace.
+    - All HTML lowercase.
+    - Alt text provided for image fallback
     - [Optional] Double quotation marks used for attributes.
 * HTML Style Rules
-    - HTML5 doctype
+    - HTML5 doctype.
     - Code passes HTML validators: Note that the Google Fonts stylesheet link contains a pipe. It returns an error in the HTML validator, but is proper formatting [according to Google](https://developers.google.com/fonts/docs/getting_started#specifying_font_families_and_styles_in_a_stylesheet_url).
+    - [Optional] Code does not use entity references unless necessary.
+    - [Optional] Code omits type attributes for style sheets and scripts.
 * CSS Formatting Rules
     - Two spaces used for indentation. Block content within curly braces indented.
-    - No trailing whitespace
-    - All CSS lowercase
+    - No trailing whitespace.
+    - All CSS lowercase.
     - Single space after `property-name:`, no space within `property-name`.
+    - Single space after last selector and opening brace of the declaration block.
     - All declarations end with a semicolon.
+    - New line for each selector and declaration.
+    - Blank line between rules.
+    - [Optional] Code uses double quotation marks for attribute selectors or property values.
 * CSS Style Rules
-    - Class-based styling for maximum flexibility
+    - Class-based styling for maximum flexibility.
+    - Meaningful and short class names used.
     - Code passes CSS validators. This document validates as [CSS level 3](http://www.w3.org/Style/CSS/current-work.html).
     - [Optional] leading zeros included in decimal values for readability.
     - [Optional] hyphens used for class names with >1 word.
-    
 * General Meta Rules
     - `UTF-8` encoding used
-    -  While I was building the site, I kept track of to-do items and tasks with comments:
+    -  [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
     `<!-- TODO: [description of task] -->` for HTML
     `/* TODO: [description of task] */` for CSS
 
----
 
-## Overview
+## Suggestions
 
-### Project Overview
+* Suggestions to Make Your Project Stand Out!
+    - I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
+
+# Udacity Project Overview
 
 For this project, you'll be building a portfolio website. You will be provided a design mockup as a PDF-file, and you must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete through the course of your Nanodegree program. Please note that while you should aim to recreate the mockup, you may also use your own custom images to personalize this project.
 
 Once you've successfully replicated the design mockup, you are encouraged to continue tweaking and making customizations to the design to personalize it and make it your own! This is your living portfolio site, so make sure you're happy with it.
 
 
-### Why this project?
+## *Why this project?*
 
 **The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!** You need a professional portfolio to show off your skills.
 
 In this project you’ll build a great looking portfolio where you can show off images, descriptions and links to all of your projects. You'll do so by writing code that conforms to the [Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/).
 
 
-### What will I learn?
+## *What will I learn?*
 
 You will learn how HTML is used to define the content of a web page and start to think of every web page as a number of boxes on the screen. You’ll then learn how to position those boxes and make them beautiful using CSS.
 
 You'll accomplish this while conforming to a [style guide](http://udacity.github.io/frontend-nanodegree-styleguide/) which is an important constraint once you step into any existing development position.
 
 
-### Why is this important to my career?
+## *Why is this important to my career?*
 
 * **Without a portfolio, recruiters won’t even look at your resume much less interview you.**
 * At their very foundation, web applications are just content delivery mechanisms; HTML defines how that language is structured.
 * Reading poorly designed content is never an enjoyable experience; CSS empowers you to create beautiful content regardless of your user’s device.
 
 
-### Note
+## *Note*
 
 If you were previously enrolled in our Intro to HTML and CSS single course and successfully completed this project prior to enrolling in the Nanodegree program (which entails having graduated from the course and having access to your course certificate), simply email us at frontend-project@udacity.com with your passing evaluation and we'll give you credit for this project.
 
@@ -161,9 +189,9 @@ The design mockup for this project is located [here](https://storage.googleapis.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 
-## Details
+# Udacity Project Details
 
-### How do I Complete this Project?
+## *How do I complete this project?*
 
 All of the lessons you'll need to help you build this can be found in the lessons in this part of your Nanodegree program.
 
@@ -171,7 +199,7 @@ Depending on your background knowledge of HTML and CSS, you may not need to comp
 
 Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/view) closely when designing your page. For example, note that [HTML5 semantic (structural) elements](https://www.w3.org/wiki/HTML_structural_elements#Enter_HTML5_structural_elements) must be used to organize content.
 
-### Instructions:
+## *Instructions:*
 
 1. Download the design mockup file from the Downloadables section (in the lower right hand corner of your screen, just below this text) and review it.
 2. Identify the various boxes you will need to build in order to recreate this design.
@@ -182,17 +210,17 @@ Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/
     1. HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta** when using the X-UA-Compatible meta tag.
     2. CSS3: **Property [some property here] is an unknown vendor extension** when using vendor prefixed properties (like -moz-box-sizing).
 
-### Additional resources
+## *Additional resources*
 Here are some tools you will find useful in checking your work —
 
 * [Udacity HTML/CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
 * [HTML Validator](http://validator.w3.org/#validate_by_input)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### Supporting Materials
+## *Supporting materials*
 [design-mockup-portfolio.pdf](https://www.udacity.com/api/nodes/2655898586/supplemental_media/design-mockup-portfoliopdf/download)
 
-## Rubric
+# Udacity Rubric
 
 <html>
 <div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h2 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h2> <h3 id="project-name" ng-bind-html="localize(ctrl.rubric.project, 'name', markup=true)" class="ng-binding"><p>Build a Portfolio Site</p>
@@ -252,7 +280,8 @@ Here are some tools you will find useful in checking your work —
 </td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, 'criteria', markup=true)"><p><strong> HTML Style Rules</strong></p>
 </td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, 'passed_description', markup=true)"><ul>
 <li><code>HTML</code> documents use <code>HTML5</code> <code>&lt;!doctype html&gt;</code>.</li>
-<li>Code passes <a href="https://validator.w3.org/#validate_by_input" target="_blank"><code>HTML</code></a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank"><code>CSS</code></a> validators.<br>*[Optional] Code does not use entity references unless necessary e.g. characters with special meaning in <code>HTML</code> (like &lt; and &amp;) as well as control or “invisible” characters (like no-break spaces).</li>
+<li>Code passes <a href="https://validator.w3.org/#validate_by_input" target="_blank"><code>HTML</code></a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank"><code>CSS</code></a> validators.</li> 
+<li> [Optional] Code does not use entity references unless necessary e.g. characters with special meaning in <code>HTML</code> (like &lt; and &amp;) as well as control or “invisible” characters (like no-break spaces).</li>
 <li>[Optional] Code omits type attributes for style sheets and scripts.</li>
 </ul>
 </td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, 'criteria', markup=true)"><p><strong>CSS Formatting Rules</strong></p>
@@ -357,6 +386,5 @@ Here are some tools you will find useful in checking your work —
 </ol>
 <h2 id="what-s-next-">What's Next?</h2>
 <p>You will get an email as soon as your reviewer has feedback for you. In the meantime, review your next project and feel free to get started on it or the courses supporting it!</p>
-</div></div><div class="ltr index--resources--vwqCB"><div><h4>Supporting Materials</h4><div class="resources--links--Dmbld"><div><a href="http://d2uz2655q5g6b2.cloudfront.net/2736698543/P1%3A%20Build%20a%20Portfolio%20Site%20Videos.zip" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1483 --> <!-- /react-text --><!-- react-text: 1484 -->Videos Zip File<!-- /react-text --></a></div><div><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b22517_design-mockup-portfolio/design-mockup-portfolio.pdf" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1489 --> <!-- /react-text --><!-- react-text: 1490 -->design-mockup-portfolio.pdf<!-- /react-text --></a></div></div></div></div></div></div>
+</div></div><div class="ltr index--resources--vwqCB"><div><h4>Supporting Materials</h4><div class="resources--links--Dmbld"><div><a href="http://d2uz2655q5g6b2.cloudfront.net/2736698543/P1%3A%20Build%20a%20Portfolio%20Site%20Videos.zip" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1483 --> <!-- /react-text --><!-- react-text: 1484 -->Videos Zip File<!-- /react-text --></a></div><div><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b22517_design-mockup-portfolio/design-mockup-portfolio.pdf" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1489 --> <!-- /react-text --><!-- react-text: 1490 -->design-mockup-portfolio.pdf<!-- /react-text --></a></div></div></div></div></div>
 </html>
-
