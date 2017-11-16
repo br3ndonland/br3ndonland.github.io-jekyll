@@ -407,7 +407,7 @@ After publishing the repository and turning on GitHub Pages, it seemed like ther
 1. URL: the base url for the site was incorrect, so the "About" page was pointing to "https://br3ndonland.github.io/rubric/" instead of "https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio/rubric/". I updated *_config.yml* to include the full site url as the `url`, and commented out the `baseurl`.
 2. File paths: Even on the homepage, the CSS and JavaScript were not showing up, indicating that there was an issue with the file paths. I previously had a file path issue with Jekyll local preview, and added a leading `/`, which fixed the problem. I removed the leading `/`.
 
-I made a Git commit, pushed to GitHub, and waited about ten minutes for the changes to show up. The file path change was successful, but the page URLs were still incorrect. I removed the permalinks from the YAML front matter in the "About" and "Rubric" pages.
+I made a Git commit, pushed to GitHub, and waited about ten minutes for the changes to show up. The file path change was successful, but the page URLs were still incorrect. I removed the permalinks from the YAML front matter in the "About" and "Rubric" pages. After the site updated, I still wasn't seeing the pages. I then realized the pages were there, but the `href` relative links in the footer and homepage were using `https://br3ndonland.github.io/` as the url.
 
 
 ## Resources
