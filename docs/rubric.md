@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Rubric
-permalink: /rubric/
 ---
 Udacity portfolio website project documentation
 ===============================================
@@ -12,19 +11,18 @@ Udacity portfolio website project documentation
     </a>
 </p>
 
-**Udacity Full Stack Web Developer nanodegree**
+**Udacity Full Stack Web Developer Nanodegree program**
 
 Part 01. Programming fundamentals and the web
 
-Project 02. Build a portfolio 
-site
+Project 02. Build a portfolio site
 
 Brendon Smith
 br3ndonland
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Rubric Comparison](#rubric-comparison)
   - [Design](#design)

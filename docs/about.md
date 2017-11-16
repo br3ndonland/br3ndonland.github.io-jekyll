@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 Portfolio website construction notes
 ====================================
@@ -20,7 +19,6 @@ Project 02. Build a portfolio site
 
 Brendon Smith
 br3ndonland
-
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -368,10 +366,6 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
   - [GitHub Pages uses Rouge syntax highlighting](https://help.github.com/articles/using-syntax-highlighting-on-github-pages/).
   - Also see Jekyll's [Markdown configuration options](https://jekyllrb.com/docs/configuration/#markdown-options).
 * Markdown block quotes: I also didn't notice blockquotes formatting properly in the local website preview.
-<!-- TODO: syntax highlighting -->
-<!-- TODO: does syntax highlighting change when hosted with GitHub Pages? -->
-<!-- TODO: sidebar nav https://getbootstrap.com/docs/4.0/components/navs/#base-nav -->
-<!-- TODO: sidebar TOC? -->
 
 
 ### File paths
@@ -381,7 +375,6 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
   - [permalinks](https://jekyllrb.com/docs/permalinks/)
   - [templates](https://jekyllrb.com/docs/templates/#filters)
   - [navigation tutorial](https://jekyllrb.com/tutorials/navigation/)
-<!-- TODO: maintain theme toggle state across pages? -->
 
 
 # Jekyll website hosting with GitHub Pages
@@ -413,6 +406,8 @@ After publishing the repository and turning on GitHub Pages, it seemed like ther
 
 1. URL: the base url for the site was incorrect, so the "About" page was pointing to "https://br3ndonland.github.io/rubric/" instead of "https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio/rubric/". I updated *_config.yml* to include the full site url as the `url`, and commented out the `baseurl`.
 2. File paths: Even on the homepage, the CSS and JavaScript were not showing up, indicating that there was an issue with the file paths. I previously had a file path issue with Jekyll local preview, and added a leading `/`, which fixed the problem. I removed the leading `/`.
+
+I made a Git commit, pushed to GitHub, and waited about ten minutes for the changes to show up. The file path change was successful, but the page URLs were still incorrect. I removed the permalinks from the YAML front matter in the "About" and "Rubric" pages.
 
 
 ## Resources

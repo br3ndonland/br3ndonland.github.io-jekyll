@@ -20,7 +20,7 @@ Brendon Smith | br3ndonland
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
 
-![Portfolio website mockup](https://www.dropbox.com/s/kqfydv5kqkjy675/design-mockup-portfolio-thumbnail-square.png?dl=1)
+<img src="docs/img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio website mockup">
 
 I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css* for additional custom styling. 
 
