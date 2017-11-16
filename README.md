@@ -15,9 +15,8 @@ Project 02. Build a portfolio site
 
 Brendon Smith | br3ndonland
 
----
 
-## Summary
+# Summary
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
 
@@ -32,15 +31,15 @@ The repository for this project is available at https://github.com/br3ndonland/u
 I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio. The website has three pages: "Home," an "About" page explaining how I built the site in detail, and a "Rubric" page providing a comparison with the Udacity project rubric and all the Udacity documentation for the project.
 
 
-## Repository contents
+# Repository contents
 
-* css/
-    - *portfolio.css:* CSS stylesheet for the webpage
-* docs/
-    - Jekyll files for GitHub Pages website.
-* img/
-    - Images used in the site
-* js/
-    - *portfolio.js*: jQuery JavaScript
+* *css/*
+  - *portfolio.css:* CSS stylesheet for the webpage
+* *docs/*
+  - Jekyll files for GitHub Pages website.
+* *img/*
+  - Images used in the site
+* *js/*
+  - *portfolio.js*: jQuery JavaScript
 * *index.html*: main webpage
-* *README.md*: concise description of the repository
+* *README.md*: concise description of the repository for GitHub

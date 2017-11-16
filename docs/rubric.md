@@ -19,7 +19,8 @@ Part 01. Programming fundamentals and the web
 Project 02. Build a portfolio 
 site
 
-Brendon Smith (br3ndonland)
+Brendon Smith
+br3ndonland
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -61,35 +62,32 @@ Brendon Smith (br3ndonland)
 
 # Rubric Comparison
 
-See below for Udacity rubric.
-
-
 ## Design
 
 * Required Elements
-    - Images: Two png thumbnails, three svg logos
-    - Logo: svg for easy scaling
-    - Header text
-    - Paragraph text
+  - Images: Two png thumbnails, three svg logos
+  - Logo: svg for easy scaling
+  - Header text
+  - Paragraph text
 * Semantic HTML
-    - All divs have CSS classes.
+  - All divs have CSS classes.
 * Custom Design
-    - Custom images and text
-    - Custom CSS
-    - Custom jQuery JavaScript to toggle HTML and CSS changes.
+  - Custom images and text
+  - Custom CSS
+  - Custom jQuery JavaScript to toggle HTML and CSS changes.
 * Grid-Based Layout
-    - Website built with Bootstrap. All grids wrapped in `container` class elements.
+  - Website built with Bootstrap. All grids wrapped in `container` class elements.
 
 
 ## Responsiveness
 
 * Cross-Device Compatibility
-    - All content responsive. Tested on Desktop, Mobile: Google Nexus 5, Tablet: Apple iPad
+  - All content responsive. Tested on Desktop, Mobile: Google Nexus 5, Tablet: Apple iPad
 * Provide All Content
-    - All content rendered on all three devices. 
+  - All content rendered on all three devices. 
 * Viewport `meta` tag included in HTML
 * Responsive Images
-    - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
+  - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
 
 Additional responsive features:
 
@@ -99,55 +97,55 @@ Additional responsive features:
 ## Separation of Concerns
 
 * Styles Separated from HTML
-    - Structure (HTML) separated from style (CSS). 
+  - Structure (HTML) separated from style (CSS). 
 * File Structure
-    - Directory structure separates files based on functionality.
-    `css/` for stylesheets
-    `img/` for images
-    `js/` for JavaScript
+  - Directory structure separates files based on functionality.
+  `css/` for stylesheets
+  `img/` for images
+  `js/` for JavaScript
 
 
 ## Code Quality
 
 * HTML Formatting Rules
-    - Two spaces used for indentation. Indentation for nested elements.
-    - Elements on new lines. Child elements indented.
-    - No trailing whitespace.
-    - All HTML lowercase.
-    - Alt text provided for image fallback
-    - [Optional] Double quotation marks used for attributes.
+  - Two spaces used for indentation. Indentation for nested elements.
+  - Elements on new lines. Child elements indented.
+  - No trailing whitespace.
+  - All HTML lowercase.
+  - Alt text provided for image fallback
+  - [Optional] Double quotation marks used for attributes.
 * HTML Style Rules
-    - HTML5 doctype.
-    - Code passes HTML validators: Note that the Google Fonts stylesheet link contains a pipe. It returns an error in the HTML validator, but is proper formatting [according to Google](https://developers.google.com/fonts/docs/getting_started#specifying_font_families_and_styles_in_a_stylesheet_url).
-    - [Optional] Code does not use entity references unless necessary.
-    - [Optional] Code omits type attributes for style sheets and scripts.
+  - HTML5 doctype.
+  - Code passes HTML validators: Note that the Google Fonts stylesheet link contains a pipe. It returns an error in the HTML validator, but is proper formatting [according to Google](https://developers.google.com/fonts/docs/getting_started#specifying_font_families_and_styles_in_a_stylesheet_url).
+  - [Optional] Code does not use entity references unless necessary.
+  - [Optional] Code omits type attributes for style sheets and scripts.
 * CSS Formatting Rules
-    - Two spaces used for indentation. Block content within curly braces indented.
-    - No trailing whitespace.
-    - All CSS lowercase.
-    - Single space after `property-name:`, no space within `property-name`.
-    - Single space after last selector and opening brace of the declaration block.
-    - All declarations end with a semicolon.
-    - New line for each selector and declaration.
-    - Blank line between rules.
-    - [Optional] Code uses double quotation marks for attribute selectors or property values.
+  - Two spaces used for indentation. Block content within curly braces indented.
+  - No trailing whitespace.
+  - All CSS lowercase.
+  - Single space after `property-name:`, no space within `property-name`.
+  - Single space after last selector and opening brace of the declaration block.
+  - All declarations end with a semicolon.
+  - New line for each selector and declaration.
+  - Blank line between rules.
+  - [Optional] Code uses double quotation marks for attribute selectors or property values.
 * CSS Style Rules
-    - Class-based styling for maximum flexibility.
-    - Meaningful and short class names used.
-    - Code passes CSS validators. This document validates as [CSS level 3](http://www.w3.org/Style/CSS/current-work.html).
-    - [Optional] leading zeros included in decimal values for readability.
-    - [Optional] hyphens used for class names with >1 word.
+  - Class-based styling for maximum flexibility.
+  - Meaningful and short class names used.
+  - Code passes CSS validators. This document validates as [CSS level 3](http://www.w3.org/Style/CSS/current-work.html).
+  - [Optional] leading zeros included in decimal values for readability.
+  - [Optional] hyphens used for class names with >1 word.
 * General Meta Rules
-    - `UTF-8` encoding used
-    -  [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
-    `<!-- TODO: [description of task] -->` for HTML
-    `/* TODO: [description of task] */` for CSS
+  - `UTF-8` encoding used
+  -  [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
+  `<!-- TODO: [description of task] -->` for HTML
+  `/* TODO: [description of task] */` for CSS
 
 
 ## Suggestions
 
 * Suggestions to Make Your Project Stand Out!
-    - I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
+  - I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
 
 # Udacity Project Overview
 
@@ -206,9 +204,8 @@ Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/
 3. Write your HTML and CSS files, continue to iterate until your work is representative of the design mockup.
 4. Take the time to personalize your portfolio with custom colors, additional content and your own images.
 5. Validate your HTML and CSS against the [W3C's Validators](http://validator.w3.org/). *Note: the validators consider the following errors, whereas Udacity accepts these errors as acceptable:*
-
-    1. HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta** when using the X-UA-Compatible meta tag.
-    2. CSS3: **Property [some property here] is an unknown vendor extension** when using vendor prefixed properties (like -moz-box-sizing).
+  - HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta** when using the X-UA-Compatible meta tag.
+  - CSS3: **Property [some property here] is an unknown vendor extension** when using vendor prefixed properties (like -moz-box-sizing).
 
 ## *Additional resources*
 Here are some tools you will find useful in checking your work —

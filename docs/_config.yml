@@ -20,9 +20,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   It is designed to showcase the Udacity work I have shared on GitHub.
   We were provided with a design mockup (screenshot) of a developer portfolio webpage,
   and had to replicate the design with HTML and CSS.
-# baseurl: "/udacity-fsnd01-p02-portfolio" # the subpath of your site, e.g. /blog
-# url: "https://br3ndonland.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
+# baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username:
 github_username:  br3ndonland
 
 # Build settings
