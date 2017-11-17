@@ -26,6 +26,7 @@ h1, .h1 {
 .header-subtitle {
   text-align: right;
   font-family: "Lobster", cursive;
+  color: #7d97ad;
 }
 
 /* Body */
@@ -108,5 +109,5 @@ footer {
 /* Dark theme */
 .theme-dark {
   background-color: #2d3c49;
-  color: #fff;
+  color: #ddd;
 }

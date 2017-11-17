@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Rubric
+permalink: /rubric/
 ---
 Udacity portfolio website project documentation
 ===============================================
@@ -18,6 +19,7 @@ Part 01. Programming fundamentals and the web
 Project 02. Build a portfolio site
 
 Brendon Smith
+
 br3ndonland
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -25,35 +27,9 @@ br3ndonland
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Rubric Comparison](#rubric-comparison)
-  - [Design](#design)
-  - [Responsiveness](#responsiveness)
-  - [Separation of Concerns](#separation-of-concerns)
-  - [Code Quality](#code-quality)
-  - [Suggestions](#suggestions)
 - [Udacity Project Overview](#udacity-project-overview)
-  - [*Why this project?*](#why-this-project)
-  - [*What will I learn?*](#what-will-i-learn)
-  - [*Why is this important to my career?*](#why-is-this-important-to-my-career)
-  - [*Note*](#note)
 - [Udacity Project Details](#udacity-project-details)
-  - [*How do I complete this project?*](#how-do-i-complete-this-project)
-  - [*Instructions:*](#instructions)
-  - [*Additional resources*](#additional-resources)
-  - [*Supporting materials*](#supporting-materials)
 - [Udacity Rubric](#udacity-rubric)
-  - [Project Specification](#project-specification)
-    - [Build a Portfolio Site
-](#build-a-portfolio-site)
-    - [Suggestions to Make Your Project Stand Out!](#suggestions-to-make-your-project-stand-out)
-  - [Submission](#submission)
-  - [Project Submission](#project-submission)
-  - [Evaluation](#evaluation)
-  - [Style Guidelines](#style-guidelines)
-    - [CSS Guidelines](#css-guidelines)
-    - [HTML Guidelines](#html-guidelines)
-  - [Submission](#submission-1)
-  - [What's Next?](#whats-next)
-      - [Supporting Materials](#supporting-materials)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

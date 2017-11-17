@@ -10,7 +10,7 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300">
     <!-- Custom styles for this page -->
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="{{ "css/portfolio.css" | relative_url }}">
   </head>
   <body>
     <!-- Header -->
@@ -19,22 +19,59 @@
         <div class="row">
           <div class="col-md-6">
             <a href="https://udacity.com">
-              <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
+              <img class="header-logo svg" src="{{ "img/udacity-long.svg" | relative_url }}" alt="Udacity logo svg">
               <!-- Alternate version of header logo to display when dark theme is toggled -->
-              <img class="header-logo svg" src="img/udacity-long-white.svg" alt="Udacity logo svg alt" style="display: none;">
+              <img class="header-logo svg" src="{{ "img/udacity-long-white.svg" | relative_url }}" alt="Udacity logo svg alt" style="display: none;">
             </a>
           </div>
           <div class="col-md-6">
-            <h1 class="header-title">
-              Brendon Smith
-            </h1>
+            <a class="card-link" href="{{ "/" | relative_url }}">
+              <h1 class="header-title">
+                Brendon Smith
+              </h1>
+            </a>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            <h2 class="header-subtitle">
-              Udacity portfolio
-            </h2>
+          <div class="col"></div>
+          <div class="col-md-6 col-lg-5">
+            <div class="container">
+              <!-- Navbar within header -->
+              <nav class="navbar navbar-light">
+                <a class="card-link header-subtitle navbar-brand" href="{{ "/" | relative_url }}">
+                  <h2 class="header-subtitle">
+                    Udacity portfolio
+                  </h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-default">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <span class="text-muted navbar-text">&copy;&nbsp;{{ site.time | date: '%Y' }} Brendon Smith</span>
+                    </li>
+                    <li class="nav-item">
+                      <a class="text-muted nav-link" href="{{ "/" | relative_url }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="text-muted nav-link" href="{{ "about/" | relative_url }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="text-muted nav-link" href="{{ "rubric/" | relative_url }}">Rubric</a>
+                    </li>
+                    <li class="nav-item py-2">
+                      <a class="card-link" href="https://github.com/br3ndonland/">
+                        <img class="social-icon svg" src="{{ "img/mark-github-light.svg" | relative_url }}" alt="GitHub">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="btn btn-dark btn-theme-toggle">Theme toggle</button>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
       </header>

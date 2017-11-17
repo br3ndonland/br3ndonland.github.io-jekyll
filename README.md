@@ -14,6 +14,7 @@ Part 01. Programming fundamentals and the web
 Project 02. Build a portfolio site
 
 Brendon Smith
+
 br3ndonland
 
 # Summary
@@ -26,9 +27,9 @@ I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the
 
 I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
 
-The repository for this project is available at https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio. 
+The repository for this project is available at [https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio).
 
-I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio. The website has three pages: "Home," an "About" page detailing how I built the site, and a "Rubric" page providing the Udacity documentation for the project and a comparison with the Udacity project rubric.
+I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at [https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio](https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio). The website has three pages: "Home," an "About" page explaining how I built the site in detail, and a "Rubric" page providing a comparison with the Udacity project rubric and all the Udacity documentation for the project.
 
 
 # Repository contents

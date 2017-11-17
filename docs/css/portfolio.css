@@ -26,6 +26,7 @@ h1, .h1 {
 .header-subtitle {
   text-align: right;
   font-family: "Lobster", cursive;
+  color: #7d97ad;
 }
 
 /* Body */
@@ -89,12 +90,13 @@ footer {
   .header, .header-logo, .header-title, .header-subtitle {
     text-align: center;
   }
-  .header-logo {
-  max-width: 200px;
+  .navbar {
+    max-width: 300px;
+    margin: auto;
   }
-  /* Shrink thumbnails */
-  .img-thumbnail {
-    max-height: 200px;
+  /* Shrink images */
+  .header-logo, .img-thumbnail {
+  max-width: 200px;
   }
   /* Remove padding */
   .header,
@@ -108,5 +110,5 @@ footer {
 /* Dark theme */
 .theme-dark {
   background-color: #2d3c49;
-  color: #fff;
+  color: #ddd;
 }
