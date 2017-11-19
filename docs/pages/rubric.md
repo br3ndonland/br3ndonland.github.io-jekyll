@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Rubric
+title: Udacity rubric
 permalink: /rubric/
 ---
-Udacity portfolio website project documentation
+Udacity project rubric
 ===============================================
 
 <p align="left">
@@ -26,130 +26,42 @@ br3ndonland
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Rubric Comparison](#rubric-comparison)
 - [Udacity Project Overview](#udacity-project-overview)
 - [Udacity Project Details](#udacity-project-details)
 - [Udacity Rubric](#udacity-rubric)
+- [Submission](#submission)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-# Rubric Comparison
-
-## Design
-
-* Required Elements
-  - Images: Two png thumbnails, three svg logos
-  - Logo: svg for easy scaling
-  - Header text
-  - Paragraph text
-* Semantic HTML
-  - All divs have CSS classes.
-* Custom Design
-  - Custom images and text
-  - Custom CSS
-  - Custom jQuery JavaScript to toggle HTML and CSS changes.
-* Grid-Based Layout
-  - Website built with Bootstrap. All grids wrapped in `container` class elements.
-
-
-## Responsiveness
-
-* Cross-Device Compatibility
-  - All content responsive. Tested on Desktop, Mobile: Google Nexus 5, Tablet: Apple iPad
-* Provide All Content
-  - All content rendered on all three devices. 
-* Viewport `meta` tag included in HTML
-* Responsive Images
-  - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
-
-Additional responsive features:
-
-* Header: I created a media query to center align the text when the header grid reduces to one column. 
-
-
-## Separation of Concerns
-
-* Styles Separated from HTML
-  - Structure (HTML) separated from style (CSS). 
-* File Structure
-  - Directory structure separates files based on functionality.
-  `css/` for stylesheets
-  `img/` for images
-  `js/` for JavaScript
-
-
-## Code Quality
-
-* HTML Formatting Rules
-  - Two spaces used for indentation. Indentation for nested elements.
-  - Elements on new lines. Child elements indented.
-  - No trailing whitespace.
-  - All HTML lowercase.
-  - Alt text provided for image fallback
-  - [Optional] Double quotation marks used for attributes.
-* HTML Style Rules
-  - HTML5 doctype.
-  - Code passes HTML validators: Note that the Google Fonts stylesheet link contains a pipe. It returns an error in the HTML validator, but is proper formatting [according to Google](https://developers.google.com/fonts/docs/getting_started#specifying_font_families_and_styles_in_a_stylesheet_url).
-  - [Optional] Code does not use entity references unless necessary.
-  - [Optional] Code omits type attributes for style sheets and scripts.
-* CSS Formatting Rules
-  - Two spaces used for indentation. Block content within curly braces indented.
-  - No trailing whitespace.
-  - All CSS lowercase.
-  - Single space after `property-name:`, no space within `property-name`.
-  - Single space after last selector and opening brace of the declaration block.
-  - All declarations end with a semicolon.
-  - New line for each selector and declaration.
-  - Blank line between rules.
-  - [Optional] Code uses double quotation marks for attribute selectors or property values.
-* CSS Style Rules
-  - Class-based styling for maximum flexibility.
-  - Meaningful and short class names used.
-  - Code passes CSS validators. This document validates as [CSS level 3](http://www.w3.org/Style/CSS/current-work.html).
-  - [Optional] leading zeros included in decimal values for readability.
-  - [Optional] hyphens used for class names with >1 word.
-* General Meta Rules
-  - `UTF-8` encoding used
-  -  [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
-  `<!-- TODO: [description of task] -->` for HTML
-  `/* TODO: [description of task] */` for CSS
-
-
-## Suggestions
-
-* Suggestions to Make Your Project Stand Out!
-  - I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
-
-# Udacity Project Overview
+## Udacity Project Overview
 
 For this project, you'll be building a portfolio website. You will be provided a design mockup as a PDF-file, and you must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete through the course of your Nanodegree program. Please note that while you should aim to recreate the mockup, you may also use your own custom images to personalize this project.
 
 Once you've successfully replicated the design mockup, you are encouraged to continue tweaking and making customizations to the design to personalize it and make it your own! This is your living portfolio site, so make sure you're happy with it.
 
 
-## *Why this project?*
+### *Why this project?*
 
 **The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!** You need a professional portfolio to show off your skills.
 
 In this project you’ll build a great looking portfolio where you can show off images, descriptions and links to all of your projects. You'll do so by writing code that conforms to the [Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/).
 
 
-## *What will I learn?*
+### *What will I learn?*
 
 You will learn how HTML is used to define the content of a web page and start to think of every web page as a number of boxes on the screen. You’ll then learn how to position those boxes and make them beautiful using CSS.
 
 You'll accomplish this while conforming to a [style guide](http://udacity.github.io/frontend-nanodegree-styleguide/) which is an important constraint once you step into any existing development position.
 
 
-## *Why is this important to my career?*
+### *Why is this important to my career?*
 
 * **Without a portfolio, recruiters won’t even look at your resume much less interview you.**
 * At their very foundation, web applications are just content delivery mechanisms; HTML defines how that language is structured.
 * Reading poorly designed content is never an enjoyable experience; CSS empowers you to create beautiful content regardless of your user’s device.
 
 
-## *Note*
+### *Note*
 
 If you were previously enrolled in our Intro to HTML and CSS single course and successfully completed this project prior to enrolling in the Nanodegree program (which entails having graduated from the course and having access to your course certificate), simply email us at frontend-project@udacity.com with your passing evaluation and we'll give you credit for this project.
 
@@ -161,9 +73,10 @@ The design mockup for this project is located [here](https://storage.googleapis.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 
-# Udacity Project Details
+## Udacity Project Details
+[(back to top)](#top)
 
-## *How do I complete this project?*
+### *How do I complete this project?*
 
 All of the lessons you'll need to help you build this can be found in the lessons in this part of your Nanodegree program.
 
@@ -171,7 +84,7 @@ Depending on your background knowledge of HTML and CSS, you may not need to comp
 
 Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/view) closely when designing your page. For example, note that [HTML5 semantic (structural) elements](https://www.w3.org/wiki/HTML_structural_elements#Enter_HTML5_structural_elements) must be used to organize content.
 
-## *Instructions:*
+### *Instructions:*
 
 1. Download the design mockup file from the Downloadables section (in the lower right hand corner of your screen, just below this text) and review it.
 2. Identify the various boxes you will need to build in order to recreate this design.
@@ -181,21 +94,22 @@ Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/
   - HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta** when using the X-UA-Compatible meta tag.
   - CSS3: **Property [some property here] is an unknown vendor extension** when using vendor prefixed properties (like -moz-box-sizing).
 
-## *Additional resources*
+### *Additional resources*
 Here are some tools you will find useful in checking your work —
 
 * [Udacity HTML/CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
 * [HTML Validator](http://validator.w3.org/#validate_by_input)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-## *Supporting materials*
+### *Supporting materials*
 [design-mockup-portfolio.pdf](https://www.udacity.com/api/nodes/2655898586/supplemental_media/design-mockup-portfoliopdf/download)
 
-# Udacity Rubric
+## Udacity Rubric
+[(back to top)](#top)
 
 <html>
-<div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h2 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h2> <h3 id="project-name" ng-bind-html="localize(ctrl.rubric.project, 'name', markup=true)" class="ng-binding"><p>Build a Portfolio Site</p>
-</h3>  <!-- ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope" style=""> <span class="rubric-section ng-binding" ng-bind-html="localize(section, 'name', markup=true)"><p>Design</p>
+<div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h3 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h3> <h4 id="project-name" ng-bind-html="localize(ctrl.rubric.project, 'name', markup=true)" class="ng-binding"><p>Build a Portfolio Site</p>
+</h4>  <!-- ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope" style=""> <span class="rubric-section ng-binding" ng-bind-html="localize(section, 'name', markup=true)"><p>Design</p>
 </span> <table class="table table-bordered section-table"> <thead> <tr> <!-- ngIf: !ctrl.hideCriteria --><th class="rubric-category criteria col-xs-3 ng-scope" ng-if="!ctrl.hideCriteria"> <span translate="" class="ng-scope">Criteria</span> </th><!-- end ngIf: !ctrl.hideCriteria --> <th class="rubric-category meets-specs" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4"> <span translate="" class="ng-scope">Meets Specifications</span> </th> <!-- ngIf: ctrl.reviewerTips --> </tr> </thead> <tbody>  <!-- ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, 'criteria', markup=true)"><p>Required Elements</p>
 </td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, 'passed_description', markup=true)"><p>The page at minimum includes all of the following:</p>
 <ul>
@@ -282,22 +196,23 @@ Here are some tools you will find useful in checking your work —
 </td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, 'passed_description', markup=true)"><ul>
 <li><code>HTML</code> templates and documents use <code>UTF-8</code> encoding. (no <code>BOM</code>) i.e. <code>&lt;meta charset="utf-8"&gt;</code>.<br>*[Optional] Mark todos and action items with <code>TODO</code></li>
 </ul>
-</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --> <!-- ngIf: ctrl.rubric.stand_out --><div id="stand-out" ng-if="ctrl.rubric.stand_out" class="col-xs-offset-1 col-xs-10 ng-scope" style=""> <h3 id="stand-out-headline" class="text-center ng-scope" translate="">Suggestions to Make Your Project Stand Out!</h3> <div id="stand-out-text" ng-bind-html="localize(ctrl.rubric, 'stand_out', markup=true)" class="ng-binding"><p>Use srcset in the img elements to provide optimized images to users on all device sizes.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --> <!-- ngIf: ctrl.rubric.stand_out --><div id="stand-out" ng-if="ctrl.rubric.stand_out" class="col-xs-offset-1 col-xs-10 ng-scope" style=""> <h4 id="stand-out-headline" class="text-center ng-scope" translate="">Suggestions to Make Your Project Stand Out!</h4> <div id="stand-out-text" ng-bind-html="localize(ctrl.rubric, 'stand_out', markup=true)" class="ng-binding"><p>Use srcset in the img elements to provide optimized images to users on all device sizes.</p>
 <p>Include additional JavaScript functionality, while maintaining required components. For example: Bootstrap Navbar, Polymer Components.</p>
 </div> </div><!-- end ngIf: ctrl.rubric.stand_out --> </div>
 </html>
 
 ## Submission
+[(back to top)](#top)
 
 <html>
-<div class="container-fluid index--container--1H1L7"><div class="index--body--2gqet layout--content--3Smmq layout--body--3U2qN"><h2 class="index--title--3eIzO">Project Submission</h2></div><div class="ltr"><div class="index--markdown--2I2Ir ureact-markdown "><p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of your Nanodegree program.</p>
+<div class="container-fluid index--container--1H1L7"><div class="index--body--2gqet layout--content--3Smmq layout--body--3U2qN"><h3 class="index--title--3eIzO">Project Submission</h3></div><div class="ltr"><div class="index--markdown--2I2Ir ureact-markdown "><p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of your Nanodegree program.</p>
 <p>The design mockup is located <a target="_blank" href="https://storage.googleapis.com/supplemental_media/udacityu/2655898586/design-mockup-portfolio.pdf">here</a>.</p>
-<h2 id="evaluation">Evaluation</h2>
+<h3 id="evaluation">Evaluation</h3>
 <p>Your project will be evaluated by a Udacity Code Reviewer according to the <strong><a target="_blank" href="https://review.udacity.com/#!/rubrics/45/view">Build a Portfolio Project Rubric</a></strong>. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass. </p>
 <p>Submit <a target="_blank" href="https://review.udacity.com/#!/projects/45/start">here</a>.</p>
 <p>Please note the HTML and CSS style guidelines below - following these is necessary to make sure your code passes the Code Quality rubric point.</p>
-<h2 id="style-guidelines">Style Guidelines</h2>
-<h3 id="css-guidelines">CSS Guidelines</h3>
+<h3 id="style-guidelines">Style Guidelines</h3>
+<h4 id="css-guidelines">CSS Guidelines</h4>
 <ul>
 <li>CSS - Use consistent indentation (tabs or spaces).   (See: CSS General Formatting Rules-Indentation)</li>
 <li>CSS - Selectors, properties and property values (with the exception of strings) should be lowercase, including letters in hexadecimal color values. For example #f06c13 instead of #F06C13 and #ccc rather than #CCC. (See: CSS-General Formatting Rules-Capitalization.)</li>
@@ -324,7 +239,7 @@ Here are some tools you will find useful in checking your work —
 <li>CSS - Identify groups of related style rules with section comments. 
 (See: CSS Meta Rules-Section Comments.)</li>
 </ul>
-<h3 id="html-guidelines">HTML Guidelines</h3>
+<h4 id="html-guidelines">HTML Guidelines</h4>
 <ul>
 <li>HTML - Element and attribute names should all be lowercase. (See: Capitalization.)</li>
 <li>HTML - Use HTML5. (See: HTML Style Rules-Document Type.)</li>
@@ -349,13 +264,15 @@ Here are some tools you will find useful in checking your work —
 <li>HTML - Use double rather than single quotation marks for attribute values. 
 (See: HTML-HTML Quotation Marks.)</li>
 </ul>
-<h2 id="submission">Submission</h2>
+<h3 id="submission">Submission</h3>
 <ol>
 <li>The master branch is the default Github repository branch. If you wish to submit another branch, you'll need to set it as the <a target="_blank" href="https://help.github.com/articles/setting-the-default-branch/">new default branch</a> inside your Github repository.</li>
 <li>When you're ready to submit your project go back to your <a href="https://www.udacity.com/me" target="_blank">Udacity Home</a>, click on Project 1, and we'll walk you through the rest of the submission process. Due to the high volume of submissions we receive, please allow up up to <strong>7 business days</strong> for your evaluation to be returned.</li>
 <li>If you are having any problems submitting your project or wish to check on the status of your submission, please email us at <strong>frontend-project@udacity.com</strong> or visit us in the <a href="http://discussions.udacity.com" target="_blank">discussion forums</a>.</li>
 </ol>
-<h2 id="what-s-next-">What's Next?</h2>
+<h3 id="what-s-next-">What's Next?</h3>
 <p>You will get an email as soon as your reviewer has feedback for you. In the meantime, review your next project and feel free to get started on it or the courses supporting it!</p>
-</div></div><div class="ltr index--resources--vwqCB"><div><h4>Supporting Materials</h4><div class="resources--links--Dmbld"><div><a href="http://d2uz2655q5g6b2.cloudfront.net/2736698543/P1%3A%20Build%20a%20Portfolio%20Site%20Videos.zip" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1483 --> <!-- /react-text --><!-- react-text: 1484 -->Videos Zip File<!-- /react-text --></a></div><div><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b22517_design-mockup-portfolio/design-mockup-portfolio.pdf" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1489 --> <!-- /react-text --><!-- react-text: 1490 -->design-mockup-portfolio.pdf<!-- /react-text --></a></div></div></div></div></div>
+</div></div><div class="ltr index--resources--vwqCB"><div><h4>Supporting Materials</h4><div class="resources--links--Dmbld"><div><a href="http://d2uz2655q5g6b2.cloudfront.net/2736698543/P1%3A%20Build%20a%20Portfolio%20Site%20Videos.zip" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1483 --> <!-- /react-text --><!-- react-text: 1484 -->Videos Zip File<!-- /react-text --></a></div><div><a href="https://d17h37t6h515a5.cloudfront.net/topher/2016/August/57b22517_design-mockup-portfolio/design-mockup-portfolio.pdf" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1489 --> <!-- /react-text --><!-- react-text: 1490 -->design-mockup-portfolio.pdf<!-- /react-text --></a></div></div></div></div></div>
 </html>
+
+[(back to top)](#top)

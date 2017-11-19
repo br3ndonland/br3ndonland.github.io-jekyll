@@ -2,77 +2,81 @@
 <html lang="en">
   <head>
     <title>Brendon Smith | Udacity</title>
+    <meta name="description" content="GitHub Pages Jekyll website for Udacity code on GitHub">
+    <meta name="keywords" content="GitHub,Jekyll,Bootstrap,Udacity,HTML,CSS,JavaScript,jQuery">
+    <meta name="author" content="Brendon Smith">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster%7CRaleway:300">
     <!-- Custom styles for this page -->
     <link rel="stylesheet" href="{{ "css/portfolio.css" | relative_url }}">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/a629607ecd.js"></script>
   </head>
   <body>
     <!-- Header -->
-    <div class="container">
-      <header class="header">
-        <div class="row">
-          <div class="col-md-6">
-            <a href="https://udacity.com">
-              <img class="header-logo svg" src="{{ "img/udacity-long.svg" | relative_url }}" alt="Udacity logo svg">
-              <!-- Alternate version of header logo to display when dark theme is toggled -->
-              <img class="header-logo svg" src="{{ "img/udacity-long-white.svg" | relative_url }}" alt="Udacity logo svg alt" style="display: none;">
-            </a>
-          </div>
-          <div class="col-md-6">
-            <a class="card-link" href="{{ "/" | relative_url }}">
-              <h1 class="header-title">
-                Brendon Smith
-              </h1>
-            </a>
+    <header class="container header">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://udacity.com">
+            <img class="header-logo svg" src="{{ "img/udacity-long.svg" | relative_url }}" alt="Udacity logo svg">
+            <!-- Alternate version of header logo to display when dark theme is toggled -->
+            <img class="header-logo svg d-none" src="{{ "img/udacity-long-white.svg" | relative_url }}" alt="Udacity logo svg alt">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a class="card-link" href="{{ "/" | relative_url }}">
+            <h1 class="header-title">
+              Brendon Smith
+            </h1>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-md-6">
+          <div class="container">
+            <!-- Navbar within header -->
+            <nav class="navbar navbar-light justify-content-center">
+              <a class="card-link header-subtitle navbar-brand" href="{{ "/" | relative_url }}">
+                <h2 class="header-subtitle">
+                  Udacity portfolio
+                </h2>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-header">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <span class="text-muted navbar-text">&copy;&nbsp;{{ site.time | date: '%Y' }} Brendon Smith</span>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fa fa-github fa-3x card-link text-muted align-middle" href="https://github.com/br3ndonland/"></a>
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-dark btn-theme-toggle">Theme</button>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-muted nav-link" href="{{ "/" | relative_url }}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-muted nav-link" href="{{ "about/" | relative_url }}">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-muted nav-link" href="{{ "rubric/" | relative_url }}">Rubric</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-muted nav-link" href="{{ "review/" | relative_url }}">Review</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </div>
-        <div class="row">
-          <div class="col"></div>
-          <div class="col-md-6 col-lg-5">
-            <div class="container">
-              <!-- Navbar within header -->
-              <nav class="navbar navbar-light">
-                <a class="card-link header-subtitle navbar-brand" href="{{ "/" | relative_url }}">
-                  <h2 class="header-subtitle">
-                    Udacity portfolio
-                  </h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-default">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                      <span class="text-muted navbar-text">&copy;&nbsp;{{ site.time | date: '%Y' }} Brendon Smith</span>
-                    </li>
-                    <li class="nav-item">
-                      <a class="text-muted nav-link" href="{{ "/" | relative_url }}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="text-muted nav-link" href="{{ "about/" | relative_url }}">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="text-muted nav-link" href="{{ "rubric/" | relative_url }}">Rubric</a>
-                    </li>
-                    <li class="nav-item py-2">
-                      <a class="card-link" href="https://github.com/br3ndonland/">
-                        <img class="social-icon svg" src="{{ "img/mark-github-light.svg" | relative_url }}" alt="GitHub">
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <button class="btn btn-dark btn-theme-toggle">Theme toggle</button>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
+      </div>
+    </header>

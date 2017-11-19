@@ -1,9 +1,4 @@
-/* Header and Headings */
-
-h1, .h1 {
-  font-family: "Lobster", cursive;
-}
-
+/* header and headings */
 .header {
   margin-bottom: 0.5rem;
   border-bottom: 0.2rem solid #7d97ad;
@@ -15,7 +10,7 @@ h1, .h1 {
 }
 
 .header-title {
-  font-family: "Raleway", sans-serif;
+  font-family: "raleway", sans-serif;
   color: #02b3e4;
   text-align: right;
   text-transform: uppercase;
@@ -25,89 +20,75 @@ h1, .h1 {
 
 .header-subtitle {
   text-align: right;
-  font-family: "Lobster", cursive;
+  font-family: "lobster", cursive;
   color: #7d97ad;
 }
 
-/* Body */
-
+/* body */
 body {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
-footer {
+/* footer */
+.footer {
+  border-top: 0.1rem solid #7d97ad;
   text-align: center;
 }
 
-.social-icon {
-  height: 2rem;
+/* jumbotron */
+.display-3 {
+  font-family: "lobster", cursive;
 }
-
-/* Side spacing for mobile first views */
-
-.header,
-.marketing,
-.footer {
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-/* Jumbotron */
 
 .background-udacity {
-  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
+  background: linear-gradient(150deg, #02ccba 0%, #a951ed 100%);
 }
 
 .jumbotron {
   text-align: center;
-  padding: 0.75rem 1.5rem;
   font-size: 1.2rem;
   color: #212529;
 }
 
-/* Portfolio thumbnails */
-
+/* portfolio thumbnails */
 .img-thumbnail {
   max-height: 300px;
 }
 
-/* Media queries for responsive text and images */
-
+/* media queries for responsive text and images */
 @media (max-width: 991px) {
-  /* Shrink text */
+  /* shrink text */
   html {
     font-size: 0.7rem;
   }
-  /* Match header logo size with text */
+  /* match header logo size with text */
   .header-logo {
   width: 250px;
   }
 }
 
 @media (max-width: 767px) {
-  /* Center header for smaller viewports */
-  .header, .header-logo, .header-title, .header-subtitle {
+  /* center header for smaller viewports */
+  .header,
+  .header-logo,
+  .header-title,
+  .header-subtitle {
     text-align: center;
   }
-  .navbar {
-    max-width: 300px;
-    margin: auto;
-  }
-  /* Shrink images */
-  .header-logo, .img-thumbnail {
+  .header-logo {
   max-width: 200px;
   }
-  /* Remove padding */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
+  /* shrink thumbnails */
+  .img-thumbnail {
+    max-height: 200px;
+  }
+  /* add a break in footer before links */
+  footer span:nth-of-type(4) {
+    display: inline-block;
   }
 }
 
-/* Dark theme */
+/* dark theme */
 .theme-dark {
   background-color: #2d3c49;
   color: #ddd;

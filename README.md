@@ -17,7 +17,7 @@ Brendon Smith
 
 br3ndonland
 
-# Summary
+## Summary
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
 
@@ -29,10 +29,10 @@ I provided a toggle button in the footer that uses jQuery JavaScript to change t
 
 The repository for this project is available at [https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio).
 
-I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at [https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio](https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio). The website has three pages: "Home," an "About" page explaining how I built the site in detail, and a "Rubric" page providing a comparison with the Udacity project rubric and all the Udacity documentation for the project.
+I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at [https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio](https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio). The website has four pages: "Home," an "About" page explaining how I built the site in detail, a "Rubric" page providing the Udacity project documentation, and a "Review" page documenting the Udacity code review.
 
 
-# Repository contents
+## Repository contents
 
 * *css/*
   - *portfolio.css:* CSS stylesheet for the webpage
@@ -42,5 +42,5 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - Images used in the webpage
 * *js/*
   - *portfolio.js*: jQuery JavaScript for the webpage
-* *index.html*: main webpage
+* *index.html*: Main webpage. A modified version of the page is stored as *docs/index.html* for the GitHub Pages website.
 * *README.md*: concise description of the repository for GitHub

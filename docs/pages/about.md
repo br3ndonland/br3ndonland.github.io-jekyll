@@ -42,7 +42,7 @@ br3ndonland
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-# Summary
+## Summary
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. It is designed to showcase the Udacity work I have shared on GitHub. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
 
@@ -55,17 +55,19 @@ The repository for this project is available at [https://github.com/br3ndonland/
 I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at [https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio](https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio). The website has three pages: "Home," an "About" page explaining how I built the site in detail, and a "Rubric" page providing a comparison with the Udacity project rubric and all the Udacity documentation for the project.
 
 
-# Development environment
+## Development environment
+[(back to top)](#top)
 
 I wrote the code in Sublime Text, as usual. I typically had two windows open: a double pane window, with left side for the core files I was creating (like this one, and the HTML and CSS), and right side for the Bootstrap core files for reference, and a separate window for my Udacity reference materials. I usually had three Chrome browser windows open: one for Udacity, one for reference sites like Bootstrap, and a third to preview my site with Developer Tools.
 
 
-# Bootstrap
+## Bootstrap
+[(back to top)](#top)
 
 I based the site on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. 
 
 
-## Bootstrap installation and use options
+### Bootstrap installation and use options
 
 I explored the different ways to use Bootstrap.
 
@@ -80,20 +82,20 @@ I explored the different ways to use Bootstrap.
   - the *.min* extension indicates minified. This removes all unnecessary characters from source code.
 
 
-## Using Bootstrap
+### Using Bootstrap
 
 * I used the Boostrap CDN option to link out to cached versions of the compiled CSS and JS, as described in the [Bootstrap getting started docs](https://getbootstrap.com/docs/4.0/getting-started/introduction/). 
 * I created an additional CSS file called *portfolio.css* to modify and extend the Bootstrap core CSS when necessary. 
-* I kept the core Bootstrap CSS open in Sublime Text for reference. It was also helpful to open the [Bootstrap template examples](https://getbootstrap.com/docs/4.0/examples/) in Chrome, then inspect with developer tools.
+* In addition to linking to the cached Bootstrap files, I downloaded the files for reference. I referred to the core Bootstrap CSS by opening in Sublime Text (bootstrap/bootstrap-4.0.0-beta/dist/css/bootstrap.css). It was also helpful to open the [Bootstrap template examples](https://getbootstrap.com/docs/4.0/examples/) in Chrome, then inspect with developer tools.
 * I frequently referred to the [Bootstrap docs](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and [Bootstrap GitHub readme](https://github.com/twbs/bootstrap).
 * **Bootstrap has a steep learning curve.**
   - The Bootstrap framework has many features, but the documentation lacks detailed explanations of class definitions and web elements. 
   - There are online [Bootstrap editors](https://bootstrapbay.com/blog/bootstrap-editors/) like [Codeply](https://www.codeply.com/) and [Bootply](https://www.bootply.com/) that can make development easier. 
-  - There are also templates available (like the [premium themes from Bootstrap](https://themes.getbootstrap.com/)) from [WrapBootstrap](https://wrapbootstrap.com/) and [BootstrapBay](https://bootstrapbay.com/). 
-  - **It was helpful to work directly with the Bootstrap code as a learning experience, but it would be slow for professional web development.**
+  - There are also templates available (like the [premium themes from Bootstrap](https://themes.getbootstrap.com/)) from [WrapBootstrap](https://wrapbootstrap.com/) and [BootstrapBay](https://bootstrapbay.com/).
 
 
-# General webpage style and structure
+## General webpage style and structure
+[(back to top)](#top)
 
 See the **Rubric comparison** section of README.md for details.
 
@@ -112,7 +114,8 @@ See the **Rubric comparison** section of README.md for details.
   In the future, I will look at other TOC creation options in kramdown (the Markdown to HTML converter used by Jekyll, see [below](#website-creation-with-jekyll).
 
 
-# Header
+## Header
+[(back to top)](#top)
 
 * *[Container](https://getbootstrap.com/docs/4.0/layout/overview/#containers):* I placed the `header` inside a `container` to keep it in line with other elements, as shown in the portfolio site mockup. A `container` should usually be the top-level div, but not always. For example, in the Bootstrap [docs](https://getbootstrap.com/docs/4.0/content/typography/), `header` is not in a `container`, and is outside the margins of the container below.
 * *[Grid](https://getbootstrap.com/docs/4.0/layout/grid/):* I created a grid in the header to show the Udacity logo and the text as two columns in the same row. Bootstrap has most of the optimal [flexbox formatting](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) built in already. There are 12 columns by default. I also tried including header elements as spans, but they did not align vertically.
@@ -137,14 +140,16 @@ See the **Rubric comparison** section of README.md for details.
   ```
 * *Navbar:* Later, during [website troubleshooting](#website-troubleshooting), I realized it would be helpful to have navigation at the top of the page. I included a collapsed [Bootstrap navbar](https://getbootstrap.com/docs/4.0/components/navbar/). I added to the CSS media query so that the navbar is centered on small screens.
 
-# Jumbotron
+## Jumbotron
+[(back to top)](#top)
 
 * *Background:* I used the signature Udacity gradient. I also liked the simple gray default, and tried using different background images, such as the ones from the [Google Material Design guidelines](https://material.io/guidelines/material-design/introduction.html).
 * *Responsive design:* I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap `narrow-jumbotron` CSS that put in a breakpoint at `48em`, then coordinated the media queries with the column sizes set with classes in the HTML. **I finally got it: `col-md-6` header columns on medium displays, `col-sm-4` columns for thumbnails, and two media queries to shrink the page down at `991px` and `768px`.**
 * *Buttons:* I chose not to use a button group, so the buttons would stay separated. In order to prevent the buttons from breaking onto multiple lines on mobile, I simply reduced the font size to `font-size: 1.2rem;`.
 
 
-# Portfolio thumbnails
+## Portfolio thumbnails
+[(back to top)](#top)
 
 * *Responsive design:* 
   - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
@@ -174,19 +179,21 @@ See the **Rubric comparison** section of README.md for details.
 <img src="../img/Screen-Shot-2017-11-03-at-11.35.08-AM.png" alt="Completed responsive homepage on Nexus" class="img-fluid">
 
 
-# Footer
+## Footer
+[(back to top)](#top)
 
 * I kept the footer relatively simple, in terms of formatting. I centered it with CSS and used the `text-muted` class to gray it out.
 * The sizing of the GitHub icon was a bit complicated. I set its class to `2rem`. I also wanted to disable the default link behavior, because an underline was popping up behind the GitHub icon. I had to dig around in the Bootstrap documentation a lot, and eventually found the `card-link` class [here](https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links), which doesn't have underlining.
 * I included a button to toggle [color schemes](#color-schemes). See below.
 
 
-# Theme toggle
+## Theme toggle
+[(back to top)](#top)
 
-## Colors
+### Colors
 
-* I prefer dark themes, like many developers, so **I wanted to provide a dark theme option on my website.** Dark themes are becoming more mainstream. See [DuckDuckGo](https://duckduckgo.com/settings#theme) and [Jekyll](https://jekyllrb.com/) for examples of dark themes. 
-* I originally tried to toggle the colors purely with CSS, using the guidelines from [design shack](https://designshack.net/articles/css/lightsoff/). I wasn't able to get it to successfully toggle any changes, at least with a local website preview, and it's a somewhat dirty hack. 
+* I prefer dark themes, like many developers, so **I wanted to provide a dark theme option on my website.** Dark themes are becoming more popular. See [DuckDuckGo](https://duckduckgo.com/settings#theme) and [Jekyll](https://jekyllrb.com/) for examples of dark themes. 
+* I originally tried to toggle the colors purely with CSS, using the guidelines from [design shack](https://designshack.net/articles/css/lightsoff/). I wasn't able to get it to successfully toggle any changes, at least with a local website preview, and this type of function is better suited for JavaScript. 
 * I'm already loading the jQuery JavaScript library for Bootstrap, so why not build in some jQuery functionality? **I didn't know JavaScript at this point. Time to learn!**
 * I started by creating *js/portfolio.js*, and loading it at the end of the HTML:
   ```html
@@ -241,7 +248,7 @@ See the **Rubric comparison** section of README.md for details.
   ```
 
 
-## SVG toggle
+### SVG toggle
 
 **When the dark theme is toggled, I want the "Udacity" text in the header to invert to white to stand out against the dark theme background.** The Udacity logo is an SVG, and it shouldn't be difficult to work with SVG, because it's just simple code. Right? Wrong.
 
@@ -266,7 +273,6 @@ See the **Rubric comparison** section of README.md for details.
   ```
 * This successfully replaced the image, but it didn't toggle, it just stayed replaced.`prop` is a newer alternative to `attr`.
 * I switched to the `toggle` function, but had to dig into the documentation to figure it. It was difficult and confusing. There was a [previous `toggle` function](http://api.jquery.com/toggle-event/) that was deprecated. The current `toggle` function is an animation function that shows and hides elements by appending `style="display: none;"` to the HTML. Again, I discovered this by watching the code with Chrome developer tools as I clicked the toggle button. I eventually succeeded by including both versions of the Udacity logo SVG in the HTML from the get-go, using the `.header-logo` class from my CSS file as a [*selector*](https://www.w3schools.com/jquery/jquery_selectors.asp) for both, but including `style="display: none;"` in the HTML for the one with white text. This allowed me to toggle between versions of the SVG with one line of jQuery code:
-
   *HTML:*
   ```html
   <a href="https://udacity.com">
@@ -282,7 +288,23 @@ See the **Rubric comparison** section of README.md for details.
       $( '.header-logo' ).toggle();
   });
   ```
-* I am aware that it is not ideal to include two versions of an image on a website because of size and speed considerations. In the future, I will try something more efficient, like including the SVG code inline in my CSS, and styling it by changing CSS classes. I found some ideas in the [awesome-svg GitHub repo](https://github.com/willianjusten/awesome-svg).
+* I was using `style="display: none;"` to toggle different versions of the Udacity header logo for the light and dark themes, but it was not necessary. After code review, I used the [Bootstrap `d-none` CSS class](https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements), and modified the jQuery JavaScript to toggle `d-none` specifically for the `header-logo` class.
+  *HTML:*
+  ```html
+  <a href="https://udacity.com">
+    <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
+    <img class="header-logo svg d-none" src="img/udacity-long-white.svg" alt="Udacity logo svg alt">
+  </a>
+  ```
+  *jQuery JavaScript:*
+  ```javascript
+  // Theme toggle
+  $( '.btn-theme-toggle' ).click(function() {
+      $( 'body' ).toggleClass( 'theme-dark' );
+      $( '.header-logo' ).toggleClass( 'd-none' );
+  });
+  ```
+* I am aware that it is not ideal to include two versions of an image on a website because of size and speed considerations. In the future, I will try something more efficient, like including the SVG code inline and styling it by changing CSS classes. I found some ideas in the [awesome-svg GitHub repo](https://github.com/willianjusten/awesome-svg).
 
 
 Here are screenshots of the webpage after completing the theme toggle:
@@ -298,9 +320,10 @@ Here are screenshots of the webpage after completing the theme toggle:
 <img src="../img/Screen-Shot-2017-11-10-at-6.54.34-PM.png" alt="Completed responsive homepage on desktop with dark theme" class="img-fluid">
 
 
-# Website creation with Jekyll
+## Website creation with Jekyll
+[(back to top)](#top)
 
-## Intro 
+### Intro 
 
 **I used this project as an opportunity to expand my skills from building single webpages to building multi-page websites. I used Jekyll to build the site and GitHub Pages to host the site.**
 
@@ -314,7 +337,7 @@ There are **two ways to create a GitHub Pages site: create locally with Jekyll, 
 
 There are also **two types of GitHub Pages sites: user and project pages.** I made this a project page.
 
-## [Jekyll and Ruby installation](https://jekyllrb.com/docs/installation/)
+### [Jekyll and Ruby installation](https://jekyllrb.com/docs/installation/)
 
 * [Install Ruby on command line with Homebrew](https://www.ruby-lang.org/en/documentation/installation/#homebrew): `$ brew install ruby`
 * [Install RubyGems](https://rubygems.org/pages/download): RubyGems is a Ruby package manager. A gem is a Ruby software package. `$ gem install rubygems-update`, then `update_rubygems`. Can also just use `$ gem update --system`. 
@@ -322,7 +345,7 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
 * Install Jekyll and bundler: `gem install jekyll bundler`
 
 
-## [Jekyll website creation](https://jekyllrb.com/docs/quickstart/#options-for-creating-a-new-site-with-jekyll)
+### [Jekyll website creation](https://jekyllrb.com/docs/quickstart/#options-for-creating-a-new-site-with-jekyll)
 
 * Create Jekyll website in *docs/* folder for GitHub pages project page:
   ```bash
@@ -340,7 +363,7 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
 * Jekyll websites use [themes](https://jekyllrb.com/docs/themes/) based on Ruby Gems. The files, like *_layouts/* and *_includes/*, are bundled within the gem.
 
 
-## Jekyll website page includes and layouts
+### Jekyll website page includes and layouts
 
 * I had to restructure the webpage code for Jekyll. I found the [creating pages docs from Jekyll](https://jekyllrb.com/docs/pages/) to be lacking. The [convert an HTML site to Jekyll tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/), the [GitHub Pages guide from Jonathan McGlone](http://jmcglone.com/guides/github-pages/) and the [GitHub Pages guide from Anna Debenham at 24 ways](https://24ways.org/2013/get-started-with-github-pages/) were more helpful when adapting the Udacity webpage for Jekyll. I agree with Debenham, who wrote, "Overall, the documentation for Jekyll feels a little sparse and geared more towards blogs than other sites..."
 * I [overrode the theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) by adding *_layouts/* and *_includes/* folders.
@@ -352,19 +375,15 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
 * Other pages: I simply had to include YAML front matter at the beginning of the other pages to format them with layouts.
 
 
-## Resources
+## Jekyll website hosting with GitHub Pages
+[(back to top)](#top)
 
-* [Jekyll docs](https://jekyllrb.com/)
-
-
-# Jekyll website hosting with GitHub Pages
-
-## Intro
+### Intro
 
 Jekyll sites can be deployed to GitHub pages either as user or project pages, as described in the [Jekyll docs](https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages). User pages have a dedicated repository and are built from the `master` branch. Project pages are built either from the `docs/` folder on the `master` branch, or on a `gh-pages` branch. I made this repository into a project page from the `docs/` folder.
 
 
-## Jekyll prep
+### Jekyll prep
 
 * Include the [GitHub Pages Gem](https://jekyllrb.com/docs/github-pages/#the-github-pages-gem) in the Gemfile.
 * Sitemap: add `jekyll-sitemap` to the `plugins` section of *_config.yml*.
@@ -372,7 +391,7 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
   - [Automatic sitemap generation for GitHub Pages](https://help.github.com/articles/sitemaps-for-github-pages/)
 
 
-## GitHub
+### GitHub
 
 * I included the MIT license from [GitHub's choosealicense.com page](https://github.com/github/choosealicense.com).
 * Publish the repository to GitHub. The repository must exist on GitHub before the page can be created.
@@ -382,7 +401,7 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
 * GitHub pages will automatically update the site every time you commit to the repository. There is no need to [automate deployment with Git hooks](https://jekyllrb.com/docs/deployment-methods/#automated-methods).
 
 
-## Resources
+### Resources
 
 * [GitHub Pages docs](https://pages.github.com/)
 * [Jekyll GitHub project page docs](https://jekyllrb.com/docs/github-pages/#project-page-url-structure)
@@ -392,12 +411,13 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
 * [GitHub Pages guide from Thinkful](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
 
 
-# Website troubleshooting
+## Website troubleshooting
+[(back to top)](#top)
 
 **Liquid, Jekyll, GitHub Pages, and GitHub are not seamlessly integrated.**
 
 
-## Relative URLs
+### Relative URLs
 
 In my *_config.yml* file, I had to set the `url` and `baseurl` separately:
 ```yaml
@@ -410,7 +430,7 @@ Convert relative links to [Jekyll Liquid filters](https://jekyllrb.com/docs/temp
 Liquid templating can be used within HTML. For example, when creating a relative URL to an image, the entire Liquid filter is enclosed within quotes. However, I'm not sure if Liquid templating can be used within YAML front matter.
 
 
-## Images in Markdown
+### Images in Markdown
 
 Images will show up in Markdown files with either HTML `img` tags or Markdown image tags. **Use HTML `img` tags instead of Markdown `![]()` image tags to allow sizing and styling.**
 
@@ -419,7 +439,7 @@ If Jekyll Liquid filters are used to refer to images, even if the filters are wi
 The solution was to put the pages in a *pages* folder (not *_pages*, apparently custom directories for pages can't begin with [whatever you want](https://jekyllrb.com/docs/pages/#where-additional-pages-live)), set [permalinks](https://jekyllrb.com/docs/permalinks/) in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/), then use a plain HTML relative link starting with `../img/` to point to the directory above. This way, the file path is the same on the website and in the plain GitHub repository.
 
 
-## Syntax highlighting
+### Syntax highlighting
 
 GitHub uses Markdown code fences, but Jekyll uses Liquid templating tags. This inconsistency is frustrating.
 
@@ -430,11 +450,14 @@ GitHub uses Markdown code fences, but Jekyll uses Liquid templating tags. This i
   - Also see Jekyll's [Markdown configuration options](https://jekyllrb.com/docs/configuration/#markdown-options).
 
 
-## Blockquotes
+### Blockquotes
 
 I couldn't get blockquotes to show up, either with Markdown or HTML `blockquote` tags.
 
 
-## Jekyll themes
+### Jekyll themes
 
 There are many Jekyll themes bundled with Jekyll, as you can see when updating with `bundle update`, but there is no index of the themes.
+
+[(back to top)](#top)
+

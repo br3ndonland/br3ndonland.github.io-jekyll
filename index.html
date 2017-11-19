@@ -2,96 +2,108 @@
 <html lang="en">
   <head>
     <title>Brendon Smith | Udacity</title>
+    <meta name="description" content="Webpage for Udacity code on GitHub">
+    <meta name="keywords" content="Udacity,GitHub,Jekyll,Bootstrap,HTML,CSS,JavaScript,jQuery">
+    <meta name="author" content="Brendon Smith">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster%7CRaleway:300">
     <!-- Custom styles for this page -->
     <link rel="stylesheet" href="css/portfolio.css">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/a629607ecd.js"></script>
   </head>
   <body>
     <!-- Header -->
-    <div class="container">
-      <header class="header">
-        <div class="row">
-          <div class="col-md-6">
-            <a href="https://udacity.com">
-              <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
-              <!-- Alternate version of header logo to display when dark theme is toggled -->
-              <img class="header-logo svg" src="img/udacity-long-white.svg" alt="Udacity logo svg alt" style="display: none;">
-            </a>
-          </div>
-          <div class="col-md-6">
-            <h1 class="header-title">
-              Brendon Smith
-            </h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h2 class="header-subtitle">
-              Udacity portfolio
-            </h2>
-          </div>
-        </div>
-      </header>
-    </div>
-    <!-- Large center jumbotron container -->
-    <div class="container">
-      <div class="jumbotron background-udacity">
-        <h1 class="display-3">Hello, world!</h1>
-        <p class="lead font-weight-bold">This website showcases the Udacity work I have shared on GitHub. I built the site as a project for my Udacity Full Stack Nanodegree program.<br>Check it out, and Stay Udacious!</p>
-        <p class="lead font-weight-bold">Documentation for the project:</p>
-        <a href="#" class="btn btn-secondary btn-lg" role="button">About &raquo;</a>
-        <a href="#" class="btn btn-secondary btn-lg" role="button">Rubric &raquo;</a>
-      </div>
-    </div>
-    <!-- Portfolio thumbnails -->
-    <div class="container">
-      <h1 class="text-muted">
-        Featured work
-      </h1>
+    <header class="container header">
       <div class="row">
-        <div class="col-sm-4">
-          <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
-          <h2>Udacity FSND</h2>
-          <p>General repository for Udacity Full Stack Nanodegree program (FSND) course notes and materials. Step right up and learn about the cool things I'm doing with Udacity!</p>
-          <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd" role="button">GitHub &raquo;</a></p>
+        <div class="col-md-6">
+          <a href="https://udacity.com">
+            <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
+            <!-- Alternate version of header logo to display when dark theme is toggled -->
+            <img class="header-logo svg d-none" src="img/udacity-long-white.svg" alt="Udacity logo svg alt">
+          </a>
         </div>
-        <div class="col-sm-4">
-          <img src="img/fresh-tomatoes-noir-thumbnail-square.png" alt="Movie site thumbnail" class="img-thumbnail">
-          <h2>Movie site</h2>
-          <p>Server-side code written in Python to store a list of my favorite movies, including artwork and trailers, then serve the data to a local webpage with HTML and CSS.</p>
-          <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p01-movies" role="button">GitHub &raquo;</a></p>
-        </div>
-        <div class="col-sm-4">
-          <img src="img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio site design mockup" class="img-thumbnail">
-          <h2>Portfolio site</h2>
-          <p>This website! We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS.</p>
-          <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio" role="button">GitHub &raquo;</a></p>
+        <div class="col-md-6">
+          <h1 class="header-title">
+            Brendon Smith
+          </h1>
         </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="header-subtitle">
+            Udacity portfolio
+          </h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Large center jumbotron container -->
+      <div class="container jumbotron background-udacity">
+        <article class="lead">
+          <header>
+            <h2 class="display-3">Hello, world!</h2>
+          </header>
+          <p>This website showcases the Udacity work I have shared on GitHub. I built the site as a project for my Udacity Full Stack Nanodegree program.<br>Check it out, and Stay Udacious!</p>
+          <p>Documentation for the project:</p>
+          <a href="#" class="btn btn-secondary btn-lg" role="button">About &raquo;</a>
+          <a href="#" class="btn btn-secondary btn-lg" role="button">Rubric &raquo;</a>
+        </article>
+      </div>
+      <!-- Portfolio thumbnails -->
+      <section class="container">
+        <header>
+          <h2 class="header-subtitle text-left">Featured work</h2>
+        </header>
+        <div class="row">
+          <article class="col-sm-4">
+            <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
+            <header>
+              <h3>Udacity FSND</h3>
+            </header>
+            <p>General repository for Udacity Full Stack Nanodegree program (FSND) course notes and materials. Step right up and learn about the cool things I'm doing with Udacity!</p>
+            <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd" role="button">GitHub &raquo;</a></p>
+          </article>
+          <article class="col-sm-4">
+            <img src="img/fresh-tomatoes-noir-thumbnail-square.png" alt="Movie site thumbnail" class="img-thumbnail">
+            <header>
+              <h3>Movie site</h3>
+            </header>
+            <p>Server-side code written in Python to store a list of my favorite movies, including artwork and trailers, then serve the data to a local webpage with HTML and CSS.</p>
+            <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p01-movies" role="button">GitHub &raquo;</a></p>
+          </article>
+          <article class="col-sm-4">
+            <img src="img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio site design mockup" class="img-thumbnail">
+            <header>
+              <h3>Portfolio site</h3>
+            </header>
+            <p>This website! We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS.</p>
+            <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio" role="button">GitHub &raquo;</a></p>
+          </article>
+        </div>
+      </section>
+    </main>
     <!-- Footer -->
-    <div class="container">
-      <hr>
-      <footer class="footer">
-        <span class="text-muted px-2">
-          &copy; Brendon Smith 2017
-        </span>
-        <span class="px-2">
-          <a class="card-link" href="https://github.com/br3ndonland/">
-              <img class="social-icon svg" src="img/mark-github-light.svg" alt="GitHub">
-          </a>
-        </span>
-        <span class="px-2">
-          <button type="button" class="btn btn-dark btn-theme-toggle">Theme toggle</button>
-        </span>
-      </footer>
-    </div>
+    <footer class="container footer">
+      <div class="row py-2">
+        <div class="col">
+          <span class="text-muted px-2">
+            &copy; 2017 Brendon Smith
+          </span>
+          <span class="px-2">
+            <a class="fa fa-github fa-3x card-link text-muted align-middle" href="https://github.com/br3ndonland/"></a>
+          </span>
+          <span class="px-2">
+            <button type="button" class="btn btn-dark btn-theme-toggle">Theme toggle</button>
+          </span>
+        </div>
+      </div>
+    </footer>
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
