@@ -3,25 +3,46 @@ layout: home
 ---
     <main>
       <!-- Large center jumbotron container -->
-      <div class="container jumbotron background-udacity">
-        <article class="lead">
+      <div class="container">
+        <div class="jumbotron background-udacity text-center">
           <header>
-            <h2 class="display-3">Hello, world!</h2>
+            <h2 class="jumbotron-header">Udacity portfolio</h2>
           </header>
-          <p>This website showcases the Udacity work I have shared on GitHub. I built the site as a project for my Udacity Full Stack Nanodegree program.<br>Check it out, and Stay Udacious!</p>
-          <p>Documentation for the project:</p>
-          <a href="{{ "about/" | relative_url }}" class="btn btn-secondary btn-lg" role="button">About &raquo;</a>
-          <a href="{{ "rubric/" | relative_url }}" class="btn btn-secondary btn-lg" role="button">Rubric &raquo;</a>
-          <a href="{{ "review/" | relative_url }}" class="btn btn-secondary btn-lg" role="button">Review &raquo;</a>
-        </article>
+          <article class="lead">
+            <p>This website showcases the Udacity work I have shared on GitHub. I built the site as a project for my Udacity Full Stack Nanodegree program.</p>
+            <p>Check it out, and Stay Udacious!</p>
+          </article>
+        </div>
       </div>
       <!-- Portfolio thumbnails -->
       <section class="container">
-        <header>
-          <h2 class="header-subtitle text-left">Featured work</h2>
-        </header>
         <div class="row">
-          <article class="col-sm-4">
+          <div class="col">
+            <header>
+              <h2 class="subtitle text-left">Featured work</h2>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <article class="col-md-4">
+            <img src="img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio site design mockup" class="img-thumbnail">
+            <header>
+              <h3>Portfolio site</h3>
+            </header>
+            <p>This website. We were provided with a design mockup (image) of a developer portfolio webpage, and had to replicate the design with HTML and CSS.</p>
+            <div class="dropdown pb-2">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="{{ "methods/" | relative_url }}">Methods &raquo;</a>
+                <a class="dropdown-item" href="{{ "rubric/" | relative_url }}">Rubric &raquo;</a>
+                <a class="dropdown-item" href="{{ "review/" | relative_url }}">Review &raquo;</a>
+                <a class="dropdown-item" href="https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio">GitHub &raquo;</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
             <img src="img/fresh-tomatoes-noir-thumbnail-square.png" alt="Movie site thumbnail" class="img-thumbnail">
             <header>
               <h3>Movie site</h3>
@@ -29,16 +50,9 @@ layout: home
             <p>Server-side code written in Python to store a list of my favorite movies, including artwork and trailers, then serve the data to a local webpage with HTML and CSS.</p>
             <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p01-movies" role="button">GitHub &raquo;</a></p>
           </article>
-          <article class="col-sm-4">
-            <img src="img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio site design mockup" class="img-thumbnail">
-            <header>
-              <h3>Portfolio site</h3>
-            </header>
-            <p>This website! We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS.</p>
-            <p><a class="btn btn-secondary" href="https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio" role="button">GitHub &raquo;</a></p>
-          </article>
-          <article class="col-sm-4">
-            <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
+
+          <article class="col-md-4">
+            <img src="img/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
             <header>
               <h3>Udacity FSND</h3>
             </header>

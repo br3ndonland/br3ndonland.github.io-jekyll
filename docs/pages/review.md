@@ -4,13 +4,7 @@ title: Udacity project review
 permalink: /review/
 ---
 Udacity project review
-===============================================
-
-<p align="left">
-    <a href="https://www.udacity.com/">
-        <img src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" width="300">
-    </a>
-</p>
+======================
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
@@ -22,17 +16,26 @@ Brendon Smith
 
 br3ndonland
 
+**Portfolio website project documentation:**
+
+[Methods]({{ "methods/" | relative_url }})
+[Rubric]({{ "rubric/" | relative_url }})
+[Review]({{ "review/" | relative_url }})
+[GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
+
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Initial submission](#initial-submission)
-- [Resubmission](#resubmission)
+- [First submission](#first-submission)
+- [Second submission](#second-submission)
+- [Third submission](#third-submission)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## Initial submission
+## First submission
 
 ### Summary from me
 
@@ -42,11 +45,10 @@ I provided a toggle button in the footer that uses jQuery JavaScript to change t
 
 The repository for this project is available at [https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio).
 
-I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at [https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio](https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio). The website has three pages: "Home," an "About" page explaining how I built the site in detail, and a "Rubric" page providing the Udacity project documentation.
+I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages. The website includes a homepage, an "About" page where I introduce myself and my Udacity work, a "Methods" page explaining how I built the site in detail, a "Rubric" page providing the Udacity project documentation, and a "Review" page documenting the Udacity code review.
 
 
 ### Summary from reviewer
-[(back to top)](#top)
 
 **Project looks fantastic and you’re almost there to meeting specifications, so keep up the great effort!**  :star:
 
@@ -54,7 +56,6 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 
 ### Project review
-[(back to top)](#top)
 
 #### Design
 
@@ -131,7 +132,6 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
     > 
     > Error: Bad value `https://fonts.googleapis.com/css?family=Lobster|Raleway:300` for attribute `href` on element link: Illegal character in query: `|` is not allowed.
     > From line 11, column 5; to line 11, column 94
-    > `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300">`
     > 
     > **The above issue is relatively easy to fix by substituting the equivalent HTML URL encoding (%7C) for the pipe.**
 * CSS Formatting Rules
@@ -564,10 +564,10 @@ AWESOME
 Really cool additional customisation! :sparkles:
 
 
-## Resubmission
+## Second submission
 [(back to top)](#top)
 
-### Summary from me
+### Response to reviewer
 
 Thank you for your comprehensive and helpful code review! I have pushed the changes to my GitHub repository. Here is a summary of my revisions, written in the imperative to match my Git commit message: 
 
@@ -595,3 +595,222 @@ Thank you for your comprehensive and helpful code review! I have pushed the chan
 #### *pages*
 
 * Add "back to top" navigation under page headers.
+
+
+### Summary from reviewer
+
+**Excellent improvements! There's just one final issue to fix!** :star:
+
+
+### Project review
+
+No changes.
+
+
+### Code review
+
+#### *index.html:*
+
+```html
+1 <!DOCTYPE html>
+```
+AWESOME
+Hello! My name is Fernando and will be reviewing your project this time :bowtie:
+
+So, things marked as Required should be changed in order to meet specifications :hand:
+Suggestions can be added only if you want, but they are comments intended to improve your coding skills :smile:
+Awesome flags something you did very good! :thumbsup:
+
+I wanted to ask you two things:
+
+If you find errors in my review, please flag in my feedback so I can fix that!
+If you like my review, or if you don't, please rate at the bottom of the screen, so I can know if I am on the right path of reviewing!
+Thanks and happy learning!
+
+```html
+2 <html lang="en">
+3   <head>
+4     <title>Brendon Smith | Udacity</title>
+5     <meta name="description" content="Webpage for Udacity code on GitHub">
+6     <meta name="keywords" content="Udacity,GitHub,Jekyll,Bootstrap,HTML,CSS,JavaScript,jQuery">
+7     <meta name="author" content="Brendon Smith">
+8     <!-- Required meta tags -->
+9     <meta charset="utf-8">
+10    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+11    <!-- Bootstrap core CSS -->
+12    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+13    <!-- Google Fonts -->
+14    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster%7CRaleway:300">
+15    <!-- Custom styles for this page -->
+16    <link rel="stylesheet" href="css/portfolio.css">
+17    <!-- Font Awesome -->
+18    <script src="https://use.fontawesome.com/a629607ecd.js"></script>
+19  </head>
+20  <body>
+21    <!-- Header -->
+22    <header class="container header">
+23      <div class="row">
+24        <div class="col-md-6">
+25          <a href="https://udacity.com">
+26            <img class="header-logo svg" src="img/udacity-long.svg" alt="Udacity logo svg">
+27            <!-- Alternate version of header logo to display when dark theme is toggled -->
+28            <img class="header-logo svg d-none" src="img/udacity-long-white.svg" alt="Udacity logo svg alt">
+29          </a>
+30        </div>
+31        <div class="col-md-6">
+32          <h1 class="header-title">
+33            Brendon Smith
+34          </h1>
+35        </div>
+36      </div>
+37      <div class="row">
+38        <div class="col">
+39          <h2 class="header-subtitle">
+40            Udacity portfolio
+41          </h2>
+42        </div>
+43      </div>
+44    </header>
+45    <main>
+46      <!-- Large center jumbotron container -->
+47      <div class="container jumbotron background-udacity">
+```
+SUGGESTION
+Normally we don't add jumbotron and container in the same element. We can use jumbotron to expand the whole container width and you can add container inside of it so its content do not expand to the width.
+
+```html
+48        <article class="lead">
+49          <header>
+50            <h2 class="display-3">Hello, world!</h2>
+51          </header>
+52          <p>This website showcases the Udacity work I have shared on GitHub. I built the site as a project for my Udacity Full Stack Nanodegree program.<br>Check it out, and Stay Udacious!</p>
+53          <p>Documentation for the project:</p>
+54          <a href="#" class="btn btn-secondary btn-lg" role="button">About &raquo;</a>
+55          <a href="#" class="btn btn-secondary btn-lg" role="button">Rubric &raquo;</a>
+56        </article>
+57      </div>
+58      <!-- Portfolio thumbnails -->
+59      <section class="container">
+60        <header>
+61          <h2 class="header-subtitle text-left">Featured work</h2>
+```
+REQUIRED
+This h2 should be wrapped in a row and in a col element to properly follow the Bootstrap grid.
+
+
+```html
+62        </header>
+63        <div class="row">
+64          <article class="col-sm-4">
+65            <img src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity U svg" class="img-thumbnail">
+```
+SUGGESTION
+When building responsive webpages it's normal to provide different images and resolutions for different screen sizes.
+In order to deal with these images you can use three things:
+
+`srcset` attribute
+`sizes` attribute
+`picture` element
+
+Please take a look at [this](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/) page, there are a lot of examples and it's very well explained how you can do that :smile:
+
+
+#### *css/portfolio.css:*
+
+```css
+65  .header-logo {
+66  width: 250px;
+```
+SUGGESTION
+Indentation is off here.
+
+```css
+78  .header-logo {
+79  max-width: 200px;
+```
+SUGGESTION
+Indentation is off here.
+
+```css
+80  }
+81  /* shrink thumbnails */
+82  .img-thumbnail {
+83    max-height: 200px;
+84  }
+85}
+86​
+87/* dark theme */
+88.theme-dark {
+89  background-color: #2d3c49;
+90  color: #ddd;
+91}
+92​
+```
+AWESOME
+If I may suggest, please read [this](https://hackhands.com/70-Expert-Ideas-For-Better-CSS-Coding/) post regarding CSS tips. It’s really helpful!
+
+
+## Third submission
+[(back to top)](#top)
+
+### Response to reviewer
+
+Hi Fernando! Thanks very much for your feedback on my project. I'm glad that I'm making positive progress. I have pushed the revisions to my GitHub repository, and summarized them below:
+
+
+#### *index.html:*
+
+* Separate jumbotron div from container div.
+* Wrap "Featured work" h2 header in row and col to follow Bootstrap grid.
+* Tried re-sizing images with `srcset` and `sizes` in HTML, but decided to stay with CSS.
+  - In general, I prefer to format images with CSS, because I can format many at once, instead of adding `srcset` and `sizes` each time. 
+  - I don't need to save multiple versions of the images for use with `srcset` for this website, because the file sizes are small and I'm only resizing them ~100px. 
+  - Thank you for your suggestion, and I will keep it in mind for the future. 
+
+
+#### *css/portfolio.css:*
+
+* Correct indentation issues.
+
+
+### Full list of changes for Git commit
+
+**Add code review changes and redesign mobile-first:** I initially had to design the site desktop-first and then scale content down for mobile devices, because I was given a mockup of a desktop site. I revised the website code based on a mobile device, scaling up for larger sizes.
+
+
+#### *footer.html, header.html, index.html:*
+
+* Align header responsively:
+  - Center align header by default. 
+  - Left align Udacity logo after the `md` breakpoint, but not other text such as the nav dropdown, with `text-lg-left` added to the HTML for the column. Text alignment may be needed because the image is wrapped inside a link. Image fills header column and looks centered, but is still technically aligned top. Alignment can be challenging when using the Bootstrap framework.
+* Separate jumbotron div from container div.
+* Move header subtitle to jumbotron.
+* Wrap "Featured work" header in row and column to follow Bootstrap grid.
+* Move portfolio site thumbnail to first in list, move link buttons from jumbotron to below thumbnail, and reformat buttons:
+  - Bootstrap button sizes are determined by text and button class (like `btn-lg`), and don't automatically resize responsively or with body text. Further, button groups don't always respect column borders. 
+  - Individual buttons may reflow onto different lines.
+  - I tried to make the links to the portfolio site a horizontal button group, but the button group was shooting through into the next column.
+  - Instead of a button group, I created a Bootstrap dropdown menu and incorporated the links into the dropdown.
+* Restructure footer links into Bootstrap nav as Font Awesome icons. Enclose theme toggle button in `a` element to align with icons.
+
+
+#### *portfolio.css*
+
+* Correct indentation issues.
+* Set size characteristics for mobile, and re-do media queries for `max-width` instead of `min-width`
+* Enlarge paragraph `p` and list `ul` text to improve visibility on high-resolution mobile devices like the Google Pixel XL.
+* Set dark theme as default.
+
+
+#### *portfolio.js*
+
+* Now that dark theme is default, use jQuery to toggle light theme. 
+
+
+#### *pages*
+
+* Move "Portfolio website construction methods and notes" to /methods.
+* Create "About" page introducing myself and summarizing my work with Udacity.
+* Change `baseurl` to "/udacity" in *_config.yml.*
+
+[(back to top)](#top)

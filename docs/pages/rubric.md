@@ -1,16 +1,10 @@
 ---
 layout: page
-title: Udacity rubric
+title: Udacity project rubric
 permalink: /rubric/
 ---
 Udacity project rubric
-===============================================
-
-<p align="left">
-    <a href="https://www.udacity.com/">
-        <img src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" width="300">
-    </a>
-</p>
+======================
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
@@ -21,6 +15,14 @@ Project 02. Build a portfolio site
 Brendon Smith
 
 br3ndonland
+
+**Portfolio website project documentation:**
+
+[Methods]({{ "methods/" | relative_url }})
+[Rubric]({{ "rubric/" | relative_url }})
+[Review]({{ "review/" | relative_url }})
+[GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
+
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

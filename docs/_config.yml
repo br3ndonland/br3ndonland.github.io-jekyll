@@ -18,22 +18,18 @@ email: brendon.w.smith@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   GitHub Pages Jekyll website for Udacity code on GitHub
 url: "https://br3ndonland.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/udacity-fsnd01-p02-portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/udacity" # the subpath of your site, e.g. /blog
 # twitter_username:
 github_username:  br3ndonland
 
 # Build settings
-highlighter: rouge
-markdown: kramdown
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
-# theme: minima
+# kramdown and rouge highlighter now enabled by default
+# theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

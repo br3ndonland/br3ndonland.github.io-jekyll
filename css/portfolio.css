@@ -63,20 +63,19 @@ body {
   }
   /* match header logo size with text */
   .header-logo {
-  width: 250px;
+    width: 250px;
   }
 }
 
 @media (max-width: 767px) {
   /* center header for smaller viewports */
   .header,
-  .header-logo,
   .header-title,
   .header-subtitle {
     text-align: center;
   }
   .header-logo {
-  max-width: 200px;
+    max-width: 200px;
   }
   /* shrink thumbnails */
   .img-thumbnail {
