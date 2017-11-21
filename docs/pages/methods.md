@@ -130,7 +130,9 @@ See the **Rubric comparison** section of README.md for details.
   - I searched the Bootstrap documentation and found the [text section](https://getbootstrap.com/docs/4.0/utilities/text/#text-alignment), but that didn't fix it either. 
   - I found a [Stack Overflow question](https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3#20548578) that addressed this issue, but the solution didn't work for me.
   - I temporarily squashed the bug by inspecting the text with Chrome Developer Tools, and looking at the inherited properties. I found `line-height: 1.1;` switched it off, and... text centered! 
-  <img src="../img/Screen-Shot-2017-10-27-at-11.56.32-AM.png" alt="Header text vertical alignment" class="img-fluid">
+  
+    <img src="../img/Screen-Shot-2017-10-27-at-11.56.32-AM.png" alt="Header text vertical alignment" class="img-fluid">
+    
   - Now to change the code. It took a long time to find the solution. Like, days. I eventually realized that, when I turned off `line-height: 1.1;` with Developer Tools, the text was reverting to the previously applied style. After searching through the Bootstrap core CSS with the query "line-height", I eventually found that the default for `body` is 1.5.
   - **I had to set the header text to `line-height: 1.5;`:**
     ```css

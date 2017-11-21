@@ -31,6 +31,7 @@ br3ndonland
 - [First submission](#first-submission)
 - [Second submission](#second-submission)
 - [Third submission](#third-submission)
+- [Changes after completing Udacity project](#changes-after-completing-udacity-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -772,6 +773,8 @@ Hi Fernando! Thanks very much for your feedback on my project. I'm glad that I'm
 
 * Correct indentation issues.
 
+I simplified the repository name to *udacity*, so the GitHub Pages site is now at https://br3ndonland.github.io/udacity/.
+
 
 ### Full list of changes for Git commit
 
@@ -813,4 +816,41 @@ Hi Fernando! Thanks very much for your feedback on my project. I'm glad that I'm
 * Create "About" page introducing myself and summarizing my work with Udacity.
 * Change `baseurl` to "/udacity" in *_config.yml.*
 
+
+### Summary from reviewer
+
+Excellent job, Brendon! :star:
+
+I will keep things short this time :smile:
+
+Congratulations on finishing this project! :thumbsup:
+
+
+### Project review
+
+No changes.
+
+
+### Code review
+
+#### *index.html:*
+
+AWESOME
+Excellent job with Bootstrap! :star:
+
+
+#### *portfolio.css*
+
+AWESOME
+Thanks for adding my suggestions :smile:
+
+
+## Changes after completing Udacity project
 [(back to top)](#top)
+
+### Complete Udacity project and add social links
+
+* Add documentation for Udacity code review to [Review]({{ "review/" | relative_url }}) (this page).
+* Add line break after image in [Methods]({{ "methods/" | relative_url }}).
+* Add LinkedIn and Facebook social links in header and footer.
+* Update README.md to remove outdated link.
