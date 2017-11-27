@@ -47,7 +47,7 @@ I launched into the Full Stack Web Developer Nanodegree program and kept at it. 
 *My code:*
 
 ```python
-# break timer
+# my break timer
 import time
 import webbrowser
 
@@ -60,6 +60,7 @@ for i in range(3):
 *Instructor's code:*
 
 ```python
+# instructor's break timer
 import time
 import webbrowser
 
@@ -73,7 +74,9 @@ while(break_count < total_breaks):
     # add 1 each time, to stop at 3 and avoid infinite loop
 ```
 
-**I realized the significance of the thought process because I had taken time to learn about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson wrote an article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)," *Harvard Gazette* 201309, and the corresponding book, *The Innovators*. **My performance during this exercise demonstrated that I had moved beyond the rote completion of exercises to think independently in the most efficient and Pythonic way.** 
+**I realized the significance of the thought process because I had taken time to learn about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson wrote an article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)," *Harvard Gazette* 201309, and the corresponding book, *The Innovators*. 
+
+**My performance during this exercise demonstrated that I had moved beyond the rote completion of exercises to think independently in the most efficient and Pythonic way.** 
 
 Computer memory is less limiting today, but we still have to be conscious of file sizes. This is why we use code minification for web distribution.
 
