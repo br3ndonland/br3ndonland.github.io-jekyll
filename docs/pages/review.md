@@ -3,8 +3,7 @@ layout: page
 title: Udacity project review
 permalink: /review/
 ---
-Udacity project review
-======================
+# Udacity project review
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
@@ -19,8 +18,11 @@ br3ndonland
 **Portfolio website project documentation:**
 
 [Methods]({{ "methods/" | relative_url }})
+
 [Rubric]({{ "rubric/" | relative_url }})
+
 [Review]({{ "review/" | relative_url }})
+
 [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
 
@@ -843,14 +845,3 @@ Excellent job with Bootstrap! :star:
 
 AWESOME
 Thanks for adding my suggestions :smile:
-
-
-## Changes after completing Udacity project
-[(back to top)](#top)
-
-### Complete Udacity project and add social links
-
-* Add documentation for Udacity code review to [Review]({{ "review/" | relative_url }}) (this page).
-* Add line break after image in [Methods]({{ "methods/" | relative_url }}).
-* Add LinkedIn and Facebook social links in header and footer.
-* Update README.md to remove outdated link.

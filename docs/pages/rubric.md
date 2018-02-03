@@ -3,8 +3,7 @@ layout: page
 title: Udacity project rubric
 permalink: /rubric/
 ---
-Udacity project rubric
-======================
+# Udacity project rubric
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
@@ -19,8 +18,11 @@ br3ndonland
 **Portfolio website project documentation:**
 
 [Methods]({{ "methods/" | relative_url }})
+
 [Rubric]({{ "rubric/" | relative_url }})
+
 [Review]({{ "review/" | relative_url }})
+
 [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
 

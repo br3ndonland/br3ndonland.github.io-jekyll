@@ -25,7 +25,7 @@ This was my second project for the Udacity Full Stack Web Developer nanodegree p
 
 I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css* for additional custom styling. 
 
-I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
+I provided a toggle button in the navigation menu that uses jQuery JavaScript to change the page color scheme.
 
 I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages. The website includes a homepage, an "About" page where I introduce myself and my Udacity work, a "Methods" page explaining how I built the site in detail, a "Rubric" page providing the Udacity project documentation, and a "Review" page documenting the Udacity code review.
 
@@ -35,7 +35,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 * *css/*
   - *portfolio.css:* CSS stylesheet for the webpage
 * *docs/*
-  - Jekyll files for GitHub Pages website.
+  - Files for GitHub Pages Jekyll website.
 * *img/*
   - Images used in the webpage
 * *js/*
