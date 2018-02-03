@@ -23,6 +23,8 @@ br3ndonland
 
 [Review]({{ "review/" | relative_url }})
 
+[Changelog]({{ "changelog/" | relative_url }})
+
 [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
 
@@ -489,7 +491,7 @@ GitHub only allows [select plugins](https://help.github.com/articles/adding-jeky
 <img src="../img/Screen-Shot-2017-11-21-at-3.44.45-AM.png" class="img-fluid" alt="Screenshot of homepage after troubleshooting and two rounds of code review">
 
 
-**See the [Review page]({{ "review/" | relative_url }}) for further changes.**
+**See the [Review]({{ "review/" | relative_url }}) and [Changelog]({{ "changelog/" | relative_url }}) pages for further changes.**
 
 
 [(back to top)](#top)

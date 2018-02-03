@@ -23,6 +23,8 @@ br3ndonland
 
 [Review]({{ "review/" | relative_url }})
 
+[Changelog]({{ "changelog/" | relative_url }})
+
 [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
 

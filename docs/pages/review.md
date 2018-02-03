@@ -23,6 +23,8 @@ br3ndonland
 
 [Review]({{ "review/" | relative_url }})
 
+[Changelog]({{ "changelog/" | relative_url }})
+
 [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
 
@@ -33,7 +35,6 @@ br3ndonland
 - [First submission](#first-submission)
 - [Second submission](#second-submission)
 - [Third submission](#third-submission)
-- [Changes after completing Udacity project](#changes-after-completing-udacity-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -845,3 +846,6 @@ Excellent job with Bootstrap! :star:
 
 AWESOME
 Thanks for adding my suggestions :smile:
+
+
+[(back to top)](#top)

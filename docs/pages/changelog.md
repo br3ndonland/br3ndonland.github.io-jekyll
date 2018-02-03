@@ -8,6 +8,11 @@ permalink: /changelog/
 Changes after completing Udacity project, in reverse chronological order. All changes have been committed with Git and pushed to GitHub.
 
 
+## Update links for new changelog page
+
+Date: 20180203
+
+
 ## Update home, about, header formatting, and colors
 
 Date: 20180203

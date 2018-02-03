@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-About me
-========
+# About me
 
 Brendon Smith
 
@@ -159,7 +158,7 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 #### [Project 02: Portfolio website](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-**Portfolio website project documentation:** [Methods]({{ "methods/" | relative_url }}) [Rubric]({{ "rubric/" | relative_url }}) [Review]({{ "review/" | relative_url }})
+**Portfolio website project documentation:** [Methods]({{ "methods/" | relative_url }}) [Rubric]({{ "rubric/" | relative_url }}) [Review]({{ "review/" | relative_url }}) [Changelog]({{ "changelog/" | relative_url }})
 
 This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage on Bootstrap v4.0.0-beta, and gained experience integrating Bootstrap components and formatting. 
 
