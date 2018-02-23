@@ -459,6 +459,7 @@ GitHub uses Markdown code fences, but Jekyll uses Liquid templating tags. This i
   - See [posts](https://jekyllrb.com/docs/posts/#highlighting-code-snippets) and [templates](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) docs.
   - [Using syntax highlighting on GitHub Pages](https://help.github.com/articles/using-syntax-highlighting-on-github-pages/).
   - Also see Jekyll's [Markdown configuration options](https://jekyllrb.com/docs/configuration/#markdown-options).
+  - I tried the [Pygments Cache Path by Raimonds Simanovskis plugin](https://github.com/rsim/blog.rayapps.com/blob/master/_plugins/pygments_cache_patch.rb), but it didn't help.
 
 
 ### Blockquotes

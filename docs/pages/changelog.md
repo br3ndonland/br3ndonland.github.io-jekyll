@@ -8,6 +8,18 @@ permalink: /changelog/
 Changes after completing Udacity project, in reverse chronological order. All changes have been committed with Git and pushed to GitHub.
 
 
+## Add GWG and optimize with PageSpeed Insights
+
+Date: 20180223
+
+* Add info about Udacity Grow with Google (GWG) program to homepage
+* Optimize with recommendations from Google PageSpeed Insights:
+	- Remove render-blocking JavaScript: Move Font Awesome JavaScript to footer
+	- Optimize CSS delivery: Can't change the delivery of the Bootstrap or Google Fonts CSS. This site's CSS is too long to inline.
+	- Leverage browser caching: Create .htaccess file to control caching.
+	- Optimize images: Use smaller version of database analysis thumbnail
+
+
 ## Update links for new changelog page
 
 Date: 20180203

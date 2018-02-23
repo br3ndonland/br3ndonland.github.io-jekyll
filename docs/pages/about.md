@@ -31,7 +31,13 @@ I am a molecular nutrition scientist building skills in web development to creat
 
 I got into web development while doing research in a molecular nutrition and metabolism lab. I have confidence in the power of science to teach us about the world, but I began to see that **the way we do scientific research now is not effective.** It's resulted in what we call the **reproducibility crisis.** The research published by one lab can't be repeated by other labs, so it's not real progress, and doesn't translate into treatments or cures for humans.
 
-**Science needs to improve in three ways: efficiency, reproducibility, and sustainability.** We need better technology tools, like robotic automation and research management software, to make our work more efficient. We need to document our work so others can reproduce it. And we need to enable scientists to lead more balanced, rewarding lifestyles.
+**Science needs to improve in three ways:**
+
+1. **Efficiency**
+2. **Reproducibility**
+3. **Sustainability**
+
+We need better technology tools, like robotic automation and research management software, to make our work more efficient. We need to document our work so others can reproduce it. And we need to enable scientists to lead more balanced, rewarding lifestyles.
 
 **When I realized this, I decided to dedicate myself to creating technologies that can improve science.** I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, including the Udacity Full Stack Web Developer Nanodegree program. I've been working on it for the past few months, and have grown tremendously. Web development, like scientific research, engages the two major motivating outcomes in my life, focused personal growth and positive impact.
 
@@ -49,6 +55,8 @@ I got into web development while doing research in a molecular nutrition and met
 * **Historical**
     - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
     - [Steve Jobs, by Walter Isaacson](http://a.co/6s7MekE)
+    - [Where Good Ideas Come From: The Natural History of Innovation, by Steven Johnson](http://a.co/fwkJ8uz)
+    - [What Technology Wants, by Kevin Kelly](http://a.co/1zgpMlU)
 * **Cultural**
     - [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
     - [Silicon Valley](http://www.imdb.com/title/tt2575988/)
@@ -64,9 +72,7 @@ Examples:
 
 ### Part 01. Programming Fundamentals
 
-#### Lesson 05, functions
-
-[Udacity FSND](https://github.com/br3ndonland/udacity-fsnd) File: *fsnd01_05_functions*
+#### [Lesson 05. Functions](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-fundamentals/fsnd01_05_functions.ipynb)
 
 **This was my first milestone as a computer programmer.** 
 
@@ -111,9 +117,7 @@ while(break_count < total_breaks):
 Computer memory is less limiting today, but we still have to be conscious of file sizes. This is why we use code minification for web distribution.
 
 
-#### Lesson 06, classes: turtle graphics mini-project
-
-[Udacity FSND](https://github.com/br3ndonland/udacity-fsnd) File: *fsnd01_06_classes_turtles*
+#### [Lesson 06. Classes: Turtle graphics mini-project](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-fundamentals/fsnd01_06_classes_turtles.ipynb)
 
 Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect. 
 
@@ -143,9 +147,7 @@ spiral_into_the_grid()
 <img src="../img/turtles-final-small.png" alt="turtle mini-project final image" class="img-fluid">
 
 
-#### Lesson 08, classes: profanity checker
-
-[Udacity FSND](https://github.com/br3ndonland/udacity-fsnd) File: *fsnd01_08_classes_checker*
+#### [Lesson 08. Classes: Profanity checker](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-fundamentals/fsnd01_08_classes_checker.ipynb)
 
 In the profanity checker mini-project, I adapted the code for Python 3.6.2 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
 
