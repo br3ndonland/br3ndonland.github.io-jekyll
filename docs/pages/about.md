@@ -156,7 +156,7 @@ In the profanity checker mini-project, I adapted the code for Python 3.6.2 and m
 
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
-<img src="../img/fresh-tomatoes-noir-thumbnail-square.png" alt="movie trailer website" class="img-fluid">
+<img src="../img/python-web-server-page.png" alt="movie trailer website" class="img-fluid">
 
 #### [Project 02: Portfolio website](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
