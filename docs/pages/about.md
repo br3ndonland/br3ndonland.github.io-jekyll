@@ -45,22 +45,22 @@ We need better technology tools, like robotic automation and research management
 ## Custom computing curriculum
 
 * **Foundational**
-    - [Harvard cs50](https://cs50.harvard.edu)
-    - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
-    - [basecs](https://medium.com/basecs)
-    - [CodeNewbie](https://www.codenewbie.org/)
+	- [Harvard cs50](https://cs50.harvard.edu)
+	- [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
+	- [basecs](https://medium.com/basecs)
+	- [CodeNewbie](https://www.codenewbie.org/)
 * **Practical**
-    - [Udacity Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
-    - [Udacity Grow with Google scholarship](https://www.udacity.com/grow-with-google)
+	- [Udacity Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
+	- [Udacity Grow with Google scholarship](https://www.udacity.com/grow-with-google)
 * **Historical**
-    - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
-    - [Steve Jobs, by Walter Isaacson](http://a.co/6s7MekE)
-    - [Where Good Ideas Come From: The Natural History of Innovation, by Steven Johnson](http://a.co/fwkJ8uz)
-    - [What Technology Wants, by Kevin Kelly](http://a.co/1zgpMlU)
+	- [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
+	- [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)
+	- [Where Good Ideas Come From: The Natural History of Innovation, by Steven Johnson](http://a.co/fwkJ8uz)
+	- [What Technology Wants, by Kevin Kelly](http://a.co/1zgpMlU)
 * **Cultural**
-    - [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
-    - [Silicon Valley](http://www.imdb.com/title/tt2575988/)
-    - [Mr. Robot](http://www.imdb.com/title/tt4158110/)
+	- [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
+	- [Silicon Valley](http://www.imdb.com/title/tt2575988/)
+	- [Mr. Robot](http://www.imdb.com/title/tt4158110/)
 
 
 ## Udacity Full Stack Web Developer Nanodegree program
@@ -88,8 +88,8 @@ import time
 import webbrowser
 
 for i in range(3):
-    time.sleep(7) # try 7 seconds. For 2 hours, use 2*60*60.
-    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+		time.sleep(7) # try 7 seconds. For 2 hours, use 2*60*60.
+		webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
 ```
 
 
@@ -104,10 +104,10 @@ total_breaks = 3
 break_count = 0 # starting point 
 
 while(break_count < total_breaks):
-    time.sleep(7) # try 7 seconds
-    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
-    break_count = break_count + 1 
-    # add 1 each time, to stop at 3 and avoid infinite loop
+		time.sleep(7) # try 7 seconds
+		webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+		break_count = break_count + 1 
+		# add 1 each time, to stop at 3 and avoid infinite loop
 ```
 
 **I realized the significance of the thought process because I had taken time to learn about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson wrote an article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)," *Harvard Gazette* 201309, and the corresponding book, *The Innovators*. 
@@ -125,23 +125,26 @@ Instead of just drawing a shape, I imported a gif for the background, and looped
 import turtle
 import colorsys
 
-def spiral_into_the_grid():
 
-    turtle.setup(width = 1600, height = 900)
+def spiral_into_the_grid():
+    """Use turtle graphics to create a colorful spiral."""
+    turtle.setup(width=1600, height=900)
     turtle.speed(0)
     turtle.hideturtle()
     window = turtle.Screen()
-    window.bgpic('/Users/brendonsmith/Pictures/TRON.gif')
-    
+    window.bgpic('img/TRON.gif')
+
     for i in range(1250):
-        colors = colorsys.hsv_to_rgb(i/1250, 1.0, 1.0)
+        colors = colorsys.hsv_to_rgb(i / 1250, 1.0, 1.0)
         turtle.color(colors)
         turtle.forward(i)
         turtle.left(115)
-        
+
     turtle.done()
-    
+
+
 spiral_into_the_grid()
+
 ```
 
 <img src="../img/turtles-final-small.png" alt="turtle mini-project final image" class="img-fluid">
@@ -180,18 +183,18 @@ For this project, we wrote a Python program, containing SQL queries, to extract 
 
 ```
  Query 1: Most popular three articles
-    Candidate is jerk, alleges rival  --  338647 views
-    Bears love berries, alleges bear  --  253801 views
-    Bad things gone, say good people  --  170098 views
+		Candidate is jerk, alleges rival  --  338647 views
+		Bears love berries, alleges bear  --  253801 views
+		Bad things gone, say good people  --  170098 views
 
  Query 2: Most popular authors
-    Ursula La Multa  --  507594 views
-    Rudolf von Treppenwitz  --  423457 views
-    Anonymous Contributor  --  170098 views
-    Markoff Chaney  --  84557 views
+		Ursula La Multa  --  507594 views
+		Rudolf von Treppenwitz  --  423457 views
+		Anonymous Contributor  --  170098 views
+		Markoff Chaney  --  84557 views
 
  Query 3: Days on which >1% HTTP requests returned 404 errors
-    July 17, 2016  --  2.26% errors
+		July 17, 2016  --  2.26% errors
 ```
 
 I passed initial code review with no required corrections. The reviewer made some helpful suggestions, and I incorporated them into my code.
@@ -201,8 +204,14 @@ I passed initial code review with no required corrections. The reviewer made som
 
 <img src="../img/udacity-google-scholarship.png" alt="Udacity Grow with Google scholarship award" class="img-fluid" width="300px">
 
-I was awarded a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There is a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program. This program is a great next step.
+I was awarded a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
 
-I found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the [New York Coffee Festival](https://www.newyorkcoffeefestival.com/) in October.
+I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
+
+* Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the [New York Coffee Festival](https://www.newyorkcoffeefestival.com/) on October 14, 2017.
+* [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
+* Won the scholarship in January 2018.
+* Started the challenge course materials February 21, 2018.
+* Completed the challenge course materials on March 7, 2018.
 
 [(back to top)](#top)
