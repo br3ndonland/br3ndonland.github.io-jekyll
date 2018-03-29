@@ -17,17 +17,13 @@ br3ndonland
 
 **Portfolio website project documentation:**
 
-[Methods]({{ "methods/" | relative_url }})
+* [Methods]({{ 'methods/' | relative_url }})
+* [Rubric]({{ 'rubric/' | relative_url }})
+* [Review]({{ 'review/' | relative_url }})
+* [Changelog]({{ 'changelog/' | relative_url }})
+* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-[Rubric]({{ "rubric/" | relative_url }})
-
-[Review]({{ "review/" | relative_url }})
-
-[Changelog]({{ "changelog/" | relative_url }})
-
-[GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
-
-
+## TOC
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -54,9 +50,9 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 ### Summary from reviewer
 
-**Project looks fantastic and you’re almost there to meeting specifications, so keep up the great effort!**  :star:
-
-**There is only a little more work to be done on the layout architecture and making sure you have complete separation of styles before your project can fully meet specifications.** :smiley:
+> **Project looks fantastic and you’re almost there to meeting specifications, so keep up the great effort!**  :star:
+> 
+> **There is only a little more work to be done on the layout architecture and making sure you have complete separation of styles before your project can fully meet specifications.** :smiley:
 
 
 ### Project review
@@ -166,7 +162,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 
 ### Code review
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 #### *index.html:*
 
@@ -369,7 +365,7 @@ Nice work adding some additional contact opportunities for user interaction. :st
 ```css
 1/* Header and Headings */
 2​
-3h1, .h1 {
+3h1, .h1 {}
 ```
 SUGGESTION
 :grey_exclamation: Code Quality
@@ -377,8 +373,8 @@ SUGGESTION
 The Udacity Styleguide recommends that we start a new line for each selector when grouping selectors for a rule-set, which can help to increase readability.
 
 
-```css
-4  font-family: "Lobster", cursive;
+```text
+4 font-family: "Lobster", cursive;
 ```
 AWESOME
 Providing at least one fallback font-family in case the primary font is not available to your user shows foresight and aligns with best practices!
@@ -389,7 +385,7 @@ Providing at least one fallback font-family in case the primary font is not avai
 6​
 7.header {
 8  margin-bottom: 0.5rem;
-9  border-bottom: 0.2rem solid #7d97ad;
+9  border-bottom: 0.2rem solid #7d97ad;}
 ```
 SUGGESTION
 Good use of the border shorthand to simplify what would otherwise require multiple border-related declarations. :thumbsup:
@@ -422,7 +418,7 @@ Good use of the border shorthand to simplify what would otherwise require multip
 33​
 34body {
 35  padding-top: 1rem;
-36  padding-bottom: 1rem;
+36  padding-bottom: 1rem;}
 ```
 
 SUGGESTION
@@ -432,7 +428,7 @@ We could streamline the above padding declarations.
 
 :pencil2: Example
 
-```css
+```text
 /* top/bottom | left/right */
 padding: 1rem 0;
 ```
@@ -472,7 +468,7 @@ Please see the following [page](https://developer.mozilla.org/en-US/docs/Web/CSS
 63  text-align: center;
 64  padding: 0.75rem 1.5rem;
 65  font-size: 1.2rem;
-66  color: #212529;
+66  color: #212529;}
 ```
 SUGGESTION
 :grey_exclamation: Code Quality
@@ -497,7 +493,7 @@ The comments used to provide organisation to your stylesheet are awesome. :thumb
 
 ```css
 76​
-77 @media (max-width: 991px) {
+77 @media (max-width: 991px) {}
 ```
 AWESOME
 Well done using media queries to provide further breakpoints for your responsive layout. For further reading, you may be interested in this blog [post](http://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/) on different modern design approaches.
@@ -569,7 +565,7 @@ Really cool additional customisation! :sparkles:
 
 
 ## Second submission
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 ### Response to reviewer
 
@@ -598,7 +594,7 @@ Thank you for your comprehensive and helpful code review! I have pushed the chan
 
 #### *pages*
 
-* Add "back to top" navigation under page headers.
+* Add "Back to TOC" navigation under page headers.
 
 
 ### Summary from reviewer
@@ -755,7 +751,7 @@ If I may suggest, please read [this](https://hackhands.com/70-Expert-Ideas-For-B
 
 
 ## Third submission
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 ### Response to reviewer
 
@@ -848,4 +844,4 @@ AWESOME
 Thanks for adding my suggestions :smile:
 
 
-[(back to top)](#top)
+[(Back to TOC)](#toc)

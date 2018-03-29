@@ -1,29 +1,25 @@
-README
-======
+# README
 
-<p align="left">
-    <a href="https://www.udacity.com/">
-        <img src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" width="300">
-    </a>
-</p>
+<a href="https://www.udacity.com/">
+	<img src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" width="300">
+</a>
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
-Part 01. Programming fundamentals and the web
-
-Project 02. Build a portfolio site
+Project 2. Portfolio site
 
 Brendon Smith
 
 br3ndonland
 
-## Summary
 
-This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
+## Description
+
+This was my second project for the Udacity Full Stack Web Developer nanodegree program. Students were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
 
 <img src="docs/img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio website mockup">
 
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css* for additional custom styling. 
+I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN). I also included [Prism syntax highlighting](http://prismjs.com/) CSS and JavaScript files, and *portfolio.css* for additional custom styling.
 
 I provided a toggle button in the navigation menu that uses jQuery JavaScript to change the page color scheme.
 
@@ -31,6 +27,8 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 
 ## Repository contents
+
+**All files for the GitHub pages site reside in the *docs/* directory. HTML, CSS, and JS files above the *docs/* directory were used only to submit the homepage for the Udacity project.**
 
 * *css/*
   - *portfolio.css:* CSS stylesheet for the webpage

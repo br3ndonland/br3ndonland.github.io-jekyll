@@ -9,6 +9,7 @@ Brendon Smith
 
 br3ndonland
 
+## TOC
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -43,6 +44,9 @@ We need better technology tools, like robotic automation and research management
 
 
 ## Custom computing curriculum
+[(Back to TOC)](#toc)
+
+I have been learning about computers with these resources.
 
 * **Foundational**
 	- [Harvard cs50](https://cs50.harvard.edu)
@@ -64,15 +68,18 @@ We need better technology tools, like robotic automation and research management
 
 
 ## Udacity Full Stack Web Developer Nanodegree program
+[(Back to TOC)](#toc)
 
 **My goal with Udacity is not to finish as quickly as possible, but to learn as much as possible, and to become the best programmer possible.** Throughout the Full Stack Web Developer Nanodegree program, I went beyond the requirements to strengthen my skills. 
 
-Examples:
+Here are some highlights from my work in the program:
 
 
-### Part 01. Programming Fundamentals
+### Part 1. Programming Fundamentals
+[(Back to TOC)](#toc)
 
-#### [Lesson 05. Functions](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-fundamentals/fsnd01_05_functions.ipynb)
+#### Lesson 05. Functions
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_05_functions.ipynb)
 
 **This was my first milestone as a computer programmer.** 
 
@@ -88,8 +95,8 @@ import time
 import webbrowser
 
 for i in range(3):
-		time.sleep(7) # try 7 seconds. For 2 hours, use 2*60*60.
-		webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+    time.sleep(7)  # try 7 seconds. For 2 hours, use 2*60*60.
+    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
 ```
 
 
@@ -101,25 +108,26 @@ import time
 import webbrowser
 
 total_breaks = 3
-break_count = 0 # starting point 
+break_count = 0  # starting point 
 
 while(break_count < total_breaks):
-		time.sleep(7) # try 7 seconds
-		webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
-		break_count = break_count + 1 
-		# add 1 each time, to stop at 3 and avoid infinite loop
+    time.sleep(7)  # try 7 seconds
+    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+    break_count = break_count + 1 
+    # add 1 each time, to stop at 3 and avoid infinite loop
 ```
 
-**I realized the significance of the thought process because I had taken time to learn about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson wrote an article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)," *Harvard Gazette* 201309, and the corresponding book, *The Innovators*. 
+**I realized the significance of the thought process because I had taken time to learn about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson wrote an article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)," *Harvard Gazette* 201309, and the corresponding book, *The Innovators*. **I had moved beyond the rote completion of exercises to think independently in the most efficient and Pythonic way.** 
 
-**My performance during this exercise demonstrated that I had moved beyond the rote completion of exercises to think independently in the most efficient and Pythonic way.** 
-
-Computer memory is less limiting today, but we still have to be conscious of file sizes. This is why we use code minification for web distribution.
+Computer memory is less limiting today, but we still have to be conscious of file sizes, especially when accessing files over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
 
 
-#### [Lesson 06. Classes: Turtle graphics mini-project](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-fundamentals/fsnd01_06_classes_turtles.ipynb)
+#### Lesson 06. Classes: Turtle graphics mini-project
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_06_classes_turtles.ipynb)
 
-Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect. 
+Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect.
+
+*Code:*
 
 ```python
 import turtle
@@ -147,41 +155,108 @@ spiral_into_the_grid()
 
 ```
 
-<img src="../img/turtles-final-small.png" alt="turtle mini-project final image" class="img-fluid">
+*Output:*
+
+<img src="../img/turtles-final-small.png" alt="Turtle graphics mini-project final image" class="img-fluid">
 
 
-#### [Lesson 08. Classes: Profanity checker](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-fundamentals/fsnd01_08_classes_checker.ipynb)
+#### Lesson 08. Classes: Profanity checker
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_08_classes_checker.ipynb)
 
-In the profanity checker mini-project, I adapted the code for Python 3.6.2 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
+We wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3.6.2 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
+
+*Code:*
+
+```python
+# Profanity checker mini-project
+# Code rewritten for Requests
+
+import requests
 
 
-#### [Project 01: Movie trailer website](https://github.com/br3ndonland/udacity-fsnd01-p01-movies)
+def read_text():
+    """Read the contents of a text file."""
+    quotes = open('movie_quotes.txt')
+    contents_of_file = quotes.read()
+    print(contents_of_file)
+    quotes.close()
+    check_profanity(contents_of_file)
+
+
+def check_profanity(text_to_check):
+    """Check the text file for profanity."""
+    # web query
+    r = requests.get("http://www.wdylike.appspot.com/?q=" + text_to_check)
+    # output
+    if "true" in r.text:
+        print("Profanity Alert!")
+    elif "false" in r.text:
+        print("This document has no curse words!")
+    else:
+        print("Could not scan the document properly.")
+
+
+read_text()
+
+```
+
+*Output:*
+
+```text
+-- Houston, we have a problem. (Apollo 13)
+
+-- Mama always said, life is like a box of chocolates. You never know what you are going to get. (Forrest Gump)
+
+-- You cant handle the truth. (A Few Good Men)
+
+-- I believe everything and I believe nothing. (A Shit in the Dark)
+Profanity Alert!
+```
+
+
+#### Project 1: Python web server
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site)
+
+<img src="../img/python-web-server-page.png" alt="Python web server screenshot" class="img-fluid">
 
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
-<img src="../img/python-web-server-page.png" alt="movie trailer website" class="img-fluid">
 
-#### [Project 02: Portfolio website](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
+#### Project 2: Portfolio website
+[Code on GitHub](https://github.com/br3ndonland/udacity)
 
-**Portfolio website project documentation:** [Methods]({{ "methods/" | relative_url }}) [Rubric]({{ "rubric/" | relative_url }}) [Review]({{ "review/" | relative_url }}) [Changelog]({{ "changelog/" | relative_url }})
+<img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-fluid" width="150px">
 
-This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage on Bootstrap v4.0.0-beta, and gained experience integrating Bootstrap components and formatting. 
+**This website!** This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage on Bootstrap v4.0.0-beta, and gained experience integrating Bootstrap components and formatting. 
 
 I included extensive customization, including CSS styles and a toggle button in the footer that uses jQuery JavaScript to change the page color scheme. I then built the webpage into a website with Jekyll, and hosted it with GitHub Pages.
 
+Hope you enjoy the site!
+
+**Portfolio website project documentation:**
+
+* [Methods]({{ 'methods/' | relative_url }})
+* [Rubric]({{ 'rubric/' | relative_url }})
+* [Review]({{ 'review/' | relative_url }})
+* [Changelog]({{ 'changelog/' | relative_url }})
+* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
+
 
 ### Part 02. Developer Tools
+[(Back to TOC)](#toc)
 
 Part 2 was technically optional, but I completed all the lessons anyway. We learned about bash, Git, HTTP protocols, and Python web servers.
 
 
 ### Part 03. The Backend
+[(Back to TOC)](#toc)
 
-#### [Project 01. Logs Analysis](https://github.com/br3ndonland/udacity-fsnd03-p01-logs)
+#### Project 3. Database analysis
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
 
 For this project, we wrote a Python program, containing SQL queries, to extract information from a database of news articles and return the results in plain text.
 
-```
+```text
  Query 1: Most popular three articles
 		Candidate is jerk, alleges rival  --  338647 views
 		Bears love berries, alleges bear  --  253801 views
@@ -201,17 +276,21 @@ I passed initial code review with no required corrections. The reviewer made som
 
 
 ## Udacity Grow with Google program
+[(Back to TOC)](#toc)
 
 <img src="../img/udacity-google-scholarship.png" alt="Udacity Grow with Google scholarship award" class="img-fluid" width="300px">
 
-I was awarded a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
+**I was awarded a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google.** This is separate from my Nanodegree program. It's an initiative designed to help people make career changes into coding. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
 
-I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
+I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google). Udacity also created a [website](https://sites.google.com/udacity.com/gwgdevscholarship/home) for the course.
+
+*Here's how it went down:*
 
 * Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the [New York Coffee Festival](https://www.newyorkcoffeefestival.com/) on October 14, 2017.
 * [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
 * Won the scholarship in January 2018.
 * Started the challenge course materials February 21, 2018.
 * Completed the challenge course materials on March 7, 2018.
+* Attended local meetups in Boston.
 
-[(back to top)](#top)
+[(Back to TOC)](#toc)

@@ -17,17 +17,13 @@ br3ndonland
 
 **Portfolio website project documentation:**
 
-[Methods]({{ "methods/" | relative_url }})
+* [Methods]({{ 'methods/' | relative_url }})
+* [Rubric]({{ 'rubric/' | relative_url }})
+* [Review]({{ 'review/' | relative_url }})
+* [Changelog]({{ 'changelog/' | relative_url }})
+* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-[Rubric]({{ "rubric/" | relative_url }})
-
-[Review]({{ "review/" | relative_url }})
-
-[Changelog]({{ "changelog/" | relative_url }})
-
-[GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
-
-
+## TOC
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -62,13 +58,13 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 
 ## Development environment
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 I wrote the code in Sublime Text, as usual. I typically had two windows open: a double pane window, with left side for the core files I was creating (like this one, and the HTML and CSS), and right side for the Bootstrap core files for reference, and a separate window for my Udacity reference materials. I usually had three Chrome browser windows open: one for Udacity, one for reference sites like Bootstrap, and a third to preview my site with Developer Tools.
 
 
 ## Bootstrap
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 I based the site on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. 
 
@@ -101,7 +97,7 @@ I explored the different ways to use Bootstrap.
 
 
 ## General webpage style and structure
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 See the **Rubric comparison** section of README.md for details.
 
@@ -119,11 +115,11 @@ See the **Rubric comparison** section of README.md for details.
   $ cd .../udacity-fsnd01-p02-portfolio/docs/pages
   $ doctoc . --maxlevel 1 --github
   ```
-  In the future, I will look at other TOC creation options in kramdown (the Markdown to HTML converter used by Jekyll, see [below](#website-creation-with-jekyll).
+  In the future, I will look at other TOC creation options in kramdown (the Markdown to HTML converter used by Jekyll, see [below](#website-creation-with-jekyll)).
 
 
 ## Header
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 * *[Container](https://getbootstrap.com/docs/4.0/layout/overview/#containers):* I placed the `header` inside a `container` to keep it in line with other elements, as shown in the portfolio site mockup. A `container` should usually be the top-level div, but not always. For example, in the Bootstrap [docs](https://getbootstrap.com/docs/4.0/content/typography/), `header` is not in a `container`, and is outside the margins of the container below.
 * *[Grid](https://getbootstrap.com/docs/4.0/layout/grid/):* I created a grid in the header to show the Udacity logo and the text as two columns in the same row. Bootstrap has most of the optimal [flexbox formatting](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) built in already. There are 12 columns by default. I also tried including header elements as spans, but they did not align vertically.
@@ -137,7 +133,7 @@ See the **Rubric comparison** section of README.md for details.
   
     <img src="../img/Screen-Shot-2017-10-27-at-11.56.32-AM.png" alt="Header text vertical alignment" class="img-fluid">
     
-  - Now to change the code. It took a long time to find the solution. Like, days. I eventually realized that, when I turned off `line-height: 1.1;` with Developer Tools, the text was reverting to the previously applied style. After searching through the Bootstrap core CSS with the query "line-height", I eventually found that the default for `body` is 1.5.
+  - Now to change the code. **It took a long time to find the solution. Like, days.** I eventually realized that, when I turned off `line-height: 1.1;` with Developer Tools, the text was reverting to the previously applied style. After searching through the Bootstrap core CSS with the query "line-height", I eventually found that the default for `body` is 1.5.
   - **I had to set the header text to `line-height: 1.5;`:**
     ```css
     .header-title {
@@ -152,7 +148,7 @@ See the **Rubric comparison** section of README.md for details.
 * *Navbar:* Later, during [website troubleshooting](#website-troubleshooting), I realized it would be helpful to have navigation at the top of the page. I included a collapsed [Bootstrap navbar](https://getbootstrap.com/docs/4.0/components/navbar/).
 
 ## Jumbotron
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 * *Background:* I used the signature Udacity gradient. I also liked the simple gray default, and tried using different background images, such as the ones from the [Google Material Design guidelines](https://material.io/guidelines/material-design/introduction.html).
 * *Responsive design:* I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap `narrow-jumbotron` CSS that put in a breakpoint at `48em`, then coordinated the media queries with the column sizes set with classes in the HTML. **I finally got it: `col-md-6` header columns on medium displays, `col-sm-4` columns for thumbnails, and two media queries to shrink the page down at `991px` and `768px`.**
@@ -160,7 +156,7 @@ See the **Rubric comparison** section of README.md for details.
 
 
 ## Portfolio thumbnails
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 * *Responsive design:* 
   - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
@@ -191,7 +187,7 @@ See the **Rubric comparison** section of README.md for details.
 
 
 ## Footer
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 * I kept the footer relatively simple, in terms of formatting. I centered it with CSS and used the `text-muted` class to gray it out.
 * The sizing of the GitHub icon was a bit complicated. I set its class to `2rem`. I also wanted to disable the default link behavior, because an underline was popping up behind the GitHub icon. I had to dig around in the Bootstrap documentation a lot, and eventually found the `card-link` class [here](https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links), which doesn't have underlining.
@@ -199,7 +195,7 @@ See the **Rubric comparison** section of README.md for details.
 
 
 ## Theme toggle
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 ### Colors
 
@@ -332,7 +328,7 @@ Here are screenshots of the webpage after completing the theme toggle:
 
 
 ## Website creation with Jekyll
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 ### Intro 
 
@@ -347,6 +343,7 @@ There are **two ways to create a GitHub Pages site: create locally with Jekyll, 
 > I recommend setting up Jekyll on your own computer so you can edit and preview your site locally, and when ready, push those changes to your GitHub repo...
 
 There are also **two types of GitHub Pages sites: user and project pages.** I made this a project page.
+
 
 ### [Jekyll and Ruby installation](https://jekyllrb.com/docs/installation/)
 
@@ -387,7 +384,7 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
 
 
 ## Jekyll website hosting with GitHub Pages
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 ### Intro
 
@@ -423,7 +420,7 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
 
 
 ## Website troubleshooting
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 **Liquid, Jekyll, GitHub Pages, and GitHub are not seamlessly integrated.**
 
@@ -452,19 +449,24 @@ The solution was to put the pages in a *pages* folder (not *_pages*, apparently 
 
 ### Syntax highlighting
 
-GitHub uses Markdown code fences, but Jekyll uses Liquid templating tags. This inconsistency is frustrating.
-
+* **I want to be able to view code with syntax highlighting, either while on the GitHub Pages site, or while viewing the Markdown files on GitHub.**
 * The ["Using syntax highlighting on GitHub Pages" page](https://help.github.com/articles/using-syntax-highlighting-on-github-pages/) says, "Syntax highlighting on GitHub Pages works the same way it does on GitHub with GitHub flavored Markdown..." This is not correct. GitHub uses Markdown code fences (triple backticks, "```", with language identifier after the first three backticks), but GitHub Pages uses Jekyll Liquid tags.
-*  **GitHub Pages reads Liquid templating via Jekyll, but GitHub.com does not apply Liquid when viewing files in repositories.** I kept the fenced code blocks instead of including the different Liquid templating code snippet formatting for consistency and compatibility with viewing Markdown documents on GitHub. This meant that, when switching to my dark theme, the code stayed as black text and was difficult to see.
+* Although GitHub Pages reads Liquid templating via Jekyll, but GitHub.com does not apply Liquid when viewing files in repositories. I kept the fenced code blocks instead of including the different Liquid templating code snippet formatting for consistency and compatibility with viewing Markdown documents on GitHub. This meant that, when switching to my dark theme, the code stayed as black text and was difficult to see.
   - See [posts](https://jekyllrb.com/docs/posts/#highlighting-code-snippets) and [templates](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) docs.
   - [Using syntax highlighting on GitHub Pages](https://help.github.com/articles/using-syntax-highlighting-on-github-pages/).
   - Also see Jekyll's [Markdown configuration options](https://jekyllrb.com/docs/configuration/#markdown-options).
   - I tried the [Pygments Cache Path by Raimonds Simanovskis plugin](https://github.com/rsim/blog.rayapps.com/blob/master/_plugins/pygments_cache_patch.rb), but it didn't help.
+* **I was eventually able to successfully add syntax highlighting by adding in [Prism](http://prismjs.com) CSS and JavaScript files.**
 
 
 ### Blockquotes
 
 I couldn't get blockquotes to show up properly, either with Markdown or HTML `blockquote` tags.
+
+
+### Header anchors
+
+GitHub provides header anchor links, so that Markdown headers viewed on GitHub each have unique links. When viewing this site on GitHub pages, the headers do not automatically have anchors.
 
 
 ### Jekyll plugins and themes
@@ -492,8 +494,7 @@ GitHub only allows [select plugins](https://help.github.com/articles/adding-jeky
 <img src="../img/Screen-Shot-2017-11-21-at-3.44.45-AM.png" class="img-fluid" alt="Screenshot of homepage after troubleshooting and two rounds of code review">
 
 
-**See the [Review]({{ "review/" | relative_url }}) and [Changelog]({{ "changelog/" | relative_url }}) pages for further changes.**
+**See the [Review]({{ 'review/' | relative_url }}) and [Changelog]({{ 'changelog/' | relative_url }}) pages for further changes.**
 
 
-[(back to top)](#top)
-
+[(Back to TOC)](#toc)

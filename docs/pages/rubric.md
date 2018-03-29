@@ -17,17 +17,13 @@ br3ndonland
 
 **Portfolio website project documentation:**
 
-[Methods]({{ "methods/" | relative_url }})
+* [Methods]({{ 'methods/' | relative_url }})
+* [Rubric]({{ 'rubric/' | relative_url }})
+* [Review]({{ 'review/' | relative_url }})
+* [Changelog]({{ 'changelog/' | relative_url }})
+* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-[Rubric]({{ "rubric/" | relative_url }})
-
-[Review]({{ "review/" | relative_url }})
-
-[Changelog]({{ "changelog/" | relative_url }})
-
-[GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
-
-
+## TOC
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -80,7 +76,7 @@ The design mockup for this project is located [here](https://storage.googleapis.
 
 
 ## Udacity Project Details
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 ### *How do I complete this project?*
 
@@ -111,7 +107,7 @@ Here are some tools you will find useful in checking your work —
 [design-mockup-portfolio.pdf](https://www.udacity.com/api/nodes/2655898586/supplemental_media/design-mockup-portfoliopdf/download)
 
 ## Udacity Rubric
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 <html>
 <div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h3 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h3> <h4 id="project-name" ng-bind-html="localize(ctrl.rubric.project, 'name', markup=true)" class="ng-binding"><p>Build a Portfolio Site</p>
@@ -208,7 +204,7 @@ Here are some tools you will find useful in checking your work —
 </html>
 
 ## Submission
-[(back to top)](#top)
+[(Back to TOC)](#toc)
 
 <html>
 <div class="container-fluid index--container--1H1L7"><div class="index--body--2gqet layout--content--3Smmq layout--body--3U2qN"><h3 class="index--title--3eIzO">Project Submission</h3></div><div class="ltr"><div class="index--markdown--2I2Ir ureact-markdown "><p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of your Nanodegree program.</p>
@@ -281,4 +277,4 @@ Here are some tools you will find useful in checking your work —
 </div></div><div class="ltr index--resources--vwqCB"><div><h4>Supporting Materials</h4><div class="resources--links--Dmbld"><div><a href="http://d2uz2655q5g6b2.cloudfront.net/2736698543/P1%3A%20Build%20a%20Portfolio%20Site%20Videos.zip" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1483 --> <!-- /react-text --><!-- react-text: 1484 -->Videos Zip File<!-- /react-text --></a></div><div><a href="https://d17h37t6h515a5.cloudfront.net/topher/2016/August/57b22517_design-mockup-portfolio/design-mockup-portfolio.pdf" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1489 --> <!-- /react-text --><!-- react-text: 1490 -->design-mockup-portfolio.pdf<!-- /react-text --></a></div></div></div></div></div>
 </html>
 
-[(back to top)](#top)
+[(Back to TOC)](#toc)
