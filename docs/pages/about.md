@@ -96,7 +96,7 @@ import webbrowser
 
 for i in range(3):
     time.sleep(7)  # try 7 seconds. For 2 hours, use 2*60*60.
-    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+    webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
 ```
 
 
@@ -112,7 +112,7 @@ break_count = 0  # starting point
 
 while(break_count < total_breaks):
     time.sleep(7)  # try 7 seconds
-    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+    webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
     break_count = break_count + 1 
     # add 1 each time, to stop at 3 and avoid infinite loop
 ```
@@ -186,14 +186,14 @@ def read_text():
 def check_profanity(text_to_check):
     """Check the text file for profanity."""
     # web query
-    r = requests.get("http://www.wdylike.appspot.com/?q=" + text_to_check)
+    r = requests.get('http://www.wdylike.appspot.com/?q=' + text_to_check)
     # output
-    if "true" in r.text:
-        print("Profanity Alert!")
-    elif "false" in r.text:
-        print("This document has no curse words!")
+    if 'true' in r.text:
+        print('Profanity Alert!')
+    elif 'false' in r.text:
+        print('This document has no curse words!')
     else:
-        print("Could not scan the document properly.")
+        print('Could not scan the document properly.')
 
 
 read_text()
