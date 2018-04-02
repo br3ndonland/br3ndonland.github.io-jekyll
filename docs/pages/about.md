@@ -75,10 +75,7 @@ I have been learning about computers with these resources.
 Here are some highlights from my work in the program:
 
 
-### Part 1. Programming Fundamentals
-[(Back to TOC)](#toc)
-
-#### Lesson 05. Functions
+### Break timer
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_05_functions.ipynb)
 
 **This was my first milestone as a computer programmer.** 
@@ -122,7 +119,7 @@ while(break_count < total_breaks):
 Computer memory is less limiting today, but we still have to be conscious of file sizes, especially when accessing files over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
 
 
-#### Lesson 06. Classes: Turtle graphics mini-project
+### Turtle graphics
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_06_classes_turtles.ipynb)
 
 Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect.
@@ -160,7 +157,7 @@ spiral_into_the_grid()
 <img src="../img/turtles-final-small.png" alt="Turtle graphics mini-project final image" class="img-fluid">
 
 
-#### Lesson 08. Classes: Profanity checker
+### Profanity checker
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_08_classes_checker.ipynb)
 
 We wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3.6.2 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
@@ -214,7 +211,7 @@ Profanity Alert!
 ```
 
 
-#### Project 1: Python web server
+### Project 1. Python web server
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site)
 
 <img src="../img/python-web-server-page.png" alt="Python web server screenshot" class="img-fluid">
@@ -222,7 +219,7 @@ Profanity Alert!
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
 
-#### Project 2: Portfolio website
+### Project 2. Portfolio website
 [Code on GitHub](https://github.com/br3ndonland/udacity)
 
 <img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-fluid" width="150px">
@@ -242,16 +239,7 @@ Hope you enjoy the site!
 * [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
 
-### Part 02. Developer Tools
-[(Back to TOC)](#toc)
-
-Part 2 was technically optional, but I completed all the lessons anyway. We learned about bash, Git, HTTP protocols, and Python web servers.
-
-
-### Part 03. The Backend
-[(Back to TOC)](#toc)
-
-#### Project 3. Database analysis
+### Project 3. Database analysis
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
 
 For this project, we wrote a Python program, containing SQL queries, to extract information from a database of news articles and return the results in plain text.
