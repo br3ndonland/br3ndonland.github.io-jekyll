@@ -14,18 +14,12 @@ br3ndonland
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Intro](#intro)
 - [My journey](#my-journey)
 - [Custom computing curriculum](#custom-computing-curriculum)
 - [Udacity Full Stack Web Developer Nanodegree program](#udacity-full-stack-web-developer-nanodegree-program)
 - [Udacity Grow with Google program](#udacity-grow-with-google-program)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
-## Intro
-
-I am a molecular nutrition scientist building skills in web development to create a more efficient, reproducible, and sustainable research culture. This website showcases the Udacity work I have shared on GitHub. I am currently working on the [Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 
 ## My journey
@@ -42,7 +36,7 @@ We need better technology tools, like robotic automation and research management
 
 **When I realized this, I decided to dedicate myself to creating technologies that can improve science.**
 
-I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, including the Udacity Full Stack Web Developer Nanodegree program. I've been working on it for the past few months, and have really enjoyed it. **Web development, like scientific research, engages the two major motivating outcomes in my life, focused personal growth and positive impact.**
+I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, including the Udacity Full Stack Web Developer Nanodegree program. **I have found that web development, like scientific research, enables me to achieve focused personal growth and positive impact.**
 
 
 ## Custom computing curriculum
