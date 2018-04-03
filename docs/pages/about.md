@@ -82,7 +82,7 @@ Here are some highlights from my work in the program:
 
 When I began learning Python syntax in the Full Stack Web Developer Nanodegree program, progress was slow, and it was difficult to express myself. It felt very much like the mental exhaustion of practicing a spoken language. The Udacity introductory materials actually recommended that I start with a beginner Nanodegree program first, but I knew that with my motivation and education, I could fill in the gaps in my knowledge and competency. I kept at it and didn't let myself get discouraged.
 
-I got to an exercise in which we had to create a break timer. The timer opens a YouTube video every two hours, to encourage people to take a break while working on the computer. I wrote the code independently, then checked the instructor's solution.
+I got to an exercise in which I had to create a break timer. The timer opens a YouTube video every two hours, to encourage people to take a break while working on the computer. I wrote the code independently, then checked the instructor's solution.
 
 **When adding a loop to the break counter, I came up with a more efficient way to program it** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. **My code demonstrated that I had learned to think independently and write code in the most efficient and Pythonic way.** 
 
@@ -164,7 +164,7 @@ spiral_into_the_grid()
 ### Profanity checker
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_08_classes_checker.ipynb)
 
-We wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3.6.2 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
+I wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3.6.2 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
 
 *Code:*
 
@@ -185,9 +185,9 @@ def read_text():
 
 def check_profanity(text_to_check):
     """Check the text file for profanity."""
-    # web query
+    # Web query
     r = requests.get('http://www.wdylike.appspot.com/?q=' + text_to_check)
-    # output
+    # Output
     if 'true' in r.text:
         print('Profanity Alert!')
     elif 'false' in r.text:
@@ -227,9 +227,7 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 <img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-fluid" width="150px">
 
-**This website!** This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage on Bootstrap v4.0.0-beta, and gained experience integrating Bootstrap components and formatting. 
-
-I included extensive customization, including CSS styles and a toggle button in the footer that uses jQuery JavaScript to change the page color scheme. I then built the webpage into a website with Jekyll, and hosted it with GitHub Pages.
+**This website!** This was my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap v4.0.0. I also included extensive customization, including CSS styles and a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the webpage into a website with Jekyll, and hosted it with GitHub Pages.
 
 Hope you enjoy the site!
 
@@ -245,28 +243,9 @@ Hope you enjoy the site!
 ### Project 3. Database analysis
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
 
-For this project, we wrote a Python program, containing SQL queries, to extract information from a database of news articles and return the results in plain text.
+<img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-fluid" width="300px">
 
-```text
-Query 1: Most popular three articles
-	Candidate is jerk, alleges rival  --  338647 views
-	Bears love berries, alleges bear  --  253801 views
-	Bad things gone, say good people  --  170098 views
-
-Query 2: Most popular authors
-	Ursula La Multa
-	507594 views
-	Rudolf von Treppenwitz
-	23457 views
-	Anonymous Contributor
-	170098 views
-	Markoff Chaney
-	84557 views
-
-Query 3: Days on which >1% HTTP requests returned 404 errors
-	July 17, 2016
-	2.26% errors
-```
+For this project, I wrote a Python program, containing SQL queries, to extract information from a database of news articles and return the results in plain text.
 
 I passed initial code review with no required corrections. The reviewer made some helpful suggestions, and I incorporated them into my code.
 
