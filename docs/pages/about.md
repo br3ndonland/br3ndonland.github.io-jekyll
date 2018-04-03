@@ -40,7 +40,9 @@ I got into web development while doing research in a molecular nutrition and met
 
 We need better technology tools, like robotic automation and research management software, to make our work more efficient. We need to document our work so others can reproduce it. And we need to enable scientists to lead more balanced, rewarding lifestyles.
 
-**When I realized this, I decided to dedicate myself to creating technologies that can improve science.** I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, including the Udacity Full Stack Web Developer Nanodegree program. I've been working on it for the past few months, and have grown tremendously. Web development, like scientific research, engages the two major motivating outcomes in my life, focused personal growth and positive impact.
+**When I realized this, I decided to dedicate myself to creating technologies that can improve science.**
+
+I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, including the Udacity Full Stack Web Developer Nanodegree program. I've been working on it for the past few months, and have really enjoyed it. **Web development, like scientific research, engages the two major motivating outcomes in my life, focused personal growth and positive impact.**
 
 
 ## Custom computing curriculum
@@ -70,8 +72,6 @@ I have been learning about computers with these resources.
 ## Udacity Full Stack Web Developer Nanodegree program
 [(Back to TOC)](#toc)
 
-**My goal with Udacity is not to finish as quickly as possible, but to learn as much as possible, and to become the best programmer possible.** Throughout the Full Stack Web Developer Nanodegree program, I went beyond the requirements to strengthen my skills. 
-
 Here are some highlights from my work in the program:
 
 
@@ -80,43 +80,46 @@ Here are some highlights from my work in the program:
 
 **This was my first milestone as a computer programmer.** 
 
-I began my transition into web development with background info about computing history, operating systems, and programming, mostly from [Harvard cs50](https://cs50.harvard.edu/), [Udacity cs101](https://www.udacity.com/course/intro-to-computer-science--cs101), and [David Evans cs4414](http://rust-class.org/index.html). When I began learning Python syntax, progress was slow, and I wasn't able to express myself. It felt very much like the mental exhaustion of learning a spoken language. For example, while I was in Spain, although I was already fluent in Spanish, it required more mental effort to do simple things like go to a store or order food at a restaurant. The Udacity introductory materials actually recommended that I start with a beginner Nanodegree program first, but I knew that with my motivation and education, I could fill in the gaps in my knowledge and competency. 
+When I began learning Python syntax in the Full Stack Web Developer Nanodegree program, progress was slow, and it was difficult to express myself. It felt very much like the mental exhaustion of practicing a spoken language. The Udacity introductory materials actually recommended that I start with a beginner Nanodegree program first, but I knew that with my motivation and education, I could fill in the gaps in my knowledge and competency. I kept at it and didn't let myself get discouraged.
 
-I launched into the Full Stack Web Developer Nanodegree program and kept at it. I got to an exercise in lesson 5 in which we had to create a break timer. The timer opens a YouTube video every two hours, to encourage people to take a break while working on the computer. I wrote the code independently, then checked the instructor's solution. **When adding a loop to the break counter, I came up with a more efficient way to program it** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. 
+I got to an exercise in which we had to create a break timer. The timer opens a YouTube video every two hours, to encourage people to take a break while working on the computer. I wrote the code independently, then checked the instructor's solution.
+
+**When adding a loop to the break counter, I came up with a more efficient way to program it** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. **My code demonstrated that I had learned to think independently and write code in the most efficient and Pythonic way.** 
 
 *My code:*
 
 ```python
-# my break timer
+# My break timer
 import time
 import webbrowser
 
-for i in range(3):
-    time.sleep(7)  # try 7 seconds. For 2 hours, use 2*60*60.
+for i in range(4):
+    time.sleep(2 * 60 * 60)
     webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
+
 ```
 
 
 *Instructor's code:*
 
 ```python
-# instructor's break timer
+# Instructor's break timer
 import time
 import webbrowser
 
-total_breaks = 3
-break_count = 0  # starting point 
+total_breaks = 4
+break_count = 0
 
 while(break_count < total_breaks):
-    time.sleep(7)  # try 7 seconds
+    time.sleep(2 * 60 * 60)
     webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
-    break_count = break_count + 1 
-    # add 1 each time, to stop at 3 and avoid infinite loop
+    break_count = break_count + 1
+
 ```
 
-**I realized the significance of the thought process because I had taken time to learn about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson wrote an article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)," *Harvard Gazette* 201309, and the corresponding book, *The Innovators*. **I had moved beyond the rote completion of exercises to think independently in the most efficient and Pythonic way.** 
+**I realized the significance of this exercise because I had learned about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson's article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)" (*Harvard Gazette* 201309), and the corresponding book, [The Innovators](http://a.co/66iyBT1), were key parts of my computing curriculum.
 
-Computer memory is less limiting today, but we still have to be conscious of file sizes, especially when accessing files over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
+Computer memory is less limiting today, but we still have to write code efficiently, especially when it is accessed over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
 
 
 ### Turtle graphics
@@ -127,6 +130,7 @@ Instead of just drawing a shape, I imported a gif for the background, and looped
 *Code:*
 
 ```python
+# Turtle graphics
 import turtle
 import colorsys
 
@@ -165,8 +169,7 @@ We wrote a program that analyzes text files, and shows an alert when profanity i
 *Code:*
 
 ```python
-# Profanity checker mini-project
-# Code rewritten for Requests
+# Profanity checker
 
 import requests
 
@@ -245,19 +248,24 @@ Hope you enjoy the site!
 For this project, we wrote a Python program, containing SQL queries, to extract information from a database of news articles and return the results in plain text.
 
 ```text
- Query 1: Most popular three articles
-		Candidate is jerk, alleges rival  --  338647 views
-		Bears love berries, alleges bear  --  253801 views
-		Bad things gone, say good people  --  170098 views
+Query 1: Most popular three articles
+	Candidate is jerk, alleges rival  --  338647 views
+	Bears love berries, alleges bear  --  253801 views
+	Bad things gone, say good people  --  170098 views
 
- Query 2: Most popular authors
-		Ursula La Multa  --  507594 views
-		Rudolf von Treppenwitz  --  423457 views
-		Anonymous Contributor  --  170098 views
-		Markoff Chaney  --  84557 views
+Query 2: Most popular authors
+	Ursula La Multa
+	507594 views
+	Rudolf von Treppenwitz
+	23457 views
+	Anonymous Contributor
+	170098 views
+	Markoff Chaney
+	84557 views
 
- Query 3: Days on which >1% HTTP requests returned 404 errors
-		July 17, 2016  --  2.26% errors
+Query 3: Days on which >1% HTTP requests returned 404 errors
+	July 17, 2016
+	2.26% errors
 ```
 
 I passed initial code review with no required corrections. The reviewer made some helpful suggestions, and I incorporated them into my code.
