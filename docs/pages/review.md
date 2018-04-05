@@ -7,9 +7,7 @@ permalink: /review/
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
-Part 01. Programming fundamentals and the web
-
-Project 02. Build a portfolio site
+Project 2. Build a portfolio site
 
 Brendon Smith
 
@@ -23,10 +21,10 @@ br3ndonland
 * [Changelog]({{ 'changelog/' | relative_url }})
 * [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-## TOC
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [First submission](#first-submission)
 - [Second submission](#second-submission)
@@ -162,7 +160,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 
 ### Code review
-[(Back to TOC)](#toc)
+[(Back to TOC)](#table-of-contents)
 
 #### *index.html:*
 
@@ -565,7 +563,7 @@ Really cool additional customisation! :sparkles:
 
 
 ## Second submission
-[(Back to TOC)](#toc)
+[(Back to TOC)](#table-of-contents)
 
 ### Response to reviewer
 
@@ -751,7 +749,7 @@ If I may suggest, please read [this](https://hackhands.com/70-Expert-Ideas-For-B
 
 
 ## Third submission
-[(Back to TOC)](#toc)
+[(Back to TOC)](#table-of-contents)
 
 ### Response to reviewer
 
@@ -844,4 +842,4 @@ AWESOME
 Thanks for adding my suggestions :smile:
 
 
-[(Back to TOC)](#toc)
+[(Back to TOC)](#table-of-contents)

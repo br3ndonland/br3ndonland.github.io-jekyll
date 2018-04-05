@@ -7,9 +7,7 @@ permalink: /rubric/
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
-Part 01. Programming fundamentals and the web
-
-Project 02. Build a portfolio site
+Project 2. Build a portfolio site
 
 Brendon Smith
 
@@ -23,10 +21,10 @@ br3ndonland
 * [Changelog]({{ 'changelog/' | relative_url }})
 * [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-## TOC
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## Table of Contents  
 
 - [Udacity Project Overview](#udacity-project-overview)
 - [Udacity Project Details](#udacity-project-details)
@@ -34,6 +32,7 @@ br3ndonland
 - [Submission](#submission)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Udacity Project Overview
 

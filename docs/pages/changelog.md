@@ -7,6 +7,64 @@ permalink: /changelog/
 
 Changes after completing Udacity project, in reverse chronological order. All changes have been committed with Git and pushed to GitHub.
 
+## Update formatting and info
+
+* Add about links to featured work on homepage
+* Organize /about with more headers
+* Move TOC links to ends of sections
+* Revise descriptions
+* Add GWG pics
+
+
+## Revise TOC
+
+SHA: f277e36026095a7e9c8b40b61ae0bb3c037d16d7
+
+
+## Remove /about/#intro
+
+SHA: 4819f02cb70b5872da370b648e89636c0b71620e
+
+
+## Update homepage thumbnail
+
+SHA: 6e86da882bf6822526295a7c11a8cf1779a9e33b
+
+
+## Revise jumbotron text
+
+SHA: 121df464c58e2c78a936875a80e892f868a97ba7
+
+
+## Add png and ico versions of favicon
+
+SHA: f50f3c382cac8a3d59c218592e5d6ee545110648
+
+
+## Add favicon
+
+SHA: 262ff1bd270d2b16ba068680de14926c71273310
+
+
+## Replace database analysis text block with img
+
+SHA: ed21114fa291c5baf074bdd83ab6cfb07df5a10a
+
+
+## Wrap text blocks and revise /about
+
+SHA: 9308d7dceee0d6c8b707f89158319ea55f3e26c2
+
+
+## Revise headers on /about
+
+SHA: 8aba85b7448487fe0238e03f9d064868815c2cdd
+
+
+## Correct Python formatting on /about
+
+SHA: 751dbfe8f6b1b3a8d3dad9f503c43063f6b0818b
+
 
 ## Add syntax highlighting
 

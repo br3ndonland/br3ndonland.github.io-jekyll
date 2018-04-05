@@ -3,19 +3,17 @@ layout: page
 title: Methods
 permalink: /methods/
 ---
-# Portfolio website methods and notes
+# Portfolio website methods
 
 **Udacity Full Stack Web Developer Nanodegree program**
 
-Part 01. Programming fundamentals and the web
-
-Project 02. Build a portfolio site
+Project 2. Build a portfolio site
 
 Brendon Smith
 
 br3ndonland
 
-**Portfolio website project documentation:**
+**Portfolio website documentation:**
 
 * [Methods]({{ 'methods/' | relative_url }})
 * [Rubric]({{ 'rubric/' | relative_url }})
@@ -23,10 +21,9 @@ br3ndonland
 * [Changelog]({{ 'changelog/' | relative_url }})
 * [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
 
-## TOC
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## Table of Contents
 
 - [Summary](#summary)
 - [Development environment](#development-environment)
@@ -56,15 +53,17 @@ The repository for this project is available at [https://github.com/br3ndonland/
 
 I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages at [https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio](https://br3ndonland.github.io/udacity-fsnd01-p02-portfolio). The website has three pages: "Home," an "About" page explaining how I built the site in detail, and a "Rubric" page providing a comparison with the Udacity project rubric and all the Udacity documentation for the project.
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Development environment
-[(Back to TOC)](#toc)
 
 I wrote the code in Sublime Text, as usual. I typically had two windows open: a double pane window, with left side for the core files I was creating (like this one, and the HTML and CSS), and right side for the Bootstrap core files for reference, and a separate window for my Udacity reference materials. I usually had three Chrome browser windows open: one for Udacity, one for reference sites like Bootstrap, and a third to preview my site with Developer Tools.
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Bootstrap
-[(Back to TOC)](#toc)
 
 I based the site on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. 
 
@@ -95,9 +94,10 @@ I explored the different ways to use Bootstrap.
   - There are online [Bootstrap editors](https://bootstrapbay.com/blog/bootstrap-editors/) like [Codeply](https://www.codeply.com/) and [Bootply](https://www.bootply.com/) that can make development easier. 
   - There are also templates available (like the [premium themes from Bootstrap](https://themes.getbootstrap.com/)) from [WrapBootstrap](https://wrapbootstrap.com/) and [BootstrapBay](https://bootstrapbay.com/).
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## General webpage style and structure
-[(Back to TOC)](#toc)
 
 See the **Rubric comparison** section of README.md for details.
 
@@ -117,9 +117,10 @@ See the **Rubric comparison** section of README.md for details.
   ```
   In the future, I will look at other TOC creation options in kramdown (the Markdown to HTML converter used by Jekyll, see [below](#website-creation-with-jekyll)).
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Header
-[(Back to TOC)](#toc)
 
 * *[Container](https://getbootstrap.com/docs/4.0/layout/overview/#containers):* I placed the `header` inside a `container` to keep it in line with other elements, as shown in the portfolio site mockup. A `container` should usually be the top-level div, but not always. For example, in the Bootstrap [docs](https://getbootstrap.com/docs/4.0/content/typography/), `header` is not in a `container`, and is outside the margins of the container below.
 * *[Grid](https://getbootstrap.com/docs/4.0/layout/grid/):* I created a grid in the header to show the Udacity logo and the text as two columns in the same row. Bootstrap has most of the optimal [flexbox formatting](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) built in already. There are 12 columns by default. I also tried including header elements as spans, but they did not align vertically.
@@ -147,16 +148,19 @@ See the **Rubric comparison** section of README.md for details.
   - **I continued to struggle with vertical alignment throughout construction of the website.** Items in columns tend to stick to the top of the column, and it is very difficult to get them to vertically center within the column.
 * *Navbar:* Later, during [website troubleshooting](#website-troubleshooting), I realized it would be helpful to have navigation at the top of the page. I included a collapsed [Bootstrap navbar](https://getbootstrap.com/docs/4.0/components/navbar/).
 
+[(Back to TOC)](#table-of-contents)
+
+
 ## Jumbotron
-[(Back to TOC)](#toc)
 
 * *Background:* I used the signature Udacity gradient. I also liked the simple gray default, and tried using different background images, such as the ones from the [Google Material Design guidelines](https://material.io/guidelines/material-design/introduction.html).
 * *Responsive design:* I noticed that the jumbotron `h1` text had strange breakpoints. At viewport width <534px it was on two lines, then between 534px and 575px one line, then between 576px and 767px it broke onto two lines again, then ≥768 back to one line. I wanted to eliminate the break point between 576px and 767px. I first got rid of the Bootstrap `narrow-jumbotron` CSS that put in a breakpoint at `48em`, then coordinated the media queries with the column sizes set with classes in the HTML. **I finally got it: `col-md-6` header columns on medium displays, `col-sm-4` columns for thumbnails, and two media queries to shrink the page down at `991px` and `768px`.**
 * *Buttons:* I chose not to use a button group, so the buttons would stay separated. In order to prevent the buttons from breaking onto multiple lines on mobile, I simply reduced the font size to `font-size: 1.2rem;`.
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Portfolio thumbnails
-[(Back to TOC)](#toc)
 
 * *Responsive design:* 
   - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
@@ -186,16 +190,19 @@ See the **Rubric comparison** section of README.md for details.
 <img src="../img/Screen-Shot-2017-11-03-at-11.35.08-AM.png" alt="Completed responsive homepage on Nexus" class="img-fluid">
 
 
+[(Back to TOC)](#table-of-contents)
+
+
 ## Footer
-[(Back to TOC)](#toc)
 
 * I kept the footer relatively simple, in terms of formatting. I centered it with CSS and used the `text-muted` class to gray it out.
 * The sizing of the GitHub icon was a bit complicated. I set its class to `2rem`. I also wanted to disable the default link behavior, because an underline was popping up behind the GitHub icon. I had to dig around in the Bootstrap documentation a lot, and eventually found the `card-link` class [here](https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links), which doesn't have underlining.
 * I included a button to toggle [color schemes](#color-schemes). See below.
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Theme toggle
-[(Back to TOC)](#toc)
 
 ### Colors
 
@@ -326,9 +333,10 @@ Here are screenshots of the webpage after completing the theme toggle:
 
 <img src="../img/Screen-Shot-2017-11-10-at-6.54.34-PM.png" alt="Completed responsive homepage on desktop with dark theme" class="img-fluid">
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Website creation with Jekyll
-[(Back to TOC)](#toc)
 
 ### Intro 
 
@@ -382,9 +390,10 @@ There are also **two types of GitHub Pages sites: user and project pages.** I ma
   - I included the body of the webpage that I built for the Udacity project in the root directory (the *docs/* folder) as *index.html*, with `layout: home` in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/) instead of the header and footer.
 * Other pages: I simply had to include YAML front matter at the beginning of the other pages to format them with layouts.
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Jekyll website hosting with GitHub Pages
-[(Back to TOC)](#toc)
 
 ### Intro
 
@@ -418,9 +427,10 @@ Jekyll sites can be deployed to GitHub pages either as user or project pages, as
 * [GitHub Pages guide from Anna Debenham at 24 ways](https://24ways.org/2013/get-started-with-github-pages/)
 * [GitHub Pages guide from Thinkful](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
 
+[(Back to TOC)](#table-of-contents)
+
 
 ## Website troubleshooting
-[(Back to TOC)](#toc)
 
 **Liquid, Jekyll, GitHub Pages, and GitHub are not seamlessly integrated.**
 
@@ -466,7 +476,7 @@ I couldn't get blockquotes to show up properly, either with Markdown or HTML `bl
 
 ### Header anchors
 
-GitHub provides header anchor links, so that Markdown headers viewed on GitHub each have unique links. When viewing this site on GitHub pages, the headers do not automatically have anchors.
+GitHub provides header anchor links, so that Markdown headers viewed on GitHub each have unique links. When viewing this site on GitHub pages, the header links do exist (so you can type the link into the URL manually), but the headers themselves do not have hyperlinks.
 
 
 ### Jekyll plugins and themes
@@ -477,6 +487,8 @@ GitHub only allows [select plugins](https://help.github.com/articles/adding-jeky
 
 
 ### View local Jekyll site on Android device
+
+I used this feature to view a local preview of the site on my Android phone.
 
 * [Enable remote debugging on Android device](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
   - Go to device settings, System, click on build number seven times (seriously).
@@ -497,4 +509,4 @@ GitHub only allows [select plugins](https://help.github.com/articles/adding-jeky
 **See the [Review]({{ 'review/' | relative_url }}) and [Changelog]({{ 'changelog/' | relative_url }}) pages for further changes.**
 
 
-[(Back to TOC)](#toc)
+[(Back to TOC)](#table-of-contents)
