@@ -5,11 +5,9 @@ permalink: /about/
 ---
 # About me
 
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [My journey](#my-journey)
 - [Custom computing curriculum](#custom-computing-curriculum)
 - [Udacity Full Stack Web Developer Nanodegree program](#udacity-full-stack-web-developer-nanodegree-program)
@@ -18,9 +16,6 @@ permalink: /about/
 - [Udacity Grow with Google program](#udacity-grow-with-google-program)
   - [Description](#description)
   - [Meetups](#meetups)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 
 ## My journey
 
@@ -40,55 +35,51 @@ I had some statistics and data science training, but no development experience. 
 
 [(Back to TOC)](#table-of-contents)
 
-
 ## Custom computing curriculum
 
 I have been learning about computers with these resources.
 
-* **Foundational**
-	- [Harvard cs50](https://cs50.harvard.edu)
-	- [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
-	- [basecs](https://medium.com/basecs)
-	- [CodeNewbie](https://www.codenewbie.org/)
-* **Practical**
-	- [Udacity Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
-	- [Udacity Grow with Google scholarship](https://www.udacity.com/grow-with-google)
-* **Historical**
-	- [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
-	- [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)
-	- [Where Good Ideas Come From: The Natural History of Innovation, by Steven Johnson](http://a.co/fwkJ8uz)
-	- [What Technology Wants, by Kevin Kelly](http://a.co/1zgpMlU)
-* **Cultural**
-	- [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
-	- [Silicon Valley](http://www.imdb.com/title/tt2575988/)
-	- [Mr. Robot](http://www.imdb.com/title/tt4158110/)
+- **Foundational**
+  - [Harvard cs50](https://cs50.harvard.edu)
+  - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
+  - [basecs](https://medium.com/basecs)
+  - [CodeNewbie](https://www.codenewbie.org/)
+- **Practical**
+  - [Udacity Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
+  - [Udacity Grow with Google scholarship](https://www.udacity.com/grow-with-google)
+- **Historical**
+  - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
+  - [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)
+  - [Where Good Ideas Come From: The Natural History of Innovation, by Steven Johnson](http://a.co/fwkJ8uz)
+  - [What Technology Wants, by Kevin Kelly](http://a.co/1zgpMlU)
+- **Cultural**
+  - [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
+  - [Silicon Valley](http://www.imdb.com/title/tt2575988/)
+  - [Mr. Robot](http://www.imdb.com/title/tt4158110/)
 
 [(Back to TOC)](#table-of-contents)
 
-
 ## Udacity Full Stack Web Developer Nanodegree program
 
-
 Here are some highlights from my work in the program:
-
 
 ### Lessons
 
 Udacity introduces key information and skills in lessons prior to each project.
 
-
 #### Break timer
+
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_05_functions.ipynb)
 
-**This was my first milestone as a computer programmer.** 
+**This was my first milestone as a computer programmer.**
 
 When I began learning Python syntax in the Full Stack Web Developer Nanodegree program, progress was slow, and it was difficult to express myself. It felt very much like the mental exhaustion of practicing a spoken language. The Udacity introductory materials actually recommended that I start with a beginner Nanodegree program first, but I knew that with my motivation and education, I could fill in the gaps in my knowledge and competency. I kept at it and didn't let myself get discouraged.
 
 I got to an exercise in which I had to create a break timer. The timer opens a YouTube video every two hours, to encourage people to take a break while working on the computer. I wrote the code independently, then checked the instructor's solution.
 
-When adding a loop to the break counter, **I came up with a more efficient way to write the program** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. **My code demonstrated that I had learned to think independently and write code in the most efficient and Pythonic way.** 
+When adding a loop to the break counter, **I came up with a more efficient way to write the program** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. **My code demonstrated that I had learned to think independently and write code in the most efficient and Pythonic way.**
 
-*My Python code:*
+My Python code:
 
 ```python
 # My break timer
@@ -101,7 +92,6 @@ for i in range(4):
 
 ```
 
-
 *Instructor's Python code:*
 
 ```python
@@ -113,9 +103,9 @@ total_breaks = 4
 break_count = 0
 
 while(break_count < total_breaks):
-    time.sleep(2 * 60 * 60)
-    webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
-    break_count = break_count + 1
+      time.sleep(2 * 60 * 60)
+      webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
+      break_count = break_count + 1
 
 ```
 
@@ -123,13 +113,13 @@ while(break_count < total_breaks):
 
 Computer memory is less limiting today, but we still have to write code efficiently, especially when it is accessed over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
 
-
 #### Turtle graphics
+
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_06_classes_turtles.ipynb)
 
 Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect.
 
-*Python code:*
+Python code:
 
 ```python
 # Turtle graphics
@@ -158,17 +148,17 @@ spiral_into_the_grid()
 
 ```
 
-*Output:*
+Output:
 
 <img src="../img/turtles-final-small.png" alt="Turtle graphics mini-project final image" class="img-fluid">
 
-
 #### Profanity checker
+
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_08_classes_checker.ipynb)
 
 I wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
 
-*Input from movie_quotes.txt:*
+Input from movie_quotes.txt:
 
 ```text
 -- Houston, we have a problem. (Apollo 13)
@@ -180,7 +170,7 @@ I wrote a program that analyzes text files, and shows an alert when profanity is
 -- I believe everything and I believe nothing. (A Shit in the Dark)
 ```
 
-*Python code:*
+Python code:
 
 ```python
 # Profanity checker
@@ -214,7 +204,7 @@ read_text()
 
 ```
 
-*Output:*
+Output:
 
 ```text
 -- Houston, we have a problem. (Apollo 13)
@@ -227,23 +217,22 @@ read_text()
 Profanity Alert!
 ```
 
-
 ### Projects
 
 The Full Stack Web Developer Nanodegree program is focused on projects, in which students can independently implement what they have learned in the lessons.
 
 When coding projects, I keep **computational narratives** describing what I do at each step, like journals or lab notebooks. I learned how to keep computational narratives from scientific computing in Jupyter Notebook/JupyterLab and RMarkdown. Computational narratives capture my train of thought, so I can retrace my steps, retain what I have learned, and teach others. Computational narratives for these projects are available in their GitHub repositories.
 
-
 #### Project 1. Python web server
+
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site)
 
 <img src="../img/python-web-server-page.png" alt="Python web server screenshot" class="img-fluid">
 
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
-
 #### Project 2. Portfolio website
+
 [Code on GitHub](https://github.com/br3ndonland/udacity)
 
 <img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-fluid" width="150px">
@@ -254,14 +243,14 @@ Hope you enjoy the site!
 
 **Portfolio website project documentation:**
 
-* [Methods]({{ 'methods/' | relative_url }})
-* [Rubric]({{ 'rubric/' | relative_url }})
-* [Review]({{ 'review/' | relative_url }})
-* [Changelog]({{ 'changelog/' | relative_url }})
-* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
-
+- [Methods]({{ 'methods/' | relative_url }})
+- [Rubric]({{ 'rubric/' | relative_url }})
+- [Review]({{ 'review/' | relative_url }})
+- [Changelog]({{ 'changelog/' | relative_url }})
+- [GitHub](https://github.com/br3ndonland/udacity)
 
 #### Project 3. Database analysis
+
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
 
 <img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-fluid" width="300px">
@@ -272,12 +261,9 @@ I passed initial code review with no required corrections. The reviewer made som
 
 [(Back to TOC)](#table-of-contents)
 
-
 ## Udacity Grow with Google program
 
-
 <img src="../img/udacity-google-scholarship.png" alt="Udacity Grow with Google scholarship award" class="img-fluid" width="300px">
-
 
 ### Description
 
@@ -285,31 +271,30 @@ I passed initial code review with no required corrections. The reviewer made som
 
 I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google). Udacity also created a [website](https://sites.google.com/udacity.com/gwgdevscholarship/home) for the course.
 
-*Here's how it went down:*
+Here's how it went down:
 
-* Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the New York Coffee Festival on October 14, 2017.
-* [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
-* Won the scholarship in January 2018.
-* Started the challenge course materials on February 21, 2018.
-* Completed the challenge course materials on March 7, 2018.
-* Continued attending local meetups.
-
+- Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the New York Coffee Festival on October 14, 2017.
+- [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
+- Won the scholarship in January 2018.
+- Started the challenge course materials on February 21, 2018.
+- Completed the challenge course materials on March 7, 2018.
+- Continued attending local meetups.
 
 ### Meetups
 
-**Grow with Google meetup at Boston Public Library, February 24, 2018**
+#### Grow with Google meetup at Boston Public Library, February 24, 2018
 
 <img src="../img/gwg-meetup-20180224-bpl.jpg" alt="Grow with Google meetup at Boston Public Library, February 24, 2018" class="img-fluid">
 
-**Grow with Google meetup in Watertown, March 24, 2018**
+#### Grow with Google meetup in Watertown, March 24, 2018
 
 <img src="../img/gwg-meetup-20180324-watertown.jpg" alt="Grow with Google meetup in Watertown, March 24, 2018" class="img-fluid">
 
-**Grow with Google meetup at MIT, March 24, 2018**
+#### Grow with Google meetup at MIT, March 24, 2018
 
 <img src="../img/gwg-meetup-20180324-mit.jpg" alt="Grow with Google meetup at MIT, March 24, 2018" class="img-fluid">
 
-**Grow with Google meetup at MIT March 29, 2018**
+#### Grow with Google meetup at MIT March 29, 2018
 
 <img src="../img/gwg-meetup-20180329-mit.jpg" alt="Grow with Google meetup at MIT March 29, 2018" class="img-fluid">
 

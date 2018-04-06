@@ -5,7 +5,7 @@ permalink: /review/
 ---
 # Udacity project review
 
-**Udacity Full Stack Web Developer Nanodegree program**
+Udacity Full Stack Web Developer Nanodegree program
 
 Project 2. Build a portfolio site
 
@@ -15,29 +15,37 @@ br3ndonland
 
 **Portfolio website project documentation:**
 
-* [Methods]({{ 'methods/' | relative_url }})
-* [Rubric]({{ 'rubric/' | relative_url }})
-* [Review]({{ 'review/' | relative_url }})
-* [Changelog]({{ 'changelog/' | relative_url }})
-* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
+- [Methods]({{ 'methods/' | relative_url }})
+- [Rubric]({{ 'rubric/' | relative_url }})
+- [Review]({{ 'review/' | relative_url }})
+- [Changelog]({{ 'changelog/' | relative_url }})
+- [GitHub](https://github.com/br3ndonland/udacity)
 
+## Table of contents
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
+- [Table of contents](#table-of-contents)
 - [First submission](#first-submission)
+  - [Summary from me](#summary-from-me)
+  - [Summary from reviewer](#summary-from-reviewer)
+  - [Project review](#project-review)
+  - [Code review](#code-review)
 - [Second submission](#second-submission)
+  - [Response to reviewer](#response-to-reviewer)
+  - [Summary from reviewer](#summary-from-reviewer)
+  - [Project review](#project-review)
+  - [Code review](#code-review)
 - [Third submission](#third-submission)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
+  - [Response to reviewer](#response-to-reviewer)
+  - [Full list of changes for Git commit](#full-list-of-changes-for-git-commit)
+  - [Summary from reviewer](#summary-from-reviewer)
+  - [Project review](#project-review)
+  - [Code review](#code-review)
 
 ## First submission
 
 ### Summary from me
 
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css* for additional custom styling. 
+I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0-beta. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN), and created *portfolio.css- for additional custom styling.
 
 I provided a toggle button in the footer that uses jQuery JavaScript to change the page color scheme.
 
@@ -49,7 +57,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 ### Summary from reviewer
 
 > **Project looks fantastic and you’re almost there to meeting specifications, so keep up the great effort!**  :star:
-> 
+>
 > **There is only a little more work to be done on the layout architecture and making sure you have complete separation of styles before your project can fully meet specifications.** :smiley:
 
 
@@ -57,22 +65,22 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 #### Design
 
-* Required Elements
+- Required Elements
   - Images: Two png thumbnails, three svg logos
   - Logo: svg for easy scaling
   - Header text
   - Paragraph text
-* Semantic HTML
+- Semantic HTML
   - All divs have CSS classes.
   - Reviewer comments:
     > **Well done using some semantic elements to mark up appropriate content in your HTML. I have left you some additional suggestions in the code review.**
     > **Having semantic code can go a long way to making it more understandable to both the programmer and in terms of accessibility.**
     > **You can see on this [page](https://www.w3schools.com/html/html5_semantic_elements.asp) the list of new semantic elements in HTML5.**
-* Custom Design
+- Custom Design
   - Custom images and text
   - Custom CSS
   - Custom jQuery JavaScript to toggle HTML and CSS changes.
-* Grid-Based Layout
+- Grid-Based Layout
   - Website built with Bootstrap. All grids wrapped in `container` class elements.
   - Reviewer comments:
     > **The Bootstrap grid layout needs a little more work in order to fully conform with the spec and intended use, with reference to the framework docs. Please see the code review for further guidance.**
@@ -80,27 +88,27 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 #### Responsiveness
 
-* Cross-Device Compatibility
+- Cross-Device Compatibility
   - All content responsive. Tested on Desktop, Mobile: Google Nexus 5, Tablet: Apple iPad
   - Reviewer comments:
     > **Site is responsive across all required viewports!** :star:
-* Provide All Content
-  - All content rendered on all three devices. 
-* Viewport `meta` tag included in HTML
-* Responsive features
+- Provide All Content
+  - All content rendered on all three devices.
+- Viewport `meta` tag included in HTML
+- Responsive features
   - `img-thumbnail` Bootstrap class used for responsive portfolio thumbnail images.
-  - I created a media query to center align the text when the header grid reduces to one column. 
+  - I created a media query to center align the text when the header grid reduces to one column.
   - Reviewer comments:
     > **For future reference and/or learning on the use of responsive images and backgrounds in different contexts, you may find it useful to see this [page](https://www.w3schools.com/css/css_rwd_images.asp) from W3Schools and the MDN [docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images).**
 
 
 #### Separation of Concerns
 
-* Styles Separated from HTML
-  - Structure (HTML) separated from style (CSS). 
+- Styles Separated from HTML
+  - Structure (HTML) separated from style (CSS).
   - Reviewer comments:
     > **There is a style attribute remaining in your HTML. This style information will need to be moved to CSS in order to meet specifications. Please see the code review for details.**
-* File Structure
+- File Structure
   - Directory structure separates files based on functionality.
   `css/` for stylesheets
   `img/` for images
@@ -111,7 +119,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
 
 #### Code Quality
 
-* HTML Formatting Rules
+- HTML Formatting Rules
   - Two spaces used for indentation. Indentation for nested elements.
   - Elements on new lines. Child elements indented.
   - No trailing whitespace.
@@ -120,19 +128,19 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - [Optional] Double quotation marks used for attributes.
   - Reviewer comments
     > **Code quality is excellent and a pleasure to parse!** :star:
-* HTML Style Rules
+- HTML Style Rules
   - HTML5 doctype.
   - Code passes HTML validators: Note that the Google Fonts stylesheet link contains a pipe. It returns an error in the HTML validator, but is proper formatting [according to Google](https://developers.google.com/fonts/docs/getting_started#specifying_font_families_and_styles_in_a_stylesheet_url).
   - [Optional] Code does not use entity references unless necessary.
   - [Optional] Code omits type attributes for style sheets and scripts.
   - Reviewer comments:
     > **Well done on submitting valid and CSS3 for review! The HTML5 validator complains about:**
-    > 
+    >
     > Error: Bad value `https://fonts.googleapis.com/css?family=Lobster|Raleway:300` for attribute `href` on element link: Illegal character in query: `|` is not allowed.
     > From line 11, column 5; to line 11, column 94
-    > 
+    >
     > **The above issue is relatively easy to fix by substituting the equivalent HTML URL encoding (%7C) for the pipe.**
-* CSS Formatting Rules
+- CSS Formatting Rules
   - Two spaces used for indentation. Block content within curly braces indented.
   - No trailing whitespace.
   - All CSS lowercase.
@@ -144,7 +152,7 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - [Optional] Code uses double quotation marks for attribute selectors or property values.
   - Reviewer comments:
     > **Your CSS is neat and follows most best practices as presented in the Udacity [Styleguide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html). I have left you some pointers for what could be further improved.** :smiley:
-* CSS Style Rules
+- CSS Style Rules
   - Class-based styling for maximum flexibility.
   - Meaningful and short class names used.
   - Code passes CSS validators. This document validates as [CSS level 3](http://www.w3.org/Style/CSS/current-work.html).
@@ -152,11 +160,11 @@ I used the webpage design to create a full website with Jekyll, and hosted the s
   - [Optional] hyphens used for class names with >1 word.
   - Reviewer comments:
     > **Well done naming your CSS classes semantically. Going forward, you may further be interested in looking into the [BEM](http://getbem.com/introduction/) CSS framework, which establishes a robust methodology for naming styles and can help you stay on top of progressively more complex projects through improved modularity, re-usability and maintainability of CSS code.**
-* General Meta Rules
+- General Meta Rules
   - `UTF-8` encoding used
   -  [Optional] While I was building the site, I kept track of to-do items and tasks with comments:
   `<!-- TODO: [description of task] -->` for HTML
-  `/* TODO: [description of task] */` for CSS
+  `/- TODO: [description of task] */` for CSS
 
 
 ### Code review
@@ -361,7 +369,7 @@ Nice work adding some additional contact opportunities for user interaction. :st
 #### *css/portfolio.css:*
 
 ```css
-1/* Header and Headings */
+1/- Header and Headings */
 2​
 3h1, .h1 {}
 ```
@@ -412,7 +420,7 @@ Good use of the border shorthand to simplify what would otherwise require multip
 29  color: #7d97ad;
 30}
 31​
-32/* Body */
+32/- Body */
 33​
 34body {
 35  padding-top: 1rem;
@@ -427,7 +435,7 @@ We could streamline the above padding declarations.
 :pencil2: Example
 
 ```text
-/* top/bottom | left/right */
+/- top/bottom | left/right */
 padding: 1rem 0;
 ```
 
@@ -447,7 +455,7 @@ Please see the following [page](https://developer.mozilla.org/en-US/docs/Web/CSS
 44  height: 2rem;
 45}
 46​
-47/* Side spacing for mobile first views */
+47/- Side spacing for mobile first views */
 48​
 49.header,
 50.marketing,
@@ -456,7 +464,7 @@ Please see the following [page](https://developer.mozilla.org/en-US/docs/Web/CSS
 53  padding-left: 1rem;
 54}
 55​
-56/* Jumbotron */
+56/- Jumbotron */
 57​
 58.background-udacity {
 59  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
@@ -477,13 +485,13 @@ The Udacity [Styleguide](http://udacity.github.io/frontend-nanodegree-styleguide
 ```css
 67}
 68​
-69/* Portfolio thumbnails */
+69/- Portfolio thumbnails */
 70​
 71.img-thumbnail {
 72  max-height: 300px;
 73}
 74​
-75/* Media queries for responsive text and images */
+75/- Media queries for responsive text and images */
 ```
 AWESOME
 The comments used to provide organisation to your stylesheet are awesome. :thumbsup:
@@ -499,29 +507,29 @@ Well done using media queries to provide further breakpoints for your responsive
 Since you are using Bootstrap, if you wanted to exert more control over the layout at different viewport sizes, consider instead making use of the additional [prefixing and sizing](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options) available through the framework.
 
 ```css
-78  /* Shrink text */
+78  /- Shrink text */
 79  html {
 80    font-size: 0.7rem;
 81  }
-82  /* Match header logo size with text */
+82  /- Match header logo size with text */
 83  .header-logo {
 84  width: 250px;
 85  }
 86}
 87​
 88@media (max-width: 767px) {
-89  /* Center header for smaller viewports */
+89  /- Center header for smaller viewports */
 90  .header, .header-logo, .header-title, .header-subtitle {
 91    text-align: center;
 92  }
 93  .header-logo {
 94  max-width: 200px;
 95  }
-96  /* Shrink thumbnails */
+96  /- Shrink thumbnails */
 97  .img-thumbnail {
 98    max-height: 200px;
 99  }
-100  /* Remove padding */
+100  /- Remove padding */
 101  .header,
 102  .marketing,
 103  .footer {
@@ -530,7 +538,7 @@ Since you are using Bootstrap, if you wanted to exert more control over the layo
 106  }
 107}
 108​
-109/* Dark theme */
+109/- Dark theme */
 110.theme-dark {
 111  background-color: #2d3c49;
 112  color: #ddd;
@@ -549,7 +557,7 @@ Being able to write a strong README will help your projects be more approachable
 Also, [Dillinger](https://dillinger.io/) is a great online app for drafting documents with Markdown where you can see the results in real-time.
 
 
-#### *js/portfolio.js:* 
+#### *js/portfolio.js:-
 
 ```javascript
 1// Theme toggle
@@ -567,32 +575,32 @@ Really cool additional customisation! :sparkles:
 
 ### Response to reviewer
 
-Thank you for your comprehensive and helpful code review! I have pushed the changes to my GitHub repository. Here is a summary of my revisions, written in the imperative to match my Git commit message: 
+Thank you for your comprehensive and helpful code review! I have pushed the changes to my GitHub repository. Here is a summary of my revisions, written in the imperative to match my Git commit message:
 
 
 #### *index.html:*
 
-* Add `meta` tags
-* Replace pipe `|` character in Google Fonts stylesheet link with HTML `%7C` equivalent.
-* Remove `style="display: none;"` from HTML. This `style` tag was being used to toggle different versions of the Udacity header logo for light and dark themes, but was not necessary. Instead, use [Bootstrap `d-none` CSS class](https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements), and modify jQuery JavaScript to toggle `d-none` specifically for `header-logo` CSS class.
-* Clarify page structure with HTML5 sectioning elements. Use `header`, `main`, and `footer` to divide `body`. Add `section`, `article`, and `header` tags to divide `main`.
-* Convert "Hello, world!" and "Featured work" text to `h2`, and headers for each thumbnail to `h3`, reserving `h1` for name in header.
-* Revise `footer` to be contained within Bootstrap grid.
-* Incorporate Font Awesome CDN, and change GitHub icon to Font Awesome.
-* Add `justify-content-center` class to nav.
+- Add `meta` tags
+- Replace pipe `|` character in Google Fonts stylesheet link with HTML `%7C` equivalent.
+- Remove `style="display: none;"` from HTML. This `style` tag was being used to toggle different versions of the Udacity header logo for light and dark themes, but was not necessary. Instead, use [Bootstrap `d-none` CSS class](https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements), and modify jQuery JavaScript to toggle `d-none` specifically for `header-logo` CSS class.
+- Clarify page structure with HTML5 sectioning elements. Use `header`, `main`, and `footer` to divide `body`. Add `section`, `article`, and `header` tags to divide `main`.
+- Convert "Hello, world!" and "Featured work" text to `h2`, and headers for each thumbnail to `h3`, reserving `h1` for name in header.
+- Revise `footer` to be contained within Bootstrap grid.
+- Incorporate Font Awesome CDN, and change GitHub icon to Font Awesome.
+- Add `justify-content-center` class to nav.
 
 
 #### *css/portfolio.css:*
 
-* Add new line for each selector when grouping selectors for a rule-set.
-* Simplify padding declarations with `1rem` for body.
-* Use lowercase for all selectors, property names and property values.
-* Modify media query to add break in footer before links.
+- Add new line for each selector when grouping selectors for a rule-set.
+- Simplify padding declarations with `1rem` for body.
+- Use lowercase for all selectors, property names and property values.
+- Modify media query to add break in footer before links.
 
 
 #### *pages*
 
-* Add "Back to TOC" navigation under page headers.
+- Add "Back to TOC" navigation under page headers.
 
 
 ### Summary from reviewer
@@ -731,13 +739,13 @@ Indentation is off here.
 
 ```css
 80  }
-81  /* shrink thumbnails */
+81  /- shrink thumbnails */
 82  .img-thumbnail {
 83    max-height: 200px;
 84  }
 85}
 86​
-87/* dark theme */
+87/- dark theme */
 88.theme-dark {
 89  background-color: #2d3c49;
 90  color: #ddd;
@@ -758,17 +766,17 @@ Hi Fernando! Thanks very much for your feedback on my project. I'm glad that I'm
 
 #### *index.html:*
 
-* Separate jumbotron div from container div.
-* Wrap "Featured work" h2 header in row and col to follow Bootstrap grid.
-* Tried re-sizing images with `srcset` and `sizes` in HTML, but decided to stay with CSS.
-  - In general, I prefer to format images with CSS, because I can format many at once, instead of adding `srcset` and `sizes` each time. 
-  - I don't need to save multiple versions of the images for use with `srcset` for this website, because the file sizes are small and I'm only resizing them ~100px. 
-  - Thank you for your suggestion, and I will keep it in mind for the future. 
+- Separate jumbotron div from container div.
+- Wrap "Featured work" h2 header in row and col to follow Bootstrap grid.
+- Tried re-sizing images with `srcset` and `sizes` in HTML, but decided to stay with CSS.
+  - In general, I prefer to format images with CSS, because I can format many at once, instead of adding `srcset` and `sizes` each time.
+  - I don't need to save multiple versions of the images for use with `srcset` for this website, because the file sizes are small and I'm only resizing them ~100px.
+  - Thank you for your suggestion, and I will keep it in mind for the future.
 
 
 #### *css/portfolio.css:*
 
-* Correct indentation issues.
+- Correct indentation issues.
 
 I simplified the repository name to *udacity*, so the GitHub Pages site is now at https://br3ndonland.github.io/udacity/.
 
@@ -780,38 +788,38 @@ I simplified the repository name to *udacity*, so the GitHub Pages site is now a
 
 #### *footer.html, header.html, index.html:*
 
-* Align header responsively:
-  - Center align header by default. 
+- Align header responsively:
+  - Center align header by default.
   - Left align Udacity logo after the `md` breakpoint, but not other text such as the nav dropdown, with `text-lg-left` added to the HTML for the column. Text alignment may be needed because the image is wrapped inside a link. Image fills header column and looks centered, but is still technically aligned top. Alignment can be challenging when using the Bootstrap framework.
-* Separate jumbotron div from container div.
-* Move header subtitle to jumbotron.
-* Wrap "Featured work" header in row and column to follow Bootstrap grid.
-* Move portfolio site thumbnail to first in list, move link buttons from jumbotron to below thumbnail, and reformat buttons:
-  - Bootstrap button sizes are determined by text and button class (like `btn-lg`), and don't automatically resize responsively or with body text. Further, button groups don't always respect column borders. 
+- Separate jumbotron div from container div.
+- Move header subtitle to jumbotron.
+- Wrap "Featured work" header in row and column to follow Bootstrap grid.
+- Move portfolio site thumbnail to first in list, move link buttons from jumbotron to below thumbnail, and reformat buttons:
+  - Bootstrap button sizes are determined by text and button class (like `btn-lg`), and don't automatically resize responsively or with body text. Further, button groups don't always respect column borders.
   - Individual buttons may reflow onto different lines.
   - I tried to make the links to the portfolio site a horizontal button group, but the button group was shooting through into the next column.
   - Instead of a button group, I created a Bootstrap dropdown menu and incorporated the links into the dropdown.
-* Restructure footer links into Bootstrap nav as Font Awesome icons. Enclose theme toggle button in `a` element to align with icons.
+- Restructure footer links into Bootstrap nav as Font Awesome icons. Enclose theme toggle button in `a` element to align with icons.
 
 
 #### *portfolio.css*
 
-* Correct indentation issues.
-* Set size characteristics for mobile, and re-do media queries for `max-width` instead of `min-width`
-* Enlarge paragraph `p` and list `ul` text to improve visibility on high-resolution mobile devices like the Google Pixel XL.
-* Set dark theme as default.
+- Correct indentation issues.
+- Set size characteristics for mobile, and re-do media queries for `max-width` instead of `min-width`
+- Enlarge paragraph `p` and list `ul` text to improve visibility on high-resolution mobile devices like the Google Pixel XL.
+- Set dark theme as default.
 
 
 #### *portfolio.js*
 
-* Now that dark theme is default, use jQuery to toggle light theme. 
+- Now that dark theme is default, use jQuery to toggle light theme.
 
 
 #### *pages*
 
-* Move "Portfolio website construction methods and notes" to /methods.
-* Create "About" page introducing myself and summarizing my work with Udacity.
-* Change `baseurl` to "/udacity" in *_config.yml.*
+- Move "Portfolio website construction methods and notes" to /methods.
+- Create "About" page introducing myself and summarizing my work with Udacity.
+- Change `baseurl` to "/udacity" in *_config.yml.*
 
 
 ### Summary from reviewer

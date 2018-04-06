@@ -5,7 +5,7 @@ permalink: /rubric/
 ---
 # Udacity project rubric
 
-**Udacity Full Stack Web Developer Nanodegree program**
+Udacity Full Stack Web Developer Nanodegree program
 
 Project 2. Build a portfolio site
 
@@ -15,24 +15,27 @@ br3ndonland
 
 **Portfolio website project documentation:**
 
-* [Methods]({{ 'methods/' | relative_url }})
-* [Rubric]({{ 'rubric/' | relative_url }})
-* [Review]({{ 'review/' | relative_url }})
-* [Changelog]({{ 'changelog/' | relative_url }})
-* [GitHub](https://github.com/br3ndonland/udacity-fsnd01-p02-portfolio)
+- [Methods]({{ 'methods/' | relative_url }})
+- [Rubric]({{ 'rubric/' | relative_url }})
+- [Review]({{ 'review/' | relative_url }})
+- [Changelog]({{ 'changelog/' | relative_url }})
+- [GitHub](https://github.com/br3ndonland/udacity)
 
+## Table of Contents
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents  
-
+- [Table of Contents](#table-of-contents)
 - [Udacity Project Overview](#udacity-project-overview)
+  - [*Why this project?*](#why-this-project)
+  - [*What will I learn?*](#what-will-i-learn)
+  - [*Why is this important to my career?*](#why-is-this-important-to-my-career)
+  - [*Note*](#note)
 - [Udacity Project Details](#udacity-project-details)
+  - [*How do I complete this project?*](#how-do-i-complete-this-project)
+  - [*Instructions:*](#instructions)
+  - [*Additional resources*](#additional-resources)
+  - [*Supporting materials*](#supporting-materials)
 - [Udacity Rubric](#udacity-rubric)
 - [Submission](#submission)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 
 ## Udacity Project Overview
 
@@ -40,13 +43,11 @@ For this project, you'll be building a portfolio website. You will be provided a
 
 Once you've successfully replicated the design mockup, you are encouraged to continue tweaking and making customizations to the design to personalize it and make it your own! This is your living portfolio site, so make sure you're happy with it.
 
-
 ### *Why this project?*
 
-**The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!** You need a professional portfolio to show off your skills.
+**The first thing potential employers look for isn’t which school you attended or what your GPA was; they want to see what you’ve built!*- You need a professional portfolio to show off your skills.
 
 In this project you’ll build a great looking portfolio where you can show off images, descriptions and links to all of your projects. You'll do so by writing code that conforms to the [Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/).
-
 
 ### *What will I learn?*
 
@@ -54,13 +55,11 @@ You will learn how HTML is used to define the content of a web page and start to
 
 You'll accomplish this while conforming to a [style guide](http://udacity.github.io/frontend-nanodegree-styleguide/) which is an important constraint once you step into any existing development position.
 
-
 ### *Why is this important to my career?*
 
-* **Without a portfolio, recruiters won’t even look at your resume much less interview you.**
-* At their very foundation, web applications are just content delivery mechanisms; HTML defines how that language is structured.
-* Reading poorly designed content is never an enjoyable experience; CSS empowers you to create beautiful content regardless of your user’s device.
-
+- **Without a portfolio, recruiters won’t even look at your resume much less interview you.**
+- At their very foundation, web applications are just content delivery mechanisms; HTML defines how that language is structured.
+- Reading poorly designed content is never an enjoyable experience; CSS empowers you to create beautiful content regardless of your user’s device.
 
 ### *Note*
 
@@ -68,14 +67,13 @@ If you were previously enrolled in our Intro to HTML and CSS single course and s
 
 The design mockup for this project is located [here](https://storage.googleapis.com/supplemental_media/udacityu/2655898586/design-mockup-portfolio.pdf).
 
+- [Udacity HTML/CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
+- [HTML Validator](http://validator.w3.org/#validate_by_input)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-* [Udacity HTML/CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
-* [HTML Validator](http://validator.w3.org/#validate_by_input)
-* [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
+[(Back to TOC)](#table-of-contents)
 
 ## Udacity Project Details
-[(Back to TOC)](#toc)
 
 ### *How do I complete this project?*
 
@@ -92,21 +90,25 @@ Be sure to follow the [Project Rubric](https://review.udacity.com/#!/rubrics/45/
 3. Write your HTML and CSS files, continue to iterate until your work is representative of the design mockup.
 4. Take the time to personalize your portfolio with custom colors, additional content and your own images.
 5. Validate your HTML and CSS against the [W3C's Validators](http://validator.w3.org/). *Note: the validators consider the following errors, whereas Udacity accepts these errors as acceptable:*
-  - HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta** when using the X-UA-Compatible meta tag.
-  - CSS3: **Property [some property here] is an unknown vendor extension** when using vendor prefixed properties (like -moz-box-sizing).
+    - HTML5: **Bad value X-UA-Compatible for attribute http-equiv on element meta*- when using the X-UA-Compatible meta tag.
+    - CSS3: **Property [some property here] is an unknown vendor extension*- when using vendor prefixed properties (like -moz-box-sizing).
 
 ### *Additional resources*
+
 Here are some tools you will find useful in checking your work —
 
-* [Udacity HTML/CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
-* [HTML Validator](http://validator.w3.org/#validate_by_input)
-* [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [Udacity HTML/CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
+- [HTML Validator](http://validator.w3.org/#validate_by_input)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### *Supporting materials*
+
 [design-mockup-portfolio.pdf](https://www.udacity.com/api/nodes/2655898586/supplemental_media/design-mockup-portfoliopdf/download)
 
+[(Back to TOC)](#table-of-contents)
+
 ## Udacity Rubric
-[(Back to TOC)](#toc)
+
 
 <html>
 <div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h3 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h3> <h4 id="project-name" ng-bind-html="localize(ctrl.rubric.project, 'name', markup=true)" class="ng-binding"><p>Build a Portfolio Site</p>
@@ -166,7 +168,7 @@ Here are some tools you will find useful in checking your work —
 </td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, 'criteria', markup=true)"><p><strong> HTML Style Rules</strong></p>
 </td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, 'passed_description', markup=true)"><ul>
 <li><code>HTML</code> documents use <code>HTML5</code> <code>&lt;!doctype html&gt;</code>.</li>
-<li>Code passes <a href="https://validator.w3.org/#validate_by_input" target="_blank"><code>HTML</code></a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank"><code>CSS</code></a> validators.</li> 
+<li>Code passes <a href="https://validator.w3.org/#validate_by_input" target="_blank"><code>HTML</code></a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank"><code>CSS</code></a> validators.</li>
 <li> [Optional] Code does not use entity references unless necessary e.g. characters with special meaning in <code>HTML</code> (like &lt; and &amp;) as well as control or “invisible” characters (like no-break spaces).</li>
 <li>[Optional] Code omits type attributes for style sheets and scripts.</li>
 </ul>
@@ -202,8 +204,9 @@ Here are some tools you will find useful in checking your work —
 </div> </div><!-- end ngIf: ctrl.rubric.stand_out --> </div>
 </html>
 
+[(Back to TOC)](#table-of-contents)
+
 ## Submission
-[(Back to TOC)](#toc)
 
 <html>
 <div class="container-fluid index--container--1H1L7"><div class="index--body--2gqet layout--content--3Smmq layout--body--3U2qN"><h3 class="index--title--3eIzO">Project Submission</h3></div><div class="ltr"><div class="index--markdown--2I2Ir ureact-markdown "><p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of your Nanodegree program.</p>
@@ -231,38 +234,38 @@ Here are some tools you will find useful in checking your work —
 <li>CSS - Use leading zeros for values in the code. (See: CSS Style Rules-Leading 0s.)</li>
 <li>CSS - Use 3 character hexadecimal notation for color in all possible places.  For example #ccc rather than #cccccc. (See: CSS Style Rules-Hexadecimal Notation.)</li>
 <li>CSS - Separate words in ID and class names with a hyphen. (See: CSS Style Rules-ID and Class Name Delimiters.)</li>
-<li>CSS - Remove CSS hacks or user detection from code. 
+<li>CSS - Remove CSS hacks or user detection from code.
 (See: CSS Style Rules-Hacks.)</li>
-<li>CSS - Separate selectors and declarations with new lines. 
+<li>CSS - Separate selectors and declarations with new lines.
 (See: CSS-Selector and Declaration Separation.)</li>
-<li>CSS - Use double quotes for all attribute selectors and property values. 
+<li>CSS - Use double quotes for all attribute selectors and property values.
 (See: CSS Formatting Rules-CSS Quotation Marks.)</li>
-<li>CSS - Identify groups of related style rules with section comments. 
+<li>CSS - Identify groups of related style rules with section comments.
 (See: CSS Meta Rules-Section Comments.)</li>
 </ul>
 <h4 id="html-guidelines">HTML Guidelines</h4>
 <ul>
 <li>HTML - Element and attribute names should all be lowercase. (See: Capitalization.)</li>
 <li>HTML - Use HTML5. (See: HTML Style Rules-Document Type.)</li>
-<li>HTML - Use UTF-8 as character encoding. 
+<li>HTML - Use UTF-8 as character encoding.
 (See: General Meta Rules-Encoding.)</li>
 <li>HTML - Place all block/list/table elements on a separate line and indent child elements. (See: HTML-General Formatting.)</li>
 <li>HTML - Use semantic tags. (See: HTML Style Rules-Semantics.)</li>
-<li>HTML - Provide alternate content for multimedia. 
+<li>HTML - Provide alternate content for multimedia.
 (See: HTML Style Rules-Multimedia Fallback.)</li>
-<li>HTML - Remove trailing white spaces from code. 
+<li>HTML - Remove trailing white spaces from code.
 (See: HTML - General Formatting Rules - Trailing Whitespace.)</li>
-<li>HTML - Use consistent indentation (tabs or spaces) 
+<li>HTML - Use consistent indentation (tabs or spaces)
 (See HTML - General Formatting Rules - Indentation)</li>
-<li>HTML - Use comments to explain the code. 
+<li>HTML - Use comments to explain the code.
 (See: General Meta Rules-Comments.)</li>
-<li>HTML - Mark action items with TODO. 
+<li>HTML - Mark action items with TODO.
 (See: General Meta Rules-Action Items.)</li>
-<li>HTML - Remove entity references. 
+<li>HTML - Remove entity references.
 (See: HTML Style Rules-Entity References.)</li>
-<li>HTML - Remove type attribute from link and script elements. 
+<li>HTML - Remove type attribute from link and script elements.
 (See: HTML Style Rules-Type Attributes.)</li>
-<li>HTML - Use double rather than single quotation marks for attribute values. 
+<li>HTML - Use double rather than single quotation marks for attribute values.
 (See: HTML-HTML Quotation Marks.)</li>
 </ul>
 <h3 id="submission">Submission</h3>
@@ -276,4 +279,4 @@ Here are some tools you will find useful in checking your work —
 </div></div><div class="ltr index--resources--vwqCB"><div><h4>Supporting Materials</h4><div class="resources--links--Dmbld"><div><a href="http://d2uz2655q5g6b2.cloudfront.net/2736698543/P1%3A%20Build%20a%20Portfolio%20Site%20Videos.zip" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1483 --> <!-- /react-text --><!-- react-text: 1484 -->Videos Zip File<!-- /react-text --></a></div><div><a href="https://d17h37t6h515a5.cloudfront.net/topher/2016/August/57b22517_design-mockup-portfolio/design-mockup-portfolio.pdf" target="_blank" class="resources--resource-link--37SIs"><span class="ureact-glyph--icon-download-sm--1Ddlb ureact-glyph--icon--3AXgN" title=""><i></i></span><!-- react-text: 1489 --> <!-- /react-text --><!-- react-text: 1490 -->design-mockup-portfolio.pdf<!-- /react-text --></a></div></div></div></div></div>
 </html>
 
-[(Back to TOC)](#toc)
+[(Back to TOC)](#table-of-contents)
