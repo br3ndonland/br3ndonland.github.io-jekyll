@@ -11,11 +11,11 @@ permalink: /about/
 - [My journey](#my-journey)
 - [Custom computing curriculum](#custom-computing-curriculum)
 - [Udacity Full Stack Web Developer Nanodegree program](#udacity-full-stack-web-developer-nanodegree-program)
-  - [Lessons](#lessons)
-  - [Projects](#projects)
+    - [Lessons](#lessons)
+    - [Projects](#projects)
 - [Udacity Grow with Google program](#udacity-grow-with-google-program)
-  - [Description](#description)
-  - [Meetups](#meetups)
+    - [Description](#description)
+    - [Meetups](#meetups)
 
 ## My journey
 
@@ -279,6 +279,7 @@ Here's how it went down:
 - Started the challenge course materials on February 21, 2018.
 - Completed the challenge course materials on March 7, 2018.
 - Continued attending local meetups.
+- Started building a collaborative open-source navigation app. See source code on [GitHub](https://github.com/growwithgooglema/gwg-mbta).
 
 ### Meetups
 
@@ -297,5 +298,9 @@ Here's how it went down:
 #### Grow with Google meetup at MIT March 29, 2018
 
 <img src="../img/gwg-meetup-20180329-mit.jpg" alt="Grow with Google meetup at MIT March 29, 2018" class="img-fluid">
+
+#### Grow with Google meetup at MIT April 7, 2018
+
+<img src="../img/gwg-meetup-20180407-mit.jpg" alt="Grow with Google meetup at MIT April 7, 2018" class="img-fluid">
 
 [(Back to TOC)](#table-of-contents)
