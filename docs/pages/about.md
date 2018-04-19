@@ -11,11 +11,13 @@ permalink: /about/
 - [My journey](#my-journey)
 - [Custom computing curriculum](#custom-computing-curriculum)
 - [Udacity Full Stack Web Developer Nanodegree program](#udacity-full-stack-web-developer-nanodegree-program)
-    - [Lessons](#lessons)
-    - [Projects](#projects)
+  - [Lessons](#lessons)
+  - [Projects](#projects)
 - [Udacity Grow with Google program](#udacity-grow-with-google-program)
-    - [Description](#description)
-    - [Meetups](#meetups)
+  - [Description](#description)
+  - [Meetups](#meetups)
+  - [MBTAccess](#mbtaccess)
+- [Udacity Google Mobile Web Specialist Nanodegree program](#udacity-google-mobile-web-specialist-nanodegree-program)
 
 ## My journey
 
@@ -47,6 +49,7 @@ I have been learning about computers with these resources.
 - **Practical**
   - [Udacity Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
   - [Udacity Grow with Google scholarship](https://www.udacity.com/grow-with-google)
+  - [Udacity Google Mobile Web Specialist Nanodegree program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)
 - **Historical**
   - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
   - [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)
@@ -255,7 +258,7 @@ Hope you enjoy the site!
 
 <img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-fluid" width="300px">
 
-For this project, I wrote a Python program, containing SQL queries, to extract information from a database of news articles. The SQL queries contain advanced joins, selection, and calculation features. The results of the three queries are returned in plain text with Pythonic formatting.
+For this project, I wrote a Python program, containing SQL queries, to extract information from a database of news articles with over a million rows. The SQL queries contain advanced joins, selection, and calculation features. The results of the three queries are returned in plain text with Pythonic formatting.
 
 I passed initial code review with no required corrections. The reviewer made some helpful suggestions, and I incorporated them into my code.
 
@@ -302,5 +305,19 @@ Here's how it went down:
 #### Grow with Google meetup at MIT April 7, 2018
 
 <img src="../img/gwg-meetup-20180407-mit.jpg" alt="Grow with Google meetup at MIT April 7, 2018" class="img-fluid">
+
+### MBTAccess
+
+[Website](https://growwithgooglema.github.io/gwg-mbta/)
+
+[Source code on GitHub](https://github.com/growwithgooglema/gwg-mbta)
+
+Our meetups led us to develop an app together. We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had just started providing wheelchair accessibility info, but we didn't think the implementation was very effective. We aimed to create a web app that would quickly and conveniently identify wheelchair accessible stops near the user. The project has been productive, and has given us great experience managing a team through GitHub.
+
+## Udacity Google Mobile Web Specialist Nanodegree program
+
+I won a full scholarship to the [Udacity Google Mobile Web Specialist Nanodegree program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024) after completing the Udacity Grow with Google Scholarship challenge course and ranking in the top 10% of 10,000 students. Very grateful, and looking forward to learning even more!
+
+<img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
 [(Back to TOC)](#table-of-contents)
