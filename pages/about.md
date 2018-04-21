@@ -9,9 +9,9 @@ permalink: /about/
 
 - [My journey](#my-journey)
 - [Udacity and Google training](#udacity-and-google-training)
-  - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
-  - [Grow with Google program](#grow-with-google-program)
-  - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
+    - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
+    - [Grow with Google program](#grow-with-google-program)
+    - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
 - [Other resources](#other-resources)
 
 ## My journey
@@ -249,7 +249,7 @@ I passed initial code review with no required corrections. The reviewer made som
 
 **I won a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google.** This is an initiative designed to help people make career changes into coding, and is separate from the Full Stack Web Developer Nanodegree program. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
 
-I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google). Udacity also created a [website](https://sites.google.com/udacity.com/gwgdevscholarship/home) for the course.
+I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
 
 Here's how it went down:
 
@@ -298,7 +298,7 @@ Here's how it went down:
 
 ---
 
-**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the Udacity Grow with Google Scholarship challenge course and ranking in the top 10% of 10,000 students.
+**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the  Grow with Google challenge course and ranking in the top 10% of 10,000 students.
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
