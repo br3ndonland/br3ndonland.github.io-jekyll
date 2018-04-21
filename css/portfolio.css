@@ -1,90 +1,53 @@
-/* header and headings */
-.header {
-  margin-bottom: 0.5rem;
-  border-bottom: 0.2rem solid #7d97ad;
-}
-
-.header-logo,
-.svg {
-  max-width: 400px;
-}
-
-.header-title {
-  font-family: "raleway", sans-serif;
-  color: #02b3e4;
-  text-align: right;
+/* headings */
+.header, .footer {
   text-transform: uppercase;
-  line-height: 1.5;
-  margin-bottom: 0px;
-}
-
-.header-subtitle {
-  text-align: right;
-  font-family: "lobster", cursive;
-  color: #7d97ad;
-}
-
-/* body */
-body {
-  padding: 1rem;
-}
-
-/* footer */
-.footer {
-  border-top: 0.1rem solid #7d97ad;
   text-align: center;
+}
+
+.header-brand {
+  font-family: "raleway", sans-serif;
+  font-weight: 300;
+  color: #02b3e4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "raleway", sans-serif;
 }
 
 /* jumbotron */
-.display-3 {
+.jumbotron-header {
   font-family: "lobster", cursive;
 }
 
-.background-udacity {
+.jumbotron-background {
   background: linear-gradient(150deg, #02ccba 0%, #a951ed 100%);
-}
-
-.jumbotron {
-  text-align: center;
-  font-size: 1.2rem;
   color: #212529;
 }
 
 /* portfolio thumbnails */
 .img-thumbnail {
-  max-height: 300px;
+  max-height: 200px;
 }
 
-/* media queries for responsive text and images */
-@media (max-width: 991px) {
-  /* shrink text */
-  html {
-    font-size: 0.7rem;
-  }
-  /* match header logo size with text */
-  .header-logo {
-    width: 250px;
-  }
-}
-
-@media (max-width: 767px) {
-  /* center header for smaller viewports */
-  .header,
-  .header-title,
-  .header-subtitle {
-    text-align: center;
-  }
-  .header-logo {
-    max-width: 200px;
-  }
-  /* shrink thumbnails */
+@media (min-width: 768px) {
+  /* enlarge images */
   .img-thumbnail {
-    max-height: 200px;
+    max-height: 300px;
   }
 }
 
-/* dark theme */
-.theme-dark {
-  background-color: #2d3c49;
-  color: #ddd;
+/* Adjust fonts for resume printing */
+@media print {
+  h1 {
+    font-size: 1.5rem
+  }
+  h2 {
+    font-size: 1.2rem
+  }
+  h3, h4, h5, h6 {
+    font-size: 1rem
+  }
+  body {
+    font-size: 0.8rem
+  }
 }

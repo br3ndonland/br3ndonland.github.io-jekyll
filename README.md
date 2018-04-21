@@ -1,42 +1,17 @@
 # README
 
-<a href="https://www.udacity.com/">
-	<img src="https://s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" width="300">
-</a>
+[br3ndonland.github.io](https://br3ndonland.github.io)
 
-**Udacity Full Stack Web Developer Nanodegree program**
-
-Project 2. Portfolio site
+GitHub Portfolio Website
 
 Brendon Smith
 
-br3ndonland
-
+[![license](https://img.shields.io/badge/license-CC--BY--4.0%20-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Description
 
-This was my second project for the Udacity Full Stack Web Developer nanodegree program. Students were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. 
-
-<img src="docs/img/design-mockup-portfolio-thumbnail-square.png" alt="Portfolio website mockup">
-
-I based the webpage on [Bootstrap](http://getbootstrap.com/) v4.0.0. In the main webpage *index.html*, I linked to the Bootstrap core CSS through their Content Delivery Network (CDN). I also included [Prism syntax highlighting](http://prismjs.com/) CSS and JavaScript files, and *portfolio.css* for additional custom styling.
-
-I provided a toggle button in the navigation menu that uses jQuery JavaScript to change the page color scheme.
-
-I used the webpage design to create a full website with Jekyll, and hosted the site with GitHub Pages. The website includes a homepage, an "About" page where I introduce myself and my Udacity work, a "Methods" page explaining how I built the site in detail, a "Rubric" page providing the Udacity project documentation, and a "Review" page documenting the Udacity code review.
-
-
-## Repository contents
-
-**All files for the GitHub pages site reside in the *docs/* directory. HTML, CSS, and JS files above the *docs/* directory were used only to submit the homepage for the Udacity project.**
-
-* *css/*
-  - *portfolio.css:* CSS stylesheet for the webpage
-* *docs/*
-  - Files for GitHub Pages Jekyll website.
-* *img/*
-  - Images used in the webpage
-* *js/*
-  - *portfolio.js*: jQuery JavaScript for the webpage
-* *index.html*: Main webpage. A modified version of the page is stored as *docs/index.html* for the GitHub Pages website.
-* *README.md*: concise description of the repository for GitHub
+- [Jekyll](https://jekyllrb.com/) is a static site generator that builds the site.
+- [GitHub Pages](https://pages.github.com/) hosts the site.
+- [Bootstrap](https://getbootstrap.com/) 4 provides styling and responsive design.
+- [Prism](http://prismjs.com/) syntax highlighting is included for display of code blocks.
+- I have used the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/) for this repository, which is commonly used for open-access scientific publications. If you adapt these materials, please **attribute me** and **explain what you changed**.

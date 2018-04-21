@@ -1,5 +1,5 @@
 // Theme toggle
 $( '.btn-theme-toggle' ).click(function() {
-    $( 'body' ).toggleClass( 'theme-dark' );
+    $( 'body' ).toggleClass( 'theme-toggle' );
     $( '.header-logo' ).toggleClass( 'd-none' );
 });
