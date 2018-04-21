@@ -7,20 +7,6 @@ permalink: /resume/
 
 ## Skills
 
----
-
-<!-- Version with icons
-<i class="fas fa-code"></i> *Computing:*
-<i class="fab fa-html5 font-weight-bold"> HTML5</i>
-<i class="fab fa-css3 font-weight-bold"> CSS3</i>
-<i class="fab fa-js font-weight-bold"> JavaScript</i>
-<i class="fab fa-python font-weight-bold"> Python</i>
-<i class="font-weight-bold"> R </i>
-<i class="fas fa-database font-weight-bold"> SQL</i>
-<i class="fab fa-git font-weight-bold"> Git</i>
-<i class="fab fa-github font-weight-bold"> GitHub</i>
-<i class="fab fa-google font-weight-bold"> Progressive Web Apps</i>
- -->
 <i class="fas fa-code fa-lg"></i> *Computing:*
 **HTML5** - **CSS3** - **JavaScript** - **Python** - **R** - **SQL** - **Git** - **GitHub** - **Progressive Web Apps**
 
