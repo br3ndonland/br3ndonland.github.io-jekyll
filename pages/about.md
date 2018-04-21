@@ -8,10 +8,10 @@ permalink: /about/
 <img src="../img/brendon-smith-lab-alt-cropped.jpg" alt="Brendon Smith lab photo" class="img-thumbnail">
 
 - [My journey](#my-journey)
-- [Udacity and Google training](#udacity-and-google-training)
-    - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
-    - [Grow with Google program](#grow-with-google-program)
-    - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
+- [Udacity and Google](#udacity-and-google)
+  - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
+  - [Grow with Google program](#grow-with-google-program)
+  - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
 - [Other resources](#other-resources)
 
 ## My journey
@@ -22,25 +22,25 @@ permalink: /about/
 
 I got into web development while doing research in a molecular nutrition and metabolism lab. I have confidence in the power of science to teach us about the world, but I began to see that **the way we do scientific research now is not effective.** It's resulted in what we call the **reproducibility crisis.** The research published by one lab can't be repeated by other labs, so it's not real progress, and doesn't translate into treatments or cures for humans.
 
-<h3>Science needs to improve in three ways:</h3>
+<h3 class="no-anchor">Science needs to improve in three ways:</h3>
 
-<h4>1. Efficiency</h4>
-<h4>2. Reproducibility</h4>
-<h4>3. Sustainability</h4>
+<h4 class="no-anchor">1. Efficiency</h4>
+<h4 class="no-anchor">2. Reproducibility</h4>
+<h4 class="no-anchor">3. Sustainability</h4>
 
 We need better technology tools, like robotic automation and research management software, to make our work more efficient. We need to document our work so others can reproduce it. And we need to enable scientists to lead more balanced, rewarding lifestyles.
 
-<h3>Technology can drive these improvements.</h3>
+<h3 class="no-anchor">Technology can drive these improvements.</h3>
 
 I decided to dedicate myself to creating technologies that can improve science. I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, focused on practical training from Udacity programs. **I have really enjoyed it!**
 
-<h3>Web development motivates me for the same reasons that science does.</h3>
+<h3 class="no-anchor">Web development motivates me for the same reasons that science does.</h3>
 
 I learn new skills through **focused personal growth**, and I can use my new skills to make a **positive impact** on the world.
 
 [(Back to top)](#about-me)
 
-## Udacity and Google training
+## Udacity and Google
 
 ---
 
@@ -215,7 +215,7 @@ When coding projects, I keep **computational narratives** describing what I do a
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site)
 
-<img src="../img/python-web-server-page.png" alt="Python web server screenshot" class="img-fluid">
+<img src="../img/python-web-server-page.png" alt="Python web server screenshot">
 
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
@@ -223,7 +223,7 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 [Code on GitHub](https://github.com/br3ndonland/udacity)
 
-<img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-fluid" width="150px">
+<img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device">
 
 This website began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. I included extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages.
 
@@ -231,7 +231,7 @@ This website began as my second project for the Udacity Full Stack Web Developer
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
 
-<img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-fluid" width="300px">
+<img src="../img/database-analysis.png" alt="Database analysis thumbnail">
 
 For this project, I wrote a Python program, containing SQL queries, to extract information from a database of news articles with over a million rows. The SQL queries contain advanced joins, selection, and calculation features. The results of the three queries are returned in plain text with Pythonic formatting.
 
@@ -285,14 +285,14 @@ Here's how it went down:
 
 <img src="../img/gwg-meetup-20180407-mit.jpg" alt="Grow with Google meetup at MIT April 7, 2018" class="img-fluid">
 
-##### MBTAccess
+#### MBTAccess
 
-<img src="../img/MBTAccess-2018-04-20-at-16.45.58-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-fluid">
+<img src="../img/MBTAccess-2018-04-20-at-16.45.58-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S">
 
 - [Web app](https://growwithgooglema.github.io/gwg-mbta/)
 - [Source code on GitHub](https://github.com/growwithgooglema/gwg-mbta)
 
-**Our meetups led us to develop an app together.** We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had just started providing wheelchair accessibility info, but we didn't think the implementation was very effective. We aimed to create a web app that would quickly and conveniently identify wheelchair accessible stops near the user. The project has been productive, and has given us great experience managing a team through GitHub.
+**The [Grow with Google meetups](#meetups) led us to develop an app together.** We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had just started providing wheelchair accessibility info, but we didn't think the implementation was very effective. We aimed to create a web app that would quickly and conveniently identify wheelchair accessible stops near the user. The project has been productive, and has given us great experience managing a team through GitHub.
 
 ### Google Mobile Web Specialist Nanodegree program
 
