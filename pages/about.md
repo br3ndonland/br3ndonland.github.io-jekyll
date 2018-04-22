@@ -5,38 +5,52 @@ permalink: /about/
 ---
 # About me
 
-<img src="../img/brendon-smith-lab-alt-cropped.jpg" alt="Brendon Smith lab photo" class="img-thumbnail">
-
-- [My journey](#my-journey)
+- [My story](#my-story)
 - [Udacity and Google](#udacity-and-google)
   - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
   - [Grow with Google program](#grow-with-google-program)
   - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
 - [Other resources](#other-resources)
 
-## My journey
+## My story
 
 ---
 
 <img src="../img/brendon-smith-lab-hands.jpg" alt="Brendon Smith lab hands" class="img-fluid">
 
-I got into web development while doing research in a molecular nutrition and metabolism lab. I have confidence in the power of science to teach us about the world, but I began to see that **the way we do scientific research now is not effective.** It's resulted in what we call the **reproducibility crisis.** The research published by one lab can't be repeated by other labs, so it's not real progress, and doesn't translate into treatments or cures for humans.
+I got into web development while doing research in a molecular nutrition and metabolism lab. Science is important and valuable, but I began to see that the way we do scientific research now is not effective.
 
-<h3 class="no-anchor">Science needs to improve in three ways:</h3>
+<h3 class="no-anchor">Science faces a reproducibility crisis.</h3>
 
-<h4 class="no-anchor">1. Efficiency</h4>
-<h4 class="no-anchor">2. Reproducibility</h4>
-<h4 class="no-anchor">3. Sustainability</h4>
+In science, reproducibility occurs when different scientists do the same experiment and get results that agree. Our current scientific practices do not promote or reward reproducibility. As a result, the scientific community is experiencing a [reproducibility crisis](https://github.com/br3ndonland/R-proteomics-Nrf1#reproducibility). The research published by one lab can't be repeated by other labs, so it's not real progress, and doesn't translate into treatments or cures for humans.
 
-We need better technology tools, like robotic automation and research management software, to make our work more efficient. We need to document our work so others can reproduce it. And we need to enable scientists to lead more balanced, rewarding lifestyles.
+<h3 class="no-anchor">Technology can improve science.</h3>
 
-<h3 class="no-anchor">Technology can drive these improvements.</h3>
+New technology tools can disrupt scientific incentives and help scientists address the reproducibility crisis. Robotic automation and effective research management apps can improve efficiency and help us do more with our funding dollars. Tools for documenting and sharing our work can improve reproducibility and lead to new knowledge. And all these advances will enable scientists to sustain more balanced, rewarding lifestyles.
 
-I decided to dedicate myself to creating technologies that can improve science. I had some statistics and data science training, but no development experience. I thought about different ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, focused on practical training from Udacity programs. **I have really enjoyed it!**
+I decided to start building my computational skills so I can help create these new technology tools. I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, focused on practical web development training from Udacity and Google. **I am really enjoying it!**
 
-<h3 class="no-anchor">Web development motivates me for the same reasons that science does.</h3>
+<h3 class="no-anchor">Web development and science motivate me in the same ways.</h3>
 
 I learn new skills through **focused personal growth**, and I can use my new skills to make a **positive impact** on the world.
+
+<!--
+<h3 class="no-anchor">The internet and science face similar issues.</h3>
+
+**Centralized control** affects both the internet and science. Power over the internet is concentrated in the hands of a [few companies](https://www.nytimes.com/2016/01/21/technology/techs-frightful-5-will-dominate-digital-life-for-foreseeable-future.html) that do not always [act](https://www.nytimes.com/2018/03/18/us/cambridge-analytica-facebook-privacy-data.html) in the best interest of the people who use their products. Similarly, published scientific knowledge is locked away within the walled gardens of [luxury journals](http://www.theguardian.com/commentisfree/2013/dec/09/how-journals-nature-science-cell-damage-science), when it should belong to the public.
+-->
+
+<h3 class="no-anchor">I plan to work as a professional web developer.</h3>
+
+I'm particularly interested in companies that value:
+
+- Purposeful structure, of development practices and of the work environment
+- Independence and initiative
+- Improvement and growth, in my skills and in the company
+- Strong links between design and development
+- Participation in open-source computing
+
+My work doesn't necessarily have to focus on science at this point. I will stay involved in the scientific community and eventually link my skills back to science. My dream is to build a decentralized research management and science collaboration platform. A place where researchers could document their experiments, manage and share lab resources, and collaborate effectively, with an interface that is intuitive and seamlessly integrated into their workflows. A place that would foster the development of authentic, reproducible empirical knowledge. A place where science belongs to the people, as it should.
 
 [(Back to top)](#about-me)
 
@@ -48,6 +62,7 @@ I learn new skills through **focused personal growth**, and I can use my new ski
 
 - [Lessons](#lessons)
 - [Projects](#projects)
+- [GitHub repository](https://github.com/br3ndonland/udacity-fsnd)
 
 This was the first training program I did. Here are some highlights from my work in the program:
 
@@ -231,7 +246,7 @@ This website began as my second project for the Udacity Full Stack Web Developer
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
 
-<img src="../img/database-analysis.png" alt="Database analysis thumbnail">
+<img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-thumbnail">
 
 For this project, I wrote a Python program, containing SQL queries, to extract information from a database of news articles with over a million rows. The SQL queries contain advanced joins, selection, and calculation features. The results of the three queries are returned in plain text with Pythonic formatting.
 
@@ -249,14 +264,12 @@ I passed initial code review with no required corrections. The reviewer made som
 
 **I won a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google.** This is an initiative designed to help people make career changes into coding, and is separate from the Full Stack Web Developer Nanodegree program. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
 
-I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
-
 Here's how it went down:
 
 - Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the New York Coffee Festival on October 14, 2017.
 - [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
 - Won the scholarship in January 2018.
-- Started the challenge course materials on February 21, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6.
+- Started the challenge course materials on February 21, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
 - Completed the challenge course materials on March 7, 2018.
 - Continued attending local meetups.
 - Started building a collaborative open-source navigation app, [MBTAccess](#mbtaccess), in April 2018.
@@ -287,18 +300,22 @@ Here's how it went down:
 
 #### MBTAccess
 
-<img src="../img/MBTAccess-2018-04-20-at-16.45.58-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S">
+<img src="../img/MBTAccess-2018-04-20-at-16.45.58-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-thumbnail">
 
 - [Web app](https://growwithgooglema.github.io/gwg-mbta/)
 - [Source code on GitHub](https://github.com/growwithgooglema/gwg-mbta)
 
-**The [Grow with Google meetups](#meetups) led us to develop an app together.** We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had just started providing wheelchair accessibility info, but we didn't think the implementation was very effective. We aimed to create a web app that would quickly and conveniently identify wheelchair accessible stops near the user. The project has been productive, and has given us great experience managing a team through GitHub.
+**The [Grow with Google meetups](#meetups) led us to develop an app together.**
+
+We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had [recently started](http://fortune.com/2018/03/15/google-maps-wheelchair-accessible-routes/) providing wheelchair accessibility info, but we didn't think the implementation was very effective.
+
+**We aim to create a web app that quickly and conveniently identifies wheelchair accessible stops near the user.** The project has been productive, and has given us great experience managing a team through GitHub.
 
 ### Google Mobile Web Specialist Nanodegree program
 
 ---
 
-**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the  Grow with Google challenge course and ranking in the top 10% of 10,000 students.
+**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the  Grow with Google challenge course and ranking in the top 10% of 10,000 students. I plan to complete this program on the side, while working as a web developer.
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 

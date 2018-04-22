@@ -35,7 +35,7 @@ permalink: /resume/
 
 ### Postdoctoral Research Associate and Lab Manager
 
-Harvard T.H. Chan School of Public Health, 2015 - 2017
+Harvard T.H. Chan School of Public Health, 2015-2017
 
 - Won a year of external grant funding and initiated an independent research [program](https://www.dropbox.com/s/kds6nwgdao378un/nutritional-screening-eb2017.pdf?dl=0)
 - Participated in collaborative experiments with the pharmaceutical industry
