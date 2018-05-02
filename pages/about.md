@@ -252,6 +252,14 @@ For this project, I wrote a Python program, containing SQL queries, to extract i
 
 I passed initial code review with no required corrections. The reviewer made some helpful suggestions, and I incorporated them into my code.
 
+##### Project 4. Flask app
+
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p4-flask-catalog)
+
+<img src="../img/flask-app.png">
+
+I was able to bring together my work on Python, databases, and websites to create a full web application. The app is called "Brendon's Bodybuilding Bazaar" and features a catalog of items useful for bodybuilding, along with an awesome classic picture of Arnold Schwarzenegger and Franco Columbu. I used the Python micro-framework Flask to control the app, and a SQLite database to hold information for the catalog. Users can sign in with Google. After signing in, users can add items and categories to the catalog. The creator of each item or category can also edit or delete it. The app's API (Application Programming Interface) provides catalog data in JSON format.
+
 [(Back to top)](#about-me)
 
 ### Grow with Google program
@@ -300,14 +308,14 @@ Here's how it went down:
 
 #### MBTAccess
 
-<img src="../img/MBTAccess-2018-04-20-at-16.45.58-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-thumbnail">
+<img src="../img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-thumbnail">
 
 - [Web app](https://growwithgooglema.github.io/gwg-mbta/)
 - [Source code on GitHub](https://github.com/growwithgooglema/gwg-mbta)
 
 **The [Grow with Google meetups](#meetups) led us to develop an app together.**
 
-We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had [recently started](http://fortune.com/2018/03/15/google-maps-wheelchair-accessible-routes/) providing wheelchair accessibility info, but we didn't think the implementation was very effective.
+We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had [recently started](http://fortune.com/2018/03/15/google-maps-wheelchair-accessible-routes/) providing wheelchair accessibility info, but their implementation is not particularly extensive.
 
 **We aim to create a web app that quickly and conveniently identifies wheelchair accessible stops near the user.** The project has been productive, and has given us great experience managing a team through GitHub.
 
@@ -329,6 +337,7 @@ Here are some other resources I have used to learn about computers.
 
 - **Foundational**
   - [Harvard cs50](https://cs50.harvard.edu)
+  - [cs50 web](https://cs50.github.io/web/)
   - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
   - [basecs](https://medium.com/basecs)
   - [CodeNewbie](https://www.codenewbie.org/)
