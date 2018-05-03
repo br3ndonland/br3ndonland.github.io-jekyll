@@ -11,7 +11,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #ccc;
 	background: none;
-	font-family: 'Ubuntu Mono', 'Roboto Mono', Consolas, Monaco, 'Andale Mono', monospace;
+	font-family: Monaco, 'Andale Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;

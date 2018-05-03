@@ -230,7 +230,7 @@ When coding projects, I keep **computational narratives** describing what I do a
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site)
 
-<img src="../img/python-web-server-page.png" alt="Python web server screenshot">
+<img src="../img/python-web-server-page.png" alt="Python web server screenshot" class="img-thumbnail">
 
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
@@ -238,7 +238,7 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 [Code on GitHub](https://github.com/br3ndonland/udacity)
 
-<img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device">
+<img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-thumbnail">
 
 This website began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. I included extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages.
 
@@ -256,9 +256,9 @@ I passed initial code review with no required corrections. The reviewer made som
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p4-flask-catalog)
 
-<img src="../img/flask-app.png">
+<img src="../img/flask-app.png" alt="Flask app screenshot simulating iPhone 6S with Firefox Developer Tools" width="200px">
 
-I was able to bring together my work on Python, databases, and websites to create a full web application. The app is called "Brendon's Bodybuilding Bazaar" and features a catalog of items useful for bodybuilding, along with an awesome classic picture of Arnold Schwarzenegger and Franco Columbu. I used the Python micro-framework Flask to control the app, and a SQLite database to hold information for the catalog. Users can sign in with Google. After signing in, users can add items and categories to the catalog. The creator of each item or category can also edit or delete it. The app's API (Application Programming Interface) provides catalog data in JSON format.
+I was able to bring together my work on Python, databases, and websites to create a full web application. The app is called "Brendon's Bodybuilding Bazaar" and features a catalog of items useful for bodybuilding, along with an awesome classic picture of Arnold Schwarzenegger and Franco Columbu. I used the Python micro-framework Flask to control the app, and a SQLite database to hold information for the catalog. Users can sign in with Google. After signing in, users can add items and categories to the catalog. The creator of each item or category can also edit or delete it. The app's API (Application Programming Interface) provides catalog data in JSON format. I passed Udacity code review with no required corrections, and the reviewer commended me for my work on the project.
 
 [(Back to top)](#about-me)
 
@@ -266,7 +266,7 @@ I was able to bring together my work on Python, databases, and websites to creat
 
 ---
 
-<img src="../img/udacity-google-scholarship.png" alt="Udacity Grow with Google scholarship award" class="img-fluid" width="300px">
+<img src="../img/udacity-google-scholarship.png" alt="Udacity Grow with Google scholarship award">
 
 #### Description
 
@@ -277,12 +277,12 @@ Here's how it went down:
 - Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the New York Coffee Festival on October 14, 2017.
 - [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
 - Won the scholarship in January 2018.
-- Started the challenge course materials on February 21, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
-- Completed the challenge course materials on March 7, 2018.
-- Continued attending local meetups.
-- Started building a collaborative open-source navigation app, [MBTAccess](#mbtaccess), in April 2018.
-
-**I ranked in the top 10% of 10,000 students, and won a full scholarship to the [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program).**
+- Started the challenge course materials on February 21, 2018.
+- Completed the challenge course materials on March 7, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
+- Attended five local meetups.
+- Started building a collaborative open-source transportation app, [MBTAccess](https://growwithgooglema.github.io/gwg-mbta/), in April 2018.
+- **Ranked in the top 10% of 10,000 students in the intermediate web developer track.** Ranking was based on completing all course materials, as well as participation in the Slack workspace, discussion forum, and meetups.
+- **Won a full scholarship to the [Google Mobile Web Specialist Nanodegree program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024).**
 
 #### Meetups
 
