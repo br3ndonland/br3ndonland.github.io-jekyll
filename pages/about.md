@@ -42,7 +42,7 @@ I learn new skills through **focused personal growth**, and I can use my new ski
 
 <h3 class="no-anchor">I plan to work as a professional web developer.</h3>
 
-I'm particularly interested in companies that value:
+I'm particularly interested in organizations that value:
 
 - Strong links between design and development
 - Participation in open-source computing
@@ -241,7 +241,7 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 [Code on GitHub](https://github.com/br3ndonland/udacity)
 
-<img src="../img/udacity-pagespeed-insights.png" alt="Portfolio website screenshot for mobile device" class="img-thumbnail">
+<img src="../img/portfolio-wide.png" alt="Portfolio website screenshot" class="img-thumbnail">
 
 This website began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. I included extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages.
 
@@ -281,6 +281,8 @@ I decided to theme the map after another one of my favorite things, specialty co
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p6-server)
 
 [App deployed to Linux Apache server](http://catalog.br3ndonland.com/)
+
+<img src="../img/server.png" alt="Server project logos: Flask, Ubuntu, Apache" class="img-thumbnail">
 
 For my final project, I configured an Ubuntu Linux server instance on DigitalOcean and deployed the Flask app from project 4 onto the server.
 
