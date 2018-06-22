@@ -44,13 +44,15 @@ I learn new skills through **focused personal growth**, and I can use my new ski
 
 I'm particularly interested in companies that value:
 
-- Purposeful structure, of development practices and of the work environment
-- Independence and initiative
-- Improvement and growth, in my skills and in the company
 - Strong links between design and development
 - Participation in open-source computing
+- Autonomy and initiative
+- Improvement and growth, in my skills and in the company
+- Purposeful structure, of development practices and of the work environment
 
-My work doesn't necessarily have to focus on science at this point. I will stay involved in the scientific community and eventually link my skills back to science. My dream is to build a decentralized research management and science collaboration platform. A place where researchers could document their experiments, manage and share lab resources, and collaborate effectively, with an interface that is intuitive and seamlessly integrated into their workflows. A place that would foster the development of authentic, reproducible empirical knowledge. A place where science belongs to the people, as it should.
+I will stay involved in the scientific community and eventually link my skills back to science.
+
+<!-- My work doesn't necessarily have to focus on science at this point. My dream is to build a decentralized research management and science collaboration platform. A place where researchers could document their experiments, manage and share lab resources, and collaborate effectively, with an interface that is intuitive and seamlessly integrated into their workflows. A place that would foster the development of authentic, reproducible empirical knowledge. A place where science belongs to the people, as it should. -->
 
 [(Back to top)](#about-me)
 
@@ -62,6 +64,7 @@ My work doesn't necessarily have to focus on science at this point. I will stay 
 
 - [Lessons](#lessons)
 - [Projects](#projects)
+- [Nanodegree completion](#nanodegree-completion)
 - [GitHub repository](https://github.com/br3ndonland/udacity-fsnd)
 
 This was the first training program I did. Here are some highlights from my work in the program:
@@ -256,9 +259,36 @@ I passed initial code review with no required corrections. The reviewer made som
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p4-flask-catalog)
 
-<img src="../img/flask-app.png" alt="Flask app screenshot simulating iPhone 6S with Firefox Developer Tools" width="200px">
+[App deployed to Linux Apache server](http://catalog.br3ndonland.com/)
+
+<img src="../img/flask-app.png" alt="Flask app screenshot simulating iPhone 6S with Firefox Developer Tools" class="img-thumbnail">
 
 I was able to bring together my work on Python, databases, and websites to create a full web application. The app is called "Brendon's Bodybuilding Bazaar" and features a catalog of items useful for bodybuilding, along with an awesome classic picture of Arnold Schwarzenegger and Franco Columbu. I used the Python micro-framework Flask to control the app, and a SQLite database to hold information for the catalog. Users can sign in with Google. After signing in, users can add items and categories to the catalog. The creator of each item or category can also edit or delete it. The app's API (Application Programming Interface) provides catalog data in JSON format. I passed Udacity code review with no required corrections, and the reviewer commended me for my work on the project.
+
+##### Project 5. JavaScript map
+
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p5-map)
+
+[App on GitHub Pages site](https://br3ndonland.github.io/udacity-fsnd-p5-map/)
+
+<img src="../img/map-app.png" alt="JavaScript map screenshot" class="img-thumbnail">
+
+This project required me to combine multiple APIs
+I decided to theme the map after another one of my favorite things, specialty coffee. I started by using the [Google Maps Platform](https://cloud.google.com/maps-platform/) to generate a map. Google Maps lacks an API for place lists, so I used the [Foursquare API](https://developer.foursquare.com/) to retrieve places and their data. I used the Knockout framework to bind the JavaScript code with the webpage. Functions run in response to click events, and the location list can be filtered by city. I went beyond the project's requirements to implement ES6+ JavaScript features, like Fetch, Async/await, and array methods. Again, I passed Udacity code review with complements from the reviewer and no required corrections.
+
+##### Project 6. Linux server configuration and app deployment
+
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p6-server)
+
+[App deployed to Linux Apache server](http://catalog.br3ndonland.com/)
+
+For my final project, I configured an Ubuntu Linux server instance on DigitalOcean and deployed the Flask app from project 4 onto the server.
+
+#### Nanodegree completion
+
+<img src="../img/udacity-fsnd-certificate-crop.png" alt="Nanodegree certificate screenshot" class="img-thumbnail">
+
+I'm a full stack web developer! I completed the Nanodegree program in June 2018. I put about ten months of work into this program, and came out with a solid set of skills.
 
 [(Back to top)](#about-me)
 
@@ -336,11 +366,17 @@ We found some common interest in transportation apps. MBTA recently released the
 Here are some other resources I have used to learn about computers.
 
 - **Foundational**
-  - [Harvard cs50](https://cs50.harvard.edu)
-  - [cs50 web](https://cs50.github.io/web/)
-  - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
-  - [basecs](https://medium.com/basecs)
-  - [CodeNewbie](https://www.codenewbie.org/)
+  - Courses
+    - [Harvard cs50](https://cs50.harvard.edu)
+    - [Harvard cs50 web](https://cs50.github.io/web/)
+  - Books
+    - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
+  - Podcasts and blogs
+    - [basecs](https://medium.com/basecs)
+    - [CodeNewbie](https://www.codenewbie.org/)
+    - [Giant Robots Smashing Into Other Giant Robots from thoughtbot](http://giantrobots.fm/)
+    - [NPR How I Built This](https://www.npr.org/podcasts/510313/how-i-built-this)
+    - [Syntax](https://syntax.fm)
 - **Historical**
   - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
   - [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)

@@ -36,15 +36,15 @@ h1, h2, h3, h4, h5, h6 {
 /* Adjust fonts for resume printing */
 @media print {
   h1 {
-    font-size: 1.5rem
-  }
-  h2 {
     font-size: 1.2rem
   }
-  h3, h4, h5, h6 {
+  h2 {
     font-size: 1rem
   }
-  body {
+  h3, h4, h5, h6 {
     font-size: 0.8rem
+  }
+  body {
+    font-size: 0.6rem
   }
 }
