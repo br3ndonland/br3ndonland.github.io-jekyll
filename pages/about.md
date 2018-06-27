@@ -5,54 +5,67 @@ permalink: /about/
 ---
 # About me
 
-- [My story](#my-story)
+- [Background](#background)
 - [Udacity and Google](#udacity-and-google)
   - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
   - [Grow with Google program](#grow-with-google-program)
   - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
 - [Other resources](#other-resources)
 
-## My story
+## Background
 
 ---
 
-<img src="../img/brendon-smith-lab-hands.jpg" alt="Brendon Smith lab hands" class="img-fluid">
+I've gone through three major transitions that shaped who I am today: Fitness, Science, and Tech.
 
-I got into web development while doing research in a molecular nutrition and metabolism lab. Science is important and valuable, but I began to see that the way we do scientific research now is not effective.
+<h3 class="no-anchor">Fitness</h3>
 
-<h3 class="no-anchor">Science faces a reproducibility crisis.</h3>
+<img src="../img/track.jpg" alt="Track meet photo from 2002" class="img-thumbnail">
 
-In science, reproducibility occurs when different scientists do the same experiment and get results that agree. Our current scientific practices do not promote or reward reproducibility. As a result, the scientific community is experiencing a [reproducibility crisis](https://github.com/br3ndonland/R-proteomics-Nrf1#reproducibility). The research published by one lab can't be repeated by other labs, so it's not real progress, and doesn't translate into treatments or cures for humans.
+I got into fitness at the beginning of high school. I ran track, and got into swimming and strength training. My fitness pursuits taught me the value of consistency and focus, and helped me develop an active lifestyle that I continue today.
 
-<h3 class="no-anchor">Technology can improve science.</h3>
+<h3 class="no-anchor">Science</h3>
 
-New technology tools can disrupt scientific incentives and help scientists address the reproducibility crisis. Robotic automation and effective research management apps can improve efficiency and help us do more with our funding dollars. Tools for documenting and sharing our work can improve reproducibility and lead to new knowledge. And all these advances will enable scientists to sustain more balanced, rewarding lifestyles.
+<img src="../img/brendon-smith-lab-hands.jpg" alt="Brendon Smith lab hands from Harvard postdoc photo shoot" class="img-thumbnail">
 
-I decided to start building my computational skills so I can help create these new technology tools. I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together my own custom computing curriculum, focused on practical web development training from Udacity and Google. **I am really enjoying it!**
+<h4 class="no-anchor">College</h4>
 
-<h3 class="no-anchor">Web development and science motivate me in the same ways.</h3>
+I got into science during my senior year at Wheaton College, when I started a second major in Applied Health Science. Though I started late, it was a great fit, and I quickly became a thriving member of the department. Mentors helped me figure out who I was as a person, and how to leverage my strengths to create a career. I got practical experience in research, teaching, and administration that made me a  competitive applicant for graduate school.
 
-I learn new skills through **focused personal growth**, and I can use my new skills to make a **positive impact** on the world.
+I graduated from Wheaton after five years with two degrees, a greater understanding of my values and identity, and a sense of direction for my career.
 
-<!--
-<h3 class="no-anchor">The internet and science face similar issues.</h3>
+<h4 class="no-anchor">Grad school</h4>
 
-**Centralized control** affects both the internet and science. Power over the internet is concentrated in the hands of a [few companies](https://www.nytimes.com/2016/01/21/technology/techs-frightful-5-will-dominate-digital-life-for-foreseeable-future.html) that do not always [act](https://www.nytimes.com/2018/03/18/us/cambridge-analytica-facebook-privacy-data.html) in the best interest of the people who use their products. Similarly, published scientific knowledge is locked away within the walled gardens of [luxury journals](http://www.theguardian.com/commentisfree/2013/dec/09/how-journals-nature-science-cell-damage-science), when it should belong to the public.
--->
+I went directly from college into the Nutritional Sciences PhD program at the University of Illinois at Urbana-Champaign. My coursework opened my mind to the wonderful world of cells, molecules, and biochemical reactions, and the effects of food from cell to community. I got rigorous research training, working in both nutritional biochemistry and engineering labs, and leading projects on a large interdisciplinary team.
 
-<h3 class="no-anchor">I plan to work as a professional web developer.</h3>
+I began to see the computing challenges involved in scientific research. I wrote VBA macros to automate experimental data analysis, and learned the SAS and R computing languages for statistical programming. Our engineering lab had a dedicated server cluster for processing ultrasound imaging data.
 
-I'm particularly interested in organizations that value:
+<h4 class="no-anchor">Postdoc</h4>
 
-- Strong links between design and development
-- Participation in open-source computing
-- Autonomy and initiative
-- Improvement and growth, in my skills and in the company
-- Purposeful structure, of development practices and of the work environment
+Next, I moved to Boston for postdoctoral research at Harvard. I dived deeper into molecular nutrition during this time. Even a cup of coffee can contain a thousand molecular compounds with potential effects on physiology and health, but few have been studied. I did some work to help illuminate the links between food molecules and physiology. I won a year of grant funding and collaborated with researchers at MIT and in pharma.
 
-I will stay involved in the scientific community and eventually link my skills back to science.
+In the lab, I started to see the importance of documenting my work, and the lack of good apps to do so. Molecular biologists perform complicated experiments with many steps, and each step can affect the outcome. It's difficult to document experiments in enough detail so that other scientists can learn from, and reproduce, our work.
 
-<!-- My work doesn't necessarily have to focus on science at this point. My dream is to build a decentralized research management and science collaboration platform. A place where researchers could document their experiments, manage and share lab resources, and collaborate effectively, with an interface that is intuitive and seamlessly integrated into their workflows. A place that would foster the development of authentic, reproducible empirical knowledge. A place where science belongs to the people, as it should. -->
+After two years of research, I was promoted to coordinate the operational logistics of the lab as lab manager. I worked with the other lab members to achieve numerous improvements to lab infrastructure and culture. I also encountered a new set of lab management pain points that could be addressed with better tech.
+
+<h3 class="no-anchor">Tech</h3>
+
+<img src="../img/gwg-meetup-20180324-mit.jpg" alt="Grow with Google meetup at MIT, March 24, 2018" class="img-thumbnail">
+
+After realizing that better technology tools could address many of the most pressing needs in science and nutrition, I decided to build my computational skills. I chose web development because of the broad applicability and open-source nature of web programming.
+
+I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together a custom computing curriculum, focused on practical web development training from Udacity and Google. I have really enjoyed it.
+
+**Coding and science motivate me in the same ways: I learn new skills through focused personal growth, and I can use my skills to make a positive impact on the world.** I now plan to work as a professional developer.
+
+**I value:**
+
+- Strong links between **design** and development
+- Participation in **open-source** computing
+- **Autonomy** and opportunities to take initiative
+- **Purposeful structure**, of development practices and of the work environment
+- Improvement and **growth**, in my skills and in the company
+- **Positive impact** of my work
 
 [(Back to top)](#about-me)
 
@@ -75,7 +88,7 @@ Udacity introduces key information and skills in lessons prior to each project.
 
 ##### Break timer
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_05_functions.ipynb)
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_05_functions.ipynb)
 
 **This was my first milestone as a computer programmer.**
 
@@ -121,7 +134,7 @@ Computer memory is less limiting today, but we still have to write code efficien
 
 ##### Turtle graphics
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_06_classes_turtles.ipynb)
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_06_classes_turtles.ipynb)
 
 Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect.
 
@@ -160,7 +173,7 @@ Output:
 
 ##### Profanity checker
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/01-foundations/python/fsnd01_08_classes_checker.ipynb)
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_08_classes_checker.ipynb)
 
 I wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
 
@@ -237,13 +250,15 @@ When coding projects, I keep **computational narratives** describing what I do a
 
 For my first project, I created a Python web server that serves a movie trailer website. The Python code stores a list of movies, including artwork and trailers, and serves the data to a local webpage with HTML and CSS. I personalized it with a film noir theme, and wrote a mini-review for each movie. I passed code review with only minor corrections.
 
-##### Project 2. Portfolio website
+##### Project 2. Designer mockup
 
 [Code on GitHub](https://github.com/br3ndonland/udacity)
 
+[Website](https://br3ndonland.github.io/udacity)
+
 <img src="../img/portfolio-wide.png" alt="Portfolio website screenshot" class="img-thumbnail">
 
-This website began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. I included extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages.
+The website you're at now began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. After replicating the design, I was able to add extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages. I extended the [Udacity website](https://br3ndonland.github.io/udacity) to create [this website](https://br3ndonland.github.io).
 
 ##### Project 3. Database analysis
 
@@ -273,8 +288,7 @@ I was able to bring together my work on Python, databases, and websites to creat
 
 <img src="../img/map-app.png" alt="JavaScript map screenshot" class="img-thumbnail">
 
-This project required me to combine multiple APIs
-I decided to theme the map after another one of my favorite things, specialty coffee. I started by using the [Google Maps Platform](https://cloud.google.com/maps-platform/) to generate a map. Google Maps lacks an API for place lists, so I used the [Foursquare API](https://developer.foursquare.com/) to retrieve places and their data. I used the Knockout framework to bind the JavaScript code with the webpage. Functions run in response to click events, and the location list can be filtered by city. I went beyond the project's requirements to implement ES6+ JavaScript features, like Fetch, Async/await, and array methods. Again, I passed Udacity code review with complements from the reviewer and no required corrections.
+This project required me to create a navigation web app that combines data from multiple APIs. I decided to theme the app after another one of my favorite things, specialty coffee. I started by using the Google Maps Platform to generate a map. Google Maps lacks an API for place lists, so I used the Foursquare API to retrieve places and their data. I used the Knockout framework to bind the JavaScript code with the webpage, so click events can trigger changes on the map. Functions run in response to click events, and the location list can be filtered by city. I went beyond the project's requirements to implement ES6+ JavaScript features, like Fetch, Async/Await, and array methods. Again, I passed Udacity code review with complements from the reviewer and no required corrections.
 
 ##### Project 6. Linux server configuration and app deployment
 
@@ -290,7 +304,13 @@ For my final project, I configured an Ubuntu Linux server instance on DigitalOce
 
 <img src="../img/udacity-fsnd-certificate-crop.png" alt="Nanodegree certificate screenshot" class="img-thumbnail">
 
-I'm a full stack web developer! I completed the Nanodegree program in June 2018. I put about ten months of work into this program, and came out with a solid set of skills.
+I'm a full stack web developer! I completed the Nanodegree program in June 2018. I put about ten months of work into this program, and came out with a solid set of skills. Full stack web developers work on all aspects of websites and apps, from front end (features that users see) to back end (servers and databases). In this program, I built skills including:
+
+- Developing webpages based on mockup images from designers
+- Querying and manipulating large databases with SQL
+- Creating functional multi-page web apps with databases and sign-ins
+- Fetching data from Application Programming Interfaces (APIs)
+- Deploying apps to Linux servers
 
 [(Back to top)](#about-me)
 
@@ -350,6 +370,8 @@ Here's how it went down:
 We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had [recently started](http://fortune.com/2018/03/15/google-maps-wheelchair-accessible-routes/) providing wheelchair accessibility info, but their implementation is not particularly extensive.
 
 **We aim to create a web app that quickly and conveniently identifies wheelchair accessible stops near the user.** The project has been productive, and has given us great experience managing a team through GitHub.
+
+[(Back to top)](#about-me)
 
 ### Google Mobile Web Specialist Nanodegree program
 
