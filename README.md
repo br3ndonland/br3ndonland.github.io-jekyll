@@ -6,7 +6,7 @@
 
 Brendon Smith
 
-[![license](https://img.shields.io/badge/license-CC--BY--4.0%20-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![license](https://img.shields.io/badge/license-CC--BY--4.0%20-blue.svg?longCache=true&style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
 
 - [Stack](#stack)
 - [Code style](#code-style)
@@ -25,18 +25,18 @@ Brendon Smith
 
 ## Code style
 
-### Python
+### Python <!-- omit in toc -->
 
 - Python code chunks are formatted for Python 3 and [PEP 8](http://pep8.org/).
 - When permitted, I amend PEP 8 to permit a line length of 100 characters.
 
-### HTML and CSS
+### HTML and CSS <!-- omit in toc -->
 
 - Two space indentations.
 - Standard [HTML nesting](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
 - [Bootstrap grid](https://getbootstrap.com/docs/4.1/layout/grid/) and classes
 
-### Markdown
+### Markdown <!-- omit in toc -->
 
 - Standardized Markdown formatting as described by [markdownlint](https://github.com/DavidAnson/markdownlint) and [Markdown Style Guide](http://www.cirosantilli.com/markdown-style-guide/).
 - Two space indentations.

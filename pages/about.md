@@ -7,15 +7,15 @@ permalink: /about/
 
 - [Background](#background)
 - [Udacity and Google](#udacity-and-google)
-  - [Full Stack Web Developer Nanodegree program](#full-stack-web-developer-nanodegree-program)
-  - [Grow with Google program](#grow-with-google-program)
-  - [Google Mobile Web Specialist Nanodegree program](#google-mobile-web-specialist-nanodegree-program)
+    - [Full Stack Web Developer](#full-stack-web-developer)
+    - [Grow with Google](#grow-with-google)
+    - [Google Mobile Web Specialist](#google-mobile-web-specialist)
 - [Other resources](#other-resources)
 
 ## Background
 
 ---
-
+<!--
 I've gone through three major transitions that shaped who I am today: Fitness, Science, and Tech.
 
 <h3 class="no-anchor">Fitness</h3>
@@ -48,11 +48,11 @@ In the lab, I started to see the importance of documenting my work, and the lack
 
 After two years of research, I was promoted to coordinate the operational logistics of the lab as lab manager. I worked with the other lab members to achieve numerous improvements to lab infrastructure and culture. I also encountered a new set of lab management pain points that could be addressed with better tech.
 
-<h3 class="no-anchor">Tech</h3>
-
 <img src="../img/gwg-meetup-20180324-mit.jpg" alt="Grow with Google meetup at MIT, March 24, 2018" class="img-thumbnail">
 
-After realizing that better technology tools could address many of the most pressing needs in science and nutrition, I decided to build my computational skills. I chose web development because of the broad applicability and open-source nature of web programming.
+<h3 class="no-anchor">Tech</h3> -->
+
+I previously worked as a molecular nutrition scientist. After realizing that better technology tools could address many of the most pressing needs in science and nutrition, I decided to build my computational skills. I chose web development because of the broad applicability and open-source nature of web programming.
 
 I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together a custom computing curriculum, focused on practical web development training from Udacity and Google. I have really enjoyed it.
 
@@ -73,7 +73,7 @@ I considered various ways to learn, like code bootcamps or computer science grad
 
 ---
 
-### Full Stack Web Developer Nanodegree program
+### Full Stack Web Developer
 
 - [Lessons](#lessons)
 - [Projects](#projects)
@@ -314,7 +314,7 @@ I'm a full stack web developer! I completed the Nanodegree program in June 2018.
 
 [(Back to top)](#about-me)
 
-### Grow with Google program
+### Grow with Google
 
 ---
 
@@ -332,7 +332,7 @@ Here's how it went down:
 - Started the challenge course materials on February 21, 2018.
 - Completed the challenge course materials on March 7, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
 - Attended five local meetups.
-- Started building a collaborative open-source transportation app, [MBTAccess](https://growwithgooglema.github.io/gwg-mbta/), in April 2018.
+- Started building a collaborative open-source transportation app, [MBTAccess](https://github.com/growwithgooglema/mbtaccess), in April 2018.
 - **Ranked in the top 10% of 10,000 students in the intermediate web developer track.** Ranking was based on completing all course materials, as well as participation in the Slack workspace, discussion forum, and meetups.
 - **Won a full scholarship to the [Google Mobile Web Specialist Nanodegree program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024).**
 
@@ -362,8 +362,9 @@ Here's how it went down:
 
 <img src="../img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-thumbnail">
 
-- [Web app](https://growwithgooglema.github.io/gwg-mbta/)
-- [Source code on GitHub](https://github.com/growwithgooglema/gwg-mbta)
+<!-- - [Web app](https://growwithgooglema.github.io/gwg-mbta/) -->
+
+- [Source code on GitHub](https://github.com/growwithgooglema/mbtaccess)
 
 **The [Grow with Google meetups](#meetups) led us to develop an app together.**
 
@@ -373,7 +374,7 @@ We found some common interest in transportation apps. MBTA recently released the
 
 [(Back to top)](#about-me)
 
-### Google Mobile Web Specialist Nanodegree program
+### Google Mobile Web Specialist
 
 ---
 
