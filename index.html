@@ -1,109 +1,240 @@
 ---
 layout: home
 ---
-    <main>
-      <!-- Large center jumbotron container -->
-      <div class="container">
-      <div class="jumbotron jumbotron-background text-center">
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="{{ 'img/brendon-smith-lab-alt-cropped.jpg' | relative_url }}" alt="Brendon Smith lab photo" class="img-thumbnail" width="200px">
-          </div>
-          <div class="col-lg-8 text-lg-left">
-            <header>
-              <h2 class="no-anchor">Welcome to br3ndonland</h2>
-            </header>
-            <article class="lead">
-              <p>I'm a web developer and molecular nutrition scientist.<br>This website showcases the work I have shared on GitHub.</p>
-              <p>
-                <a class="btn btn-secondary btn-lg mt-1" href="{{ 'about/' | relative_url }}" role="button">About me &raquo;</a>
-                <!-- <a class="btn btn-secondary btn-lg mt-1" href="{{ 'resume/' | relative_url }}" role="button">Resume &raquo;</a> -->
-              </p>
-            </article>
-          </div>
+
+<main>
+  <!-- Large center jumbotron container -->
+  <div class="container">
+    <div class="jumbotron jumbotron-background text-center">
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            src="{{ 'img/brendon-smith-lab-alt-cropped.jpg' | relative_url }}"
+            alt="Brendon Smith lab photo"
+            class="img-thumbnail"
+            width="200px"
+          />
         </div>
+        <div class="col-lg-8 text-lg-left">
+          <header>
+            <h2 class="no-anchor">Welcome to br3ndonland</h2>
+          </header>
+          <article class="lead">
+            <p>
+              I'm a web developer and molecular nutrition scientist.<br />This
+              website showcases the work I have shared on GitHub.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary btn-lg mt-1"
+                href="{{ 'about/' | relative_url }}"
+                role="button"
+                >About me &raquo;</a
+              >
+              <!-- <a class="btn btn-secondary btn-lg mt-1" href="{{ 'resume/' | relative_url }}" role="button">Resume &raquo;</a> -->
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio thumbnails -->
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <header>
+          <h2 class="text-muted font-italic no-anchor">Featured work</h2>
+        </header>
       </div>
-      </div>
-      <!-- Portfolio thumbnails -->
-      <section class="container">
-        <div class="row">
-          <div class="col">
-            <header>
-              <h2 class="text-muted font-italic no-anchor">Featured work</h2>
-            </header>
-          </div>
-        </div>
-        <div class="row">
-          <article class="col-md-4">
-            <img src="{{ 'img/map-app-iphone-6plus.png' | relative_url }}" alt="JavaScript map screenshot" class="img-thumbnail">
-            <header>
-              <h3 class="no-anchor">Boston's best beans</h3>
-            </header>
-            <p>Web app combining the Google Maps and Foursquare APIs with the Knockout framework to provide info on Boston area coffee shops.</p>
-            <p>
-              <a class="btn btn-secondary mt-1" href="{{ '/about/#project-5-javascript-map' | relative_url }}" role="button">About &raquo;</a>
-              <a class="btn btn-secondary mt-1" href="https://br3ndonland.github.io/udacity-fsnd-p5-map/" role="button" target="_blank">App &raquo;</a>
-              <a class="btn btn-secondary mt-1" href="https://github.com/br3ndonland/udacity-fsnd-p5-map" role="button" target="_blank">GitHub &raquo;</a>
-            </p>
-          </article>
-          <article class="col-md-4">
-            <img src="{{ 'img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png' | relative_url }}" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-thumbnail">
-            <header>
-              <h3 class="no-anchor">MBTAccess</h3>
-            </header>
-            <p>Web app by Google scholarship students. Integrates the MBTA and Google Maps APIs to provide wheelchair accessibility info for MBTA stops.</p>
-            <p>
-              <a class="btn btn-secondary mt-1" href="{{ '/about/#mbtaccess' | relative_url }}" role="button">About &raquo;</a>
-              <!-- <a class="btn btn-secondary mt-1" href="https://mbtaccess.org" role="button">App &raquo;</a> -->
-              <a class="btn btn-secondary mt-1" href="https://github.com/growwithgooglema/mbtaccess" role="button" target="_blank">GitHub &raquo;</a>
-            </p>
-          </article>
-          <article class="col-md-4">
-            <img src="{{ 'img/flask-app-thumb.png' | relative_url }}" alt="Flask app" class="img-thumbnail">
-            <header>
-              <h3 class="no-anchor">Flask app</h3>
-            </header>
-            <p>Web app written with the Python Flask framework and deployed to a Linux Apache server. Includes SQL database, Google Sign-In, and JSON API.</p>
-            <p>
-              <a class="btn btn-secondary mt-1" href="{{ '/about/#project-4-flask-app' | relative_url }}" role="button">About &raquo;</a>
-              <a class="btn btn-secondary mt-1" href="http://catalog.br3ndonland.com/" role="button" target="_blank">App &raquo;</a>
-              <a class="btn btn-secondary mt-1" href="https://github.com/br3ndonland/udacity-fsnd-p4-flask-catalog" role="button" target="_blank">GitHub &raquo;</a>
-            </p>
-          </article>
-        </div>
-        <div class="row">
-          <article class="col-md-4">
-            <img src="{{ 'img/database-analysis.png' | relative_url }}" alt="Database analysis thumbnail" class="img-thumbnail">
-            <header>
-              <h3 class="no-anchor">Database analysis</h3>
-            </header>
-            <p>Python program with SQL queries to extract information from a relational database with over a million rows.</p>
-            <p>
-              <a class="btn btn-secondary mt-1" href="{{ '/about/#project-3-database-analysis' | relative_url }}" role="button">About &raquo;</a>
-              <a class="btn btn-secondary mt-1" href="https://github.com/br3ndonland/udacity-fsnd-p3-sql" role="button" target="_blank">GitHub &raquo;</a>
-            </p>
-          </article>
-          <article class="col-md-4">
-            <img src="{{ 'img/R-guide-code-volcano.png' | relative_url }}" alt="R guide thumbnail" class="img-thumbnail">
-            <header>
-              <h3 class="no-anchor">R guide</h3>
-            </header>
-            <p>A quick reference guide and sample code for statistical programming in R. Built with R Markdown notebooks.</p>
-            <p>
-              <a class="btn btn-secondary mt-1" href="https://br3ndonland.github.io/R-guide/" role="button" target="_blank">Website &raquo;</a>
-              <a class="btn btn-secondary mt-1" href="https://github.com/br3ndonland/R-guide" role="button" target="_blank">GitHub &raquo;</a>
-            </p>
-          </article>
-          <article class="col-md-4">
-              <img src="{{ 'img/r-proteomics-nrf1-volcano.png' | relative_url }}" alt="R proteomics figure" class="img-thumbnail">
-              <header>
-                <h3 class="no-anchor">R proteomics</h3>
-              </header>
-              <p>Molecular biology experiments, mass spectrometry-based proteomics, and reproducible data analysis in R.</p>
-              <p>
-                <a class="btn btn-secondary mt-1" href="https://github.com/br3ndonland/R-guide" role="button" target="_blank">GitHub &raquo;</a>
-              </p>
-            </article>
-        </div>
-      </section>
-    </main>
+    </div>
+    <div class="row">
+      <article class="col-md-4">
+        <img
+          src="{{ 'img/map-app-iphone-6plus.png' | relative_url }}"
+          alt="JavaScript map screenshot"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">Boston's best beans</h3>
+        </header>
+        <p>
+          Web app combining the Google Maps and Foursquare APIs with the
+          Knockout framework to provide info on Boston area coffee shops.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="{{ '/about/#project-5-javascript-map' | relative_url }}"
+            role="button"
+            >About &raquo;</a
+          >
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://br3ndonland.github.io/udacity-fsnd-p5-map/"
+            role="button"
+            target="_blank"
+            >App &raquo;</a
+          >
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/br3ndonland/udacity-fsnd-p5-map"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
+      <article class="col-md-4">
+        <img
+          src="{{ 'img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png' | relative_url }}"
+          alt="MBTAccess app screenshot simulating iPhone 6S"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">MBTAccess</h3>
+        </header>
+        <p>
+          Web app by Google scholarship students. Integrates the MBTA and Google
+          Maps APIs to provide wheelchair accessibility info for MBTA stops.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="{{ '/about/#mbtaccess' | relative_url }}"
+            role="button"
+            >About &raquo;</a
+          >
+          <!-- <a class="btn btn-secondary mt-1" href="https://mbtaccess.org" role="button">App &raquo;</a> -->
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/growwithgooglema/mbtaccess"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
+      <article class="col-md-4">
+        <img
+          src="{{ 'img/flask-app-thumb.png' | relative_url }}"
+          alt="Flask app"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">Flask app</h3>
+        </header>
+        <p>
+          Web app written with the Python Flask framework and deployed to a
+          Linux Apache server. Includes SQL database, Google Sign-In, and JSON
+          API.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="{{ '/about/#project-4-flask-app' | relative_url }}"
+            role="button"
+            >About &raquo;</a
+          >
+          <a
+            class="btn btn-secondary mt-1"
+            href="http://catalog.br3ndonland.com/"
+            role="button"
+            target="_blank"
+            >App &raquo;</a
+          >
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/br3ndonland/udacity-fsnd-p4-flask-catalog"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
+    </div>
+    <div class="row">
+      <article class="col-md-4">
+        <img
+          src="{{ 'img/database-analysis.png' | relative_url }}"
+          alt="Database analysis thumbnail"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">Database analysis</h3>
+        </header>
+        <p>
+          Python program with SQL queries to extract information from a
+          relational database with over a million rows.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="{{ '/about/#project-3-database-analysis' | relative_url }}"
+            role="button"
+            >About &raquo;</a
+          >
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/br3ndonland/udacity-fsnd-p3-sql"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
+      <article class="col-md-4">
+        <img
+          src="{{ 'img/R-guide-code-volcano.png' | relative_url }}"
+          alt="R guide thumbnail"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">R guide</h3>
+        </header>
+        <p>
+          A quick reference guide and sample code for statistical programming in
+          R. Built with R Markdown notebooks.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://br3ndonland.github.io/R-guide/"
+            role="button"
+            target="_blank"
+            >Website &raquo;</a
+          >
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/br3ndonland/R-guide"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
+      <article class="col-md-4">
+        <img
+          src="{{ 'img/r-proteomics-nrf1-volcano.png' | relative_url }}"
+          alt="R proteomics figure"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">R proteomics</h3>
+        </header>
+        <p>
+          Molecular biology experiments, mass spectrometry-based proteomics, and
+          reproducible data analysis in R.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/br3ndonland/R-guide"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
+    </div>
+  </section>
+</main>

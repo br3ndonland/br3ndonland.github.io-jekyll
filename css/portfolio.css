@@ -1,5 +1,6 @@
 /* headings */
-.header, .footer {
+.header,
+.footer {
   text-transform: uppercase;
   text-align: center;
 }
@@ -7,12 +8,17 @@
 .header-title {
   font-family: "raleway", sans-serif;
   font-weight: 300;
-  color: #6495ED;
+  color: #6495ed;
   text-transform: uppercase;
   margin-bottom: 0rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "raleway", sans-serif;
 }
 
@@ -35,19 +41,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Adjust fonts for resume printing */
 @media print {
-  header, footer {
+  header,
+  footer {
     display: none;
   }
   h1 {
-    font-size: 1.2rem
+    font-size: 1.2rem;
   }
   h2 {
-    font-size: 1rem
+    font-size: 1rem;
   }
-  h3, h4, h5, h6 {
-    font-size: 0.8rem
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 0.8rem;
   }
   body {
-    font-size: 0.7rem
+    font-size: 0.7rem;
   }
 }

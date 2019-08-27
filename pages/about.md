@@ -3,18 +3,20 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 # About me
 
 - [Background](#background)
 - [Udacity and Google](#udacity-and-google)
-    - [Full Stack Web Developer](#full-stack-web-developer)
-    - [Grow with Google](#grow-with-google)
-    - [Google Mobile Web Specialist](#google-mobile-web-specialist)
+  - [Full Stack Web Developer](#full-stack-web-developer)
+  - [Grow with Google](#grow-with-google)
+  - [Google Mobile Web Specialist](#google-mobile-web-specialist)
 - [Other resources](#other-resources)
 
 ## Background
 
 ---
+
 <!--
 I've gone through three major transitions that shaped who I am today: Fitness, Science, and Tech.
 
@@ -128,7 +130,7 @@ while(break_count < total_breaks):
 
 ```
 
-**I realized the significance of this exercise because I had learned about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson's article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)" (*Harvard Gazette* 201309), and the corresponding book, [The Innovators](http://a.co/66iyBT1), were key parts of my computing curriculum.
+**I realized the significance of this exercise because I had learned about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson's article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)" (_Harvard Gazette_ 201309), and the corresponding book, [The Innovators](http://a.co/66iyBT1), were key parts of my computing curriculum.
 
 Computer memory is less limiting today, but we still have to write code efficiently, especially when it is accessed over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
 
@@ -378,7 +380,7 @@ We found some common interest in transportation apps. MBTA recently released the
 
 ---
 
-**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the  Grow with Google challenge course and ranking in the top 10% of 10,000 students. I plan to complete this program on the side, while working as a web developer.
+**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students. I plan to complete this program on the side, while working as a web developer.
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
