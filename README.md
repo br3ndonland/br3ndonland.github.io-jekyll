@@ -37,19 +37,5 @@ Brendon Smith
 
 ## Code style
 
-### Python <!-- omit in toc -->
-
-- Python code chunks are formatted for Python 3 and [PEP 8](http://pep8.org/).
-- When permitted, I amend PEP 8 to permit a line length of 100 characters.
-
-### HTML and CSS <!-- omit in toc -->
-
-- Two space indentations.
-- Standard [HTML nesting](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
-- [Bootstrap grid](https://getbootstrap.com/docs/4.1/layout/grid/) and classes
-
-### Markdown <!-- omit in toc -->
-
-- Standardized Markdown formatting as described by [markdownlint](https://github.com/DavidAnson/markdownlint) and [Markdown Style Guide](http://www.cirosantilli.com/markdown-style-guide/).
-- Two space indentations.
-- Dashes for unordered lists.
+- HTML, CSS, JavaScript, and YAML are formatted with [Prettier](https://prettier.io/), using `--semi=false`.
+- Python code chunks are formatted for Python 3 and [PEP 8](http://pep8.org/). When permitted, I amend PEP 8 to permit a line length of 100 characters.
