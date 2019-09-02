@@ -364,8 +364,7 @@ Here's how it went down:
 
 <img src="../img/mbtaccess-20190902-iPhone-X.png" alt="MBTAccess app screenshot simulating iPhone X" class="img-thumbnail">
 
-<!-- - [Web app](https://growwithgooglema.github.io/gwg-mbta/) -->
-
+- [Web app](https://mbtaccess.org)
 - [Source code on GitHub](https://github.com/growwithgooglema/mbtaccess)
 
 **The [Grow with Google meetups](#meetups) led us to develop an app together.**
