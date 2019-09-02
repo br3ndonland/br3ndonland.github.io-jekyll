@@ -259,7 +259,7 @@ I'm a full stack web developer! I completed the Nanodegree program in June 2018.
 - Fetching data from Application Programming Interfaces (APIs)
 - Deploying apps to Linux servers
 
-[(Back to top)](#about-me)
+[(Back to top)](#udacity-training)
 
 ## Grow with Google
 
@@ -318,7 +318,7 @@ We found some common interest in transportation apps. MBTA recently released the
 
 **We aim to create a web app that quickly and conveniently identifies wheelchair accessible stops near the user.** The project has been productive, and has given us great experience managing a team through GitHub.
 
-[(Back to top)](#about-me)
+[(Back to top)](#udacity-training)
 
 ## Google Mobile Web Specialist
 
@@ -328,4 +328,4 @@ We found some common interest in transportation apps. MBTA recently released the
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
-[(Back to top)](#about-me)
+[(Back to top)](#udacity-training)
