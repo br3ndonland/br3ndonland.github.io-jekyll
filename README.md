@@ -27,7 +27,8 @@ The [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/), which is 
 
   - I don't have access to DNS records on GitHub Pages, so I have to use HTTPS.
   - Keybase requires the page to be at _/keybase.txt_, and the contents of the file can't be altered.
-  - Jekyll requires pages to be Markdown files, but layouts to be HTML files. The solution was to save _keybase.md_ with only the YAML front matter, then change the _keybase.txt_ file extension to _keybase.html_ and save in _\_layouts_.
+  - Jekyll requires pages to be Markdown files, but layouts to be HTML files.
+  - The solution was to save _keybase.md_ with only the YAML front matter, then change the _keybase.txt_ file extension to _keybase.html_ and save in _\_layouts_.
 
 ## Building the site locally
 
