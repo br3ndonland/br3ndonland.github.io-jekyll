@@ -4,7 +4,9 @@ title: Udacity
 permalink: /udacity
 ---
 
-# Web development training with Udacity and Google
+# Udacity training
+
+<img src="../img/udacity-long.svg" alt="Udacity logo SVG" width="75%">
 
 ## Contents <!-- omit in toc -->
 
