@@ -31,7 +31,6 @@ layout: home
                 role="button"
                 >About me &raquo;</a
               >
-              <!-- <a class="btn btn-secondary btn-lg mt-1" href="{{ 'resume/' | relative_url }}" role="button">Resume &raquo;</a> -->
             </p>
           </article>
         </div>
@@ -48,6 +47,38 @@ layout: home
       </div>
     </div>
     <div class="row">
+      <article class="col-md-4">
+        <img
+          src="{{
+            'img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png' | relative_url
+          }}"
+          alt="MBTAccess app screenshot simulating iPhone 6S"
+          class="img-thumbnail"
+        />
+        <header>
+          <h3 class="no-anchor">MBTAccess</h3>
+        </header>
+        <p>
+          Web app by Google scholarship students. Integrates the MBTA and Google
+          Maps APIs to provide wheelchair accessibility info for MBTA stops.
+        </p>
+        <p>
+          <a
+            class="btn btn-secondary mt-1"
+            href="{{ '/about#mbtaccess' | relative_url }}"
+            role="button"
+            >About &raquo;</a
+          >
+          <!-- <a class="btn btn-secondary mt-1" href="https://mbtaccess.org" role="button">App &raquo;</a> -->
+          <a
+            class="btn btn-secondary mt-1"
+            href="https://github.com/growwithgooglema/mbtaccess"
+            role="button"
+            target="_blank"
+            >GitHub &raquo;</a
+          >
+        </p>
+      </article>
       <article class="col-md-4">
         <img
           src="{{ 'img/map-app-iphone-6plus.png' | relative_url }}"
@@ -78,38 +109,6 @@ layout: home
           <a
             class="btn btn-secondary mt-1"
             href="https://github.com/br3ndonland/udacity-fsnd-p5-map"
-            role="button"
-            target="_blank"
-            >GitHub &raquo;</a
-          >
-        </p>
-      </article>
-      <article class="col-md-4">
-        <img
-          src="{{
-            'img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png' | relative_url
-          }}"
-          alt="MBTAccess app screenshot simulating iPhone 6S"
-          class="img-thumbnail"
-        />
-        <header>
-          <h3 class="no-anchor">MBTAccess</h3>
-        </header>
-        <p>
-          Web app by Google scholarship students. Integrates the MBTA and Google
-          Maps APIs to provide wheelchair accessibility info for MBTA stops.
-        </p>
-        <p>
-          <a
-            class="btn btn-secondary mt-1"
-            href="{{ '/about#mbtaccess' | relative_url }}"
-            role="button"
-            >About &raquo;</a
-          >
-          <!-- <a class="btn btn-secondary mt-1" href="https://mbtaccess.org" role="button">App &raquo;</a> -->
-          <a
-            class="btn btn-secondary mt-1"
-            href="https://github.com/growwithgooglema/mbtaccess"
             role="button"
             target="_blank"
             >GitHub &raquo;</a
