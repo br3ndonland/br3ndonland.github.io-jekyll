@@ -264,7 +264,7 @@ The website you're at now began as my second project for the Udacity Full Stack 
 
 ##### Project 3. Database analysis
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p3-sql)
+[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-sql-logs)
 
 <img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-thumbnail">
 
@@ -286,8 +286,6 @@ I was able to bring together my work on Python, databases, and websites to creat
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p5-map)
 
-[App on GitHub Pages site](https://br3ndonland.github.io/udacity-fsnd-p5-map/)
-
 <img src="../img/map-app.png" alt="JavaScript map screenshot" class="img-thumbnail">
 
 This project required me to create a navigation web app that combines data from multiple APIs. I decided to theme the app after another one of my favorite things, specialty coffee. I started by using the Google Maps Platform to generate a map. Google Maps lacks an API for place lists, so I used the Foursquare API to retrieve places and their data. I used the Knockout framework to bind the JavaScript code with the webpage, so click events can trigger changes on the map. Functions run in response to click events, and the location list can be filtered by city. I went beyond the project's requirements to implement ES6+ JavaScript features, like Fetch, Async/Await, and array methods. Again, I passed Udacity code review with complements from the reviewer and no required corrections.
@@ -296,7 +294,7 @@ This project required me to create a navigation web app that combines data from 
 
 [Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p6-server)
 
-[App deployed to Linux Apache server](http://catalog.br3ndonland.com/)
+App was deployed to Linux Apache server at catalog.br3ndonland.com.
 
 <img src="../img/server.png" alt="Server project logos: Flask, Ubuntu, Apache" class="img-thumbnail">
 
