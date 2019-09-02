@@ -362,7 +362,7 @@ Here's how it went down:
 
 #### MBTAccess
 
-<img src="../img/MBTAccess-2018-05-02-at-13.51.55-iPhone-6S.png" alt="MBTAccess app screenshot simulating iPhone 6S" class="img-thumbnail">
+<img src="../img/mbtaccess-20190902-iPhone-X.png" alt="MBTAccess app screenshot simulating iPhone X" class="img-thumbnail">
 
 <!-- - [Web app](https://growwithgooglema.github.io/gwg-mbta/) -->
 
