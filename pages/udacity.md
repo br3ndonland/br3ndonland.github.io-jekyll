@@ -201,13 +201,13 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 #### Project 2. Designer mockup
 
-[Code on GitHub](https://github.com/br3ndonland/udacity)
+[Code on GitHub](https://github.com/br3ndonland/udacity-portfolio)
 
-[Website](https://br3ndonland.github.io/udacity)
+[Website](https://br3ndonland.github.io/udacity-portfolio/)
 
-<img src="../img/portfolio-wide.png" alt="Portfolio website screenshot" class="img-thumbnail">
+<img src="../img/portfolio-pagespeed-insights.png" alt="Portfolio website screenshot" class="img-thumbnail">
 
-The website you're at now began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. After replicating the design, I was able to add extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages. I extended the [Udacity website](https://br3ndonland.github.io/udacity) to create [this website](https://br3ndonland.github.io).
+The website you're at now began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. After replicating the design, I was able to add extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages. I extended the [Udacity website](https://br3ndonland.github.io/udacity-portfolio) to create [this website](https://br3ndonland.github.io).
 
 #### Project 3. Database analysis
 
