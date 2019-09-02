@@ -399,10 +399,11 @@ Here are some other resources I have used to learn about computers.
     - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
   - Podcasts and blogs
     - [basecs](https://medium.com/basecs)
+    - [Changelog](https://changelog.com/)
     - [CodeNewbie](https://www.codenewbie.org/)
-    - [Giant Robots Smashing Into Other Giant Robots from thoughtbot](http://giantrobots.fm/)
-    - [NPR How I Built This](https://www.npr.org/podcasts/510313/how-i-built-this)
+    - [Darknet Diaries](https://darknetdiaries.com/)
     - [Syntax](https://syntax.fm)
+    - [Talk Python to Me](https://talkpython.fm/) and [Python Bytes](https://pythonbytes.fm/)
 - **Historical**
   - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
   - [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)
