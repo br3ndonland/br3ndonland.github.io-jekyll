@@ -1,5 +1,10 @@
 // Theme toggle
-$("#btn-theme-toggle").click(() => {
-  $("body").toggleClass("theme-toggle")
-  $(".udacity-logo").toggleClass("d-none")
+const themeButton = document.querySelector("#btn-theme-toggle")
+themeButton.addEventListener("click", () => {
+  const body = document.querySelector("body")
+  body.classList.toggle("theme-toggle")
+  const udacityLogos = document.querySelectorAll(".udacity-logo")
+  udacityLogos.forEach(udacityLogo => {
+    udacityLogo.classList.toggle("d-none")
+  })
 })
