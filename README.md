@@ -8,6 +8,8 @@ Brendon Smith
 
 [![license](https://img.shields.io/badge/license-CC--BY--4.0%20-blue.svg?longCache=true&style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
 
+The [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/), which is commonly used for open-access scientific publications. If you adapt these materials, please **attribute me** and **explain what you changed**.
+
 - [Stack](#stack)
 - [Building the site locally](#building-the-site-locally)
 - [Code style](#code-style)
@@ -21,7 +23,11 @@ Brendon Smith
 - [Prism](http://prismjs.com/) syntax highlighting is included for display of code blocks.
 - [Jekyll](https://jekyllrb.com/) is a static site generator that builds the site.
 - [GitHub Pages](https://pages.github.com/) hosts the site.
-- [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/), which is commonly used for open-access scientific publications. If you adapt these materials, please **attribute me** and **explain what you changed**.
+- The [Keybase](https://keybase.io/) proof helps verify my online identity. I had to use a workaround to set it up:
+
+  - I don't have access to DNS records on GitHub Pages, so I have to use HTTPS.
+  - Keybase requires the page to be at _/keybase.txt_, and the contents of the file can't be altered.
+  - Jekyll requires pages to be Markdown files, but layouts to be HTML files. The solution was to save _keybase.md_ with only the YAML front matter, then change the _keybase.txt_ file extension to _keybase.html_ and save in _\_layouts_.
 
 ## Building the site locally
 
