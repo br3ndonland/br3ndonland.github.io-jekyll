@@ -39,6 +39,12 @@ h6 {
   }
 }
 
+/* theme toggle */
+.theme-toggle {
+  background-color: #2d3c49;
+  color: #ddd;
+}
+
 /* Adjust fonts for resume printing */
 @media print {
   header,

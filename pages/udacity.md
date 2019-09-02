@@ -6,7 +6,9 @@ permalink: /udacity
 
 # Udacity training
 
-<img src="../img/udacity-long.svg" alt="Udacity logo SVG" width="75%">
+<img src="../img/udacity-long.svg" alt="Udacity logo SVG" class="udacity-logo svg" width="75%">
+
+<img src="../img/udacity-long-white.svg" alt="Udacity logo SVG" class="udacity-logo svg d-none" width="75%">
 
 ## Contents <!-- omit in toc -->
 
