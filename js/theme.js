@@ -6,9 +6,11 @@ themeButton.addEventListener("click", () => {
   // push the body class list into local storage
   const udacityLogoRegular = document.querySelector("#udacity-logo")
   const udacityLogoLight = document.querySelector("#udacity-logo-light")
-  const udacityLogos = [udacityLogoRegular, udacityLogoLight]
-  udacityLogos.forEach(udacityLogo => {
-    udacityLogo.classList.toggle("d-none")
-    // push the logo class list into local storage
-  })
+  if (udacityLogoRegular && udacityLogoLight) {
+    const udacityLogos = [udacityLogoRegular, udacityLogoLight]
+    udacityLogos.forEach(udacityLogo => {
+      udacityLogo.classList.toggle("d-none")
+      // push the logo class list into local storage
+    })
+  }
 })
