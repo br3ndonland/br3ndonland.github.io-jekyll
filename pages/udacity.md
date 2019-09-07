@@ -37,7 +37,7 @@ Udacity introduces key information and skills in lessons prior to each project.
 
 #### Break timer
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_05_functions.ipynb)
+<a href="https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_05_functions.ipynb" target="_blank">Code on GitHub</a>
 
 **This was my first milestone as a computer programmer.**
 
@@ -45,7 +45,7 @@ When I began learning Python syntax in the Full Stack Web Developer Nanodegree p
 
 I got to an exercise in which I had to create a break timer. The timer opens a YouTube video every two hours, to encourage people to take a break while working on the computer. I wrote the code independently, then checked the instructor's solution.
 
-When adding a loop to the break counter, **I came up with a more efficient way to write the program** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. **My code demonstrated that I had learned to think independently and write code in the most efficient and Pythonic way.**
+When adding a loop to the break counter, **I came up with a more efficient way to write the program** by using a `for` loop instead of a `while` loop, reducing the required amount of code from eight lines to five. **My code demonstrated that I had learned to think independently and write code in the most efficient and <a href="https://www.python.org/dev/peps/pep-0020/" target="_blank">Pythonic</a> way.**
 
 My Python code:
 
@@ -77,13 +77,13 @@ while(break_count < total_breaks):
 
 ```
 
-**I realized the significance of this exercise because I had learned about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson's article on this topic, "[Dawn of a revolution](http://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/)" (_Harvard Gazette_ 201309), and the corresponding book, [The Innovators](http://a.co/66iyBT1), were key parts of my computing curriculum.
+**I realized the significance of this exercise because I had learned about computing history.** I thought about how Bill Gates and Paul Allen's major accomplishment while at Harvard was writing a BASIC interpreter for the Altair in 3.2 kilobytes of text, leaving memory free to write other programs and launching the personal computing software industry. Walter Isaacson's article on this topic, "<a href="https://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/" target="_blank">Dawn of a revolution</a>," (_Harvard Gazette_ 201309), and the corresponding book, <a href="https://en.wikipedia.org/wiki/The_Innovators_(book)" target="_blank">The innovators</a>, were key parts of my computing curriculum.
 
 Computer memory is less limiting today, but we still have to write code efficiently, especially when it is accessed over the web through Content Distribution Networks (CDNs). This is why we use code minification for web distribution.
 
 #### Turtle graphics
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_06_classes_turtles.ipynb)
+<a href="https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_06_classes_turtles.ipynb" target="_blank">Code on GitHub</a>
 
 Instead of just drawing a shape, I imported a gif for the background, and looped through a colorspace to create a psychedelic effect.
 
@@ -122,11 +122,11 @@ Output:
 
 #### Profanity checker
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_08_classes_checker.ipynb)
+<a href="https://github.com/br3ndonland/udacity-fsnd/blob/master/1-foundations/python/fsnd01_08_classes_checker.ipynb" target="_blank">Code on GitHub</a>
 
 I wrote a program that analyzes text files, and shows an alert when profanity is detected. I adapted the code for Python 3 and made it as concise as possible. When I realized there was a more effective way to write the program with the `Requests` module, I learned about it and rewrote my code.
 
-Input from movie_quotes.txt:
+Input from _movie_quotes.txt_:
 
 ```text
 -- Houston, we have a problem. (Apollo 13)
@@ -193,7 +193,7 @@ When coding projects, I keep **computational narratives** describing what I do a
 
 #### Project 1. Python web server
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site)
+<a href="https://github.com/br3ndonland/udacity-fsnd-p1-python-movie-site" target="_blank">Code on GitHub</a>
 
 <img src="../img/python-web-server-page.png" alt="Python web server screenshot" class="img-thumbnail">
 
@@ -201,17 +201,17 @@ For my first project, I created a Python web server that serves a movie trailer 
 
 #### Project 2. Designer mockup
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-portfolio)
+<a href="https://github.com/br3ndonland/udacity-portfolio" target="_blank">Code on GitHub</a>
 
-[Website](https://br3ndonland.github.io/udacity-portfolio/)
+<a href="https://br3ndonland.github.io/udacity-portfolio/" target="_blank">Website</a>
 
 <img src="../img/portfolio-pagespeed-insights.png" alt="Portfolio website screenshot" class="img-thumbnail">
 
-The website you're at now began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. After replicating the design, I was able to add extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages. I extended the [Udacity website](https://br3ndonland.github.io/udacity-portfolio) to create [this website](https://br3ndonland.github.io).
+The website you're at now began as my second project for the Udacity Full Stack Web Developer nanodegree program. We were provided with a design mockup (screenshot) of a developer portfolio webpage, and had to replicate the design with HTML and CSS. I based the webpage styling on Bootstrap 4. After replicating the design, I was able to add extensive customization, including a toggle button that uses jQuery JavaScript to change the page color scheme. I then built the single webpage into a full website with Jekyll, and hosted it on GitHub Pages. I extended the Udacity website to create this website.
 
 #### Project 3. Database analysis
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-sql-logs)
+<a href="https://github.com/br3ndonland/udacity-fsnd-sql-logs" target="_blank">Code on GitHub</a>
 
 <img src="../img/database-analysis.png" alt="Database analysis thumbnail" class="img-thumbnail">
 
@@ -219,19 +219,17 @@ For this project, I wrote a Python program, containing SQL queries, to extract i
 
 I passed initial code review with no required corrections. The reviewer made some helpful suggestions, and I incorporated them into my code.
 
-#### Project 4. Flask app
+#### Project 4. Brendon's bodybuilding bazaar
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p4-flask-catalog)
-
-[App deployed to Linux Apache server](http://catalog.br3ndonland.com/)
+<a href="https://github.com/br3ndonland/udacity-fsnd-flask-catalog" target="_blank">Code on GitHub</a>
 
 <img src="../img/flask-app.png" alt="Flask app screenshot simulating iPhone 6S with Firefox Developer Tools" class="img-thumbnail">
 
 I was able to bring together my work on Python, databases, and websites to create a full web application. The app is called "Brendon's Bodybuilding Bazaar" and features a catalog of items useful for bodybuilding, along with an awesome classic picture of Arnold Schwarzenegger and Franco Columbu. I used the Python micro-framework Flask to control the app, and a SQLite database to hold information for the catalog. Users can sign in with Google. After signing in, users can add items and categories to the catalog. The creator of each item or category can also edit or delete it. The app's API (Application Programming Interface) provides catalog data in JSON format. I passed Udacity code review with no required corrections, and the reviewer commended me for my work on the project.
 
-#### Project 5. JavaScript map
+#### Project 5. Boston's best beans
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p5-map)
+<a href="https://github.com/br3ndonland/udacity-fsnd-p5-map" target="_blank">Code on GitHub</a>
 
 <img src="../img/map-app.png" alt="JavaScript map screenshot" class="img-thumbnail">
 
@@ -239,7 +237,7 @@ This project required me to create a navigation web app that combines data from 
 
 #### Project 6. Linux server configuration and app deployment
 
-[Code on GitHub](https://github.com/br3ndonland/udacity-fsnd-p6-server)
+<a href="https://github.com/br3ndonland/udacity-fsnd-flask-catalog-server" target="_blank">Code on GitHub</a>
 
 App was deployed to Linux Apache server at catalog.br3ndonland.com.
 
@@ -259,7 +257,7 @@ I'm a full stack web developer! I completed the Nanodegree program in June 2018.
 - Fetching data from Application Programming Interfaces (APIs)
 - Deploying apps to Linux servers
 
-[(Back to top)](#udacity-training)
+[(Back to top)](#top)
 
 ## Grow with Google
 
@@ -269,19 +267,19 @@ I'm a full stack web developer! I completed the Nanodegree program in June 2018.
 
 ### Description
 
-**I won a [scholarship](https://www.udacity.com/grow-with-google) from Udacity and Google.** This is an initiative designed to help people make career changes into coding, and is separate from the Full Stack Web Developer Nanodegree program. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
+**I won a <a href="https://www.udacity.com/grow-with-google" target="_blank">scholarship</a> from Udacity and Google.** <a href="https://grow.google/" target="_blank">Grow with Google</a> is an initiative to help people make career changes into coding. I was accepted to the intermediate web developer track to learn techniques for building progressive web apps. There was a three month challenge round, after which the top participants move on to a more advanced Mobile Web Specialist program.
 
 Here's how it went down:
 
-- Found out about the Grow with Google scholarship via Udacity's [Facebook](https://www.facebook.com/Udacity/posts/1250067568431912) and [Medium](https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6) posts, while on a bus to NYC for the New York Coffee Festival on October 14, 2017.
-- [Applied](https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md) in December 2017.
+- Found out about the Grow with Google scholarship via Udacity's <a href="https://www.facebook.com/Udacity/posts/1250067568431912" target="_blank">Facebook</a> and <a href="https://medium.com/udacity/grow-with-google-50-000-new-scholarships-available-now-1aa0513430b6" target="_blank">Medium</a> posts, while on a bus to NYC for the New York Coffee Festival on October 14, 2017.
+- <a href="https://github.com/br3ndonland/udacity-google/blob/master/udacity-google-00-apply.md" target="_blank">Applied</a> in December 2017.
 - Won the scholarship in January 2018.
 - Started the challenge course materials on February 21, 2018.
-- Completed the challenge course materials on March 7, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on [GitHub](https://github.com/br3ndonland/udacity-google).
+- Completed the challenge course materials on March 7, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on <a href="https://github.com/br3ndonland/udacity-google" target="_blank">GitHub</a>.
 - Attended five local meetups.
-- Started building a collaborative open-source transportation app, [MBTAccess](https://github.com/growwithgooglema/mbtaccess), in April 2018.
+- Started building a collaborative open-source transportation app, <a href="https://mbtaccess.org" target="_blank">MBTAccess</a>, in April 2018.
 - **Ranked in the top 10% of 10,000 students in the intermediate web developer track.** Ranking was based on completing all course materials, as well as participation in the Slack workspace, discussion forum, and meetups.
-- **Won a full scholarship to the [Google Mobile Web Specialist Nanodegree program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024).**
+- **Won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>.**
 
 ### Meetups
 
@@ -309,16 +307,16 @@ Here's how it went down:
 
 <img src="../img/mbtaccess-20190902-iPhone-X.png" alt="MBTAccess app screenshot simulating iPhone X" class="img-thumbnail">
 
-- [Web app](https://mbtaccess.org)
-- [Source code on GitHub](https://github.com/growwithgooglema/mbtaccess)
+- <a href="https://mbtaccess.org" target="_blank">Web app</a>
+- <a href="https://github.com/growwithgooglema/mbtaccess" target="_blank">Source code on GitHub</a>
 
 **The [Grow with Google meetups](#meetups) led us to develop an app together.**
 
-We found some common interest in transportation apps. MBTA recently released their [MBTA V3 API](https://api-v3.mbta.com/) that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had [recently started](http://fortune.com/2018/03/15/google-maps-wheelchair-accessible-routes/) providing wheelchair accessibility info, but their implementation is not particularly extensive.
+We found some common interest in transportation apps. MBTA recently released their <a href="https://api-v3.mbta.com/" target="_blank">MBTA V3 API</a> that provides public transportation data in JSON API format. One of the under-utilized datasets in their API is the wheelchair accessibility of the stops. Google Maps had <a href="https://fortune.com/2018/03/15/google-maps-wheelchair-accessible-routes/" target="_blank">recently started</a> providing wheelchair accessibility info, but their implementation is not particularly extensive.
 
 **We aim to create a web app that quickly and conveniently identifies wheelchair accessible stops near the user.** The project has been productive, and has given us great experience managing a team through GitHub.
 
-[(Back to top)](#udacity-training)
+[(Back to top)](#top)
 
 ## Google Mobile Web Specialist
 
