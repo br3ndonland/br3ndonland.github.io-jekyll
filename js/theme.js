@@ -8,14 +8,24 @@ try {
     if ("localStorage" in window) {
       const bodyClasses = localStorage.getItem("body")
       if (bodyClasses) {
-        console.log(`Body classes: ${bodyClasses}`)
-        // TODO: Set CSS classes to values from localStorage
+        bodyClasses.split(" ").forEach(bodyClass => {
+          body.classList.add(bodyClass)
+        })
       }
-      udacityLogos.forEach(udacityLogo => {
-        let logoClasses = localStorage.getItem(udacityLogo.id)
-        console.log(`Classes for element ID ${udacityLogo.id}: ${logoClasses}`)
-        // TODO: Set CSS classes to values from localStorage
-      })
+      if (udacityLogoRegular && udacityLogoLight) {
+        udacityLogos.forEach(udacityLogo => {
+          const logoClasses = localStorage.getItem(udacityLogo.id)
+          if (logoClasses) {
+            logoClasses.split(" ").forEach(logoClass => {
+              let currentClasses = udacityLogo.classList.value.split(" ")
+              currentClasses.forEach(currentClass => {
+                udacityLogo.classList.remove(currentClass)
+              })
+              udacityLogo.classList.add(logoClass)
+            })
+          }
+        })
+      }
     }
   }
   document.addEventListener("DOMContentLoaded", () => loadTheme())
