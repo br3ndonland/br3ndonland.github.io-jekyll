@@ -76,15 +76,15 @@ After two years of research, I was promoted to coordinate the operational logist
 
 After realizing that better technology tools could address many of the most pressing needs in science and nutrition, I decided to build my computational skills. I chose web development because of the broad applicability and open-source nature of web programming.
 
-<h3>Learning with Udacity</h3>
+<h3 class="no-anchor">Learning with Udacity</h3>
 
 I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together a custom computing curriculum, focused on practical web development training from Udacity and Google. I really enjoyed it. See the [Udacity](./udacity.md) page for more details on my training.
 
-<h3>More computing resources</h3>
+<h3 class="no-anchor">More resources</h3>
 
 Here are some resources, in addition to Udacity and Google, that have helped me learn about computers.
 
-<h4>Foundational</h4>
+<h4 class="no-anchor">Foundational</h4>
 
   - Courses
     - [Harvard cs50](https://cs50.harvard.edu)
