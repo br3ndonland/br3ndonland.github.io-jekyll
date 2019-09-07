@@ -18,7 +18,8 @@ permalink: /udacity
   - [Description](#description)
   - [Meetups](#meetups)
   - [MBTAccess](#mbtaccess)
-- [Google Mobile Web Specialist](#google-mobile-web-specialist)
+- [Mobile Web Specialist](#mobile-web-specialist)
+  - [Restaurant reviews](#restaurant-reviews)
 
 ## Full Stack Web Developer
 
@@ -318,12 +319,22 @@ We found some common interest in transportation apps. MBTA recently released the
 
 [(Back to top)](#top)
 
-## Google Mobile Web Specialist
+## Mobile Web Specialist
 
 ---
 
-**I won a full scholarship to the Udacity Google Mobile Web Specialist Nanodegree [program](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students. I plan to complete this program on the side, while working as a web developer.
+**I won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students.
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
-[(Back to top)](#udacity-training)
+### Restaurant reviews
+
+<a href="https://github.com/br3ndonland/udacity-google-mws" target="_blank">Code on GitHub</a>
+
+<img src="../img/udacity-google-mws-iphone.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-thumbnail">
+
+Mobile Web Specialists are trained in building **Progressive Web Apps** (PWAs, see <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Google</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank">Mozilla</a>, and <a href="https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0" target="_blank">Medium</a>). PWAs are like a combination of web apps and native apps, improving on the best features of each.
+
+In this Nanodegree program, I built a restaurant reviews PWA that displays restaurant locations and info. The app provides offline access through the Service Worker, IndexedDB, and web manifest files. Users can add favorites and reviews for restaurants. If changes are made offline, they sync to the web server when network access is restored.
+
+[(Back to top)](#top)
