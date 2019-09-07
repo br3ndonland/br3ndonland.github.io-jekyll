@@ -80,7 +80,10 @@ I considered various ways to learn, like code bootcamps or computer science grad
 
 <h3>More computing resources</h3>
 
-- **Foundational**
+Here are some resources, in addition to Udacity and Google, that have helped me learn about computers.
+
+<h4>Foundational</h4>
+
   - Courses
     - [Harvard cs50](https://cs50.harvard.edu)
     - [Harvard cs50 web](https://cs50.github.io/web/)
@@ -93,12 +96,20 @@ I considered various ways to learn, like code bootcamps or computer science grad
     - [Darknet Diaries](https://darknetdiaries.com/)
     - [Syntax](https://syntax.fm)
     - [Talk Python to Me](https://talkpython.fm/) and [Python Bytes](https://pythonbytes.fm/)
-- **Historical**
-  - [The Innovators, by Walter Isaacson](http://a.co/66iyBT1)
-  - [Steve Jobs, by Walter Isaacson](http://a.co/4aPdCcS)
-  - [Where Good Ideas Come From: The Natural History of Innovation, by Steven Johnson](http://a.co/fwkJ8uz)
-  - [What Technology Wants, by Kevin Kelly](http://a.co/1zgpMlU)
-- **Cultural**
+
+<h4>Historical</h4>
+
+- Books
+  - [Jon Gertner: The idea factory](https://en.wikipedia.org/wiki/The_Idea_Factory)
+  - [Walter Isaacson: The innovators](<https://en.wikipedia.org/wiki/The_Innovators_(book)>)
+  - [Walter Isaacson: Steve Jobs](<https://en.wikipedia.org/wiki/Steve_Jobs_(book)>)
+  - [Steven Johnson: Where good ideas come from](<https://en.wikipedia.org/wiki/Steven_Johnson_(author)>)
+  - [Kevin Kelly: What technology wants](https://en.wikipedia.org/wiki/What_Technology_Wants)
+  - [M. Mitchell Waldrop: The dream machine](https://en.wikipedia.org/wiki/J._C._R._Licklider)
+
+<h4>Cultural</h4>
+
+- TV shows
   - [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
   - [Silicon Valley](http://www.imdb.com/title/tt2575988/)
   - [Mr. Robot](http://www.imdb.com/title/tt4158110/)
