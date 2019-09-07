@@ -87,33 +87,34 @@ Here are some resources, in addition to Udacity and Google, that have helped me 
 <h4 class="no-anchor">Foundational</h4>
 
   - Courses
-    - [Harvard cs50](https://cs50.harvard.edu)
-    - [Harvard cs50 web](https://cs50.github.io/web/)
+  - <a href="https://brilliant.org/courses/computer-science-essentials/" target="_blank">Brilliant computer science essentials</a>
+  - <a href="https://cs50.harvard.edu" target="_blank">Harvard cs50</a>
+  - <a href="https://cs50.harvard.edu/extension/web/2019/spring/" target="_blank">Harvard cs50 web</a>
   - Books
-    - [How Computers Work, by Ron White](https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X)
+  - <a href="https://www.amazon.com/How-Computers-Work-Evolution-Technology/dp/078974984X" target="_blank">Ron White: How computers work</a>
   - Podcasts and blogs
-    - [basecs](https://medium.com/basecs)
-    - [Changelog](https://changelog.com/)
-    - [CodeNewbie](https://www.codenewbie.org/)
-    - [Darknet Diaries](https://darknetdiaries.com/)
-    - [Syntax](https://syntax.fm)
-    - [Talk Python to Me](https://talkpython.fm/) and [Python Bytes](https://pythonbytes.fm/)
+  - <a href="https://medium.com/basecs" target="_blank">basecs</a>
+  - <a href="https://changelog.com/" target="_blank">Changelog</a>
+  - <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a>
+  - <a href="https://darknetdiaries.com/" target="_blank">Darknet Diaries</a>
+  - <a href="https://syntax.fm" target="_blank">Syntax</a>
+  - <a href="https://talkpython.fm/" target="_blank">Talk Python to Me</a> and <a href="https://pythonbytes.fm/" target="_blank">Python Bytes</a>
 
-<h4>Historical</h4>
+<h4 class="no-anchor">Historical</h4>
 
 - Books
-  - [Jon Gertner: The idea factory](https://en.wikipedia.org/wiki/The_Idea_Factory)
-  - [Walter Isaacson: The innovators](<https://en.wikipedia.org/wiki/The_Innovators_(book)>)
-  - [Walter Isaacson: Steve Jobs](<https://en.wikipedia.org/wiki/Steve_Jobs_(book)>)
-  - [Steven Johnson: Where good ideas come from](<https://en.wikipedia.org/wiki/Steven_Johnson_(author)>)
-  - [Kevin Kelly: What technology wants](https://en.wikipedia.org/wiki/What_Technology_Wants)
-  - [M. Mitchell Waldrop: The dream machine](https://en.wikipedia.org/wiki/J._C._R._Licklider)
+  - <a href="https://en.wikipedia.org/wiki/The_Idea_Factory" target="_blank">Jon Gertner: The idea factory</a>
+  - <a href="https://en.wikipedia.org/wiki/The_Innovators_(book)" target="_blank">Walter Isaacson: The innovators</a>
+  - <a href="https://en.wikipedia.org/wiki/Steve_Jobs_(book)" target="_blank">Walter Isaacson: Steve Jobs</a>
+  - <a href="https://en.wikipedia.org/wiki/Steven_Johnson_(author)" target="_blank">Steven Johnson: Where good ideas come from</a>
+  - <a href="https://en.wikipedia.org/wiki/What_Technology_Wants" target="_blank">Kevin Kelly: What technology wants</a>
+  - <a href="https://en.wikipedia.org/wiki/J._C._R._Licklider" target="_blank">M. Mitchell Waldrop: The dream machine</a>
 
-<h4>Cultural</h4>
+<h4 class="no-anchor">Cultural</h4>
 
 - TV shows
-  - [Halt and Catch Fire](http://www.imdb.com/title/tt2543312/)
-  - [Silicon Valley](http://www.imdb.com/title/tt2575988/)
-  - [Mr. Robot](http://www.imdb.com/title/tt4158110/)
+  - <a href="https://www.imdb.com/title/tt2543312/" target="_blank">Halt and Catch Fire</a>
+  - <a href="https://www.imdb.com/title/tt2575988/" target="_blank">Silicon Valley</a>
+  - <a href="https://www.imdb.com/title/tt4158110/" target="_blank">Mr. Robot</a>
 
-[(Back to top)](#about-me)
+[(Back to top)](#top)
