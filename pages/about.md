@@ -56,7 +56,9 @@ I graduated from Wheaton after five years with two degrees, a greater understand
 
 I went directly from college into the Nutritional Sciences PhD program at the University of Illinois at Urbana-Champaign. My coursework opened my mind to the wonderful world of cells, molecules, and biochemical reactions, and the effects of food from cell to community. I got rigorous research training, working in both nutritional biochemistry and engineering labs, and leading projects on a large interdisciplinary team.
 
-I began to see the computing challenges involved in scientific research. I wrote VBA macros to automate experimental data analysis, and learned the SAS and R computing languages for statistical programming. Our engineering lab had a dedicated server cluster for processing ultrasound imaging data.
+I began to see the computing challenges involved in scientific research. I wrote VBA macros to automate experimental data analysis, and learned the SAS and R computing languages for statistical programming.
+
+You can download my dissertation for free <a href="https://www.ideals.illinois.edu/handle/2142/72961" target="_blank">here</a>.
 
 <h4 class="no-anchor">Postdoc</h4>
 
