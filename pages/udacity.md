@@ -229,7 +229,7 @@ I was able to bring together my work on Python, databases, and websites to creat
 
 This project required me to create a navigation web app that combines data from multiple APIs. I decided to theme the app after another one of my favorite things, specialty coffee. I started by using the Google Maps Platform to generate a map. Google Maps lacks an API for place lists, so I used the Foursquare API to retrieve places and their data. I used the Knockout framework to bind the JavaScript code with the webpage, so click events can trigger changes on the map. Functions run in response to click events, and the location list can be filtered by city. I went beyond the project's requirements to implement ES6+ JavaScript features, like Fetch, Async/Await, and array methods. Again, I passed Udacity code review with complements from the reviewer and no required corrections.
 
-The Boston's best beans list is also available on [Foursquare](https://foursquare.com/user/480979057/list/bostons-best-beans).
+The Boston's best beans list is also available on <a href="https://foursquare.com/user/480979057/list/bostons-best-beans" target="_blank">Foursquare</a>.
 
 #### Project 6. Linux server configuration and app deployment
 
