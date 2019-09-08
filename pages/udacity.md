@@ -275,7 +275,7 @@ Here's how it went down:
 - Attended five local meetups.
 - Started building a collaborative open-source transportation app, <a href="https://mbtaccess.org" target="_blank">MBTAccess</a>, in April 2018.
 - **Ranked in the top 10% of 10,000 students in the intermediate web developer track.** Ranking was based on completing all course materials, as well as participation in the Slack workspace, discussion forum, and meetups.
-- **Won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>.**
+- **Won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** on April 17, 2018.
 
 ### Meetups
 
@@ -318,7 +318,7 @@ We found some common interest in transportation apps. MBTA recently released the
 
 ## Mobile Web Specialist
 
-**I won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students.
+**I won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students. They announced scholarship winners on April 17, 2018.
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
