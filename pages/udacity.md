@@ -50,7 +50,7 @@ import webbrowser
 
 for i in range(4):
     time.sleep(2 * 60 * 60)
-    webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
+    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
 
 ```
 
@@ -64,10 +64,10 @@ import webbrowser
 total_breaks = 4
 break_count = 0
 
-while(break_count < total_breaks):
-      time.sleep(2 * 60 * 60)
-      webbrowser.open_new_tab('https://www.youtube.com/watch?v=IuGO6WHcruU')
-      break_count = break_count + 1
+while break_count < total_breaks:
+    time.sleep(2 * 60 * 60)
+    webbrowser.open_new_tab("https://www.youtube.com/watch?v=IuGO6WHcruU")
+    break_count = break_count + 1
 
 ```
 
@@ -95,7 +95,7 @@ def spiral_into_the_grid():
     turtle.speed(0)
     turtle.hideturtle()
     window = turtle.Screen()
-    window.bgpic('img/TRON.gif')
+    window.bgpic("img/TRON.gif")
 
     for i in range(1250):
         colors = colorsys.hsv_to_rgb(i / 1250, 1.0, 1.0)
@@ -142,7 +142,7 @@ import requests
 
 def read_text():
     """Read the contents of a text file."""
-    quotes = open('movie_quotes.txt')
+    quotes = open("movie_quotes.txt")
     contents_of_file = quotes.read()
     print(contents_of_file)
     quotes.close()
@@ -152,14 +152,14 @@ def read_text():
 def check_profanity(text_to_check):
     """Check the text file for profanity."""
     # Web query
-    r = requests.get('http://www.wdylike.appspot.com/?q=' + text_to_check)
+    r = requests.get("http://www.wdylike.appspot.com/?q=" + text_to_check)
     # Output
-    if 'true' in r.text:
-        print('Profanity Alert!')
-    elif 'false' in r.text:
-        print('This document has no curse words!')
+    if "true" in r.text:
+        print("Profanity Alert!")
+    elif "false" in r.text:
+        print("This document has no curse words!")
     else:
-        print('Could not scan the document properly.')
+        print("Could not scan the document properly.")
 
 
 read_text()

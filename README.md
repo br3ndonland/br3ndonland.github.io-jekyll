@@ -44,4 +44,4 @@ This repository is provided under the terms of the [CC-BY-4.0 license](https://c
 ## Code style
 
 - HTML, CSS, JavaScript, and YAML are formatted with [Prettier](https://prettier.io/), using `--semi=false`.
-- Python code chunks are formatted for Python 3 and [PEP 8](http://pep8.org/). When permitted, I amend PEP 8 to permit a line length of 100 characters.
+- Python code blocks are formatted with [Black](https://black.readthedocs.io/en/stable/).
