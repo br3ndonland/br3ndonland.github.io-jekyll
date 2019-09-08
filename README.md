@@ -8,7 +8,7 @@ Brendon Smith
 
 [![license](https://img.shields.io/badge/license-CC--BY--4.0%20-blue.svg?longCache=true&style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
 
-The [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/), which is commonly used for open-access scientific publications. If you adapt these materials, please **attribute me** and **explain what you changed**.
+This repository is provided under the terms of the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). If you adapt these materials, please **attribute me** and **explain what you changed**.
 
 - [Stack](#stack)
 - [Building the site locally](#building-the-site-locally)
