@@ -324,7 +324,7 @@ We found some common interest in transportation apps. MBTA recently released the
 
 <a href="https://github.com/br3ndonland/udacity-google-mws" target="_blank">Code on GitHub</a>
 
-<img src="../img/udacity-google-mws-iphone.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-thumbnail">
+<img src="../img/udacity-google-mws-iPhone.png" alt="Udacity Google Mobile Web Specialist screenshot" class="img-thumbnail">
 
 Mobile Web Specialists are trained in building **Progressive Web Apps** (PWAs, see <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Google</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank">Mozilla</a>, and <a href="https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0" target="_blank">Medium</a>). PWAs are like a combination of web apps and native apps, improving on the best features of each.
 
