@@ -21,6 +21,7 @@ This repository is provided under the terms of the [CC-BY-4.0 license](https://c
 - [Bootstrap](https://getbootstrap.com/) 4 provides styling and responsive design.
 - [AnchorJS](https://www.bryanbraun.com/anchorjs/) generates header anchors for deep linking.
 - [Prism](http://prismjs.com/) syntax highlighting is included for display of code blocks.
+- The light/dark [theme toggle](js/theme.js) uses JavaScript to store the theme's CSS classes in [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API).
 - [Jekyll](https://jekyllrb.com/) is a static site generator that builds the site.
 - [GitHub Pages](https://pages.github.com/) hosts the site.
 - The [Keybase](https://keybase.io/) proof helps verify my online identity. I had to use a workaround to set it up:
