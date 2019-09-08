@@ -21,14 +21,9 @@ permalink: /udacity
 - [Mobile Web Specialist](#mobile-web-specialist)
   - [Restaurant reviews](#restaurant-reviews)
 
-## Full Stack Web Developer
-
 ---
 
-- [Lessons](#lessons)
-- [Projects](#projects)
-- [Nanodegree completion](#nanodegree-completion)
-- [GitHub repository](https://github.com/br3ndonland/udacity-fsnd)
+## Full Stack Web Developer
 
 This was the first training program I did. Here are some highlights from my work in the program:
 
@@ -260,9 +255,9 @@ I'm a full stack web developer! I completed the Nanodegree program in June 2018.
 
 [(Back to top)](#top)
 
-## Grow with Google
-
 ---
+
+## Grow with Google
 
 <img src="../img/udacity-google-scholarship.png" alt="Udacity Grow with Google scholarship award">
 
@@ -319,9 +314,9 @@ We found some common interest in transportation apps. MBTA recently released the
 
 [(Back to top)](#top)
 
-## Mobile Web Specialist
-
 ---
+
+## Mobile Web Specialist
 
 **I won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students.
 
