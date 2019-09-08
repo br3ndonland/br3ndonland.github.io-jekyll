@@ -275,7 +275,7 @@ Here's how it went down:
 - Attended five local meetups.
 - Started building a collaborative open-source transportation app, <a href="https://mbtaccess.org" target="_blank">MBTAccess</a>, in April 2018.
 - **Ranked in the top 10% of 10,000 students in the intermediate web developer track.** Ranking was based on completing all course materials, as well as participation in the Slack workspace, discussion forum, and meetups.
-- **Won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** on April 17, 2018.
+- **Won a full scholarship to the [Udacity Mobile Web Specialist Nanodegree program](#mobile-web-specialist)** on April 17, 2018.
 
 ### Meetups
 
@@ -318,7 +318,7 @@ We found some common interest in transportation apps. MBTA recently released the
 
 ## Mobile Web Specialist
 
-**I won a full scholarship to the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students. They announced scholarship winners on April 17, 2018.
+**I won a full scholarship to the Udacity Mobile Web Specialist Nanodegree program** after completing the Grow with Google challenge course and ranking in the top 10% of 10,000 students. They announced scholarship winners on April 17, 2018.
 
 <img src="../img/udacity-google-mws-award.png" alt="Udacity Google Mobile Web Specialist scholarship email" class="img-fluid">
 
@@ -330,6 +330,6 @@ We found some common interest in transportation apps. MBTA recently released the
 
 Mobile Web Specialists are trained in building **Progressive Web Apps** (PWAs, see <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Google</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank">Mozilla</a>, and <a href="https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0" target="_blank">Medium</a>). PWAs are like a combination of web apps and native apps, improving on the best features of each.
 
-In this Nanodegree program, I built a restaurant reviews PWA that displays restaurant locations and info. The app provides offline access through the Service Worker, IndexedDB, and web manifest files. Users can add favorites and reviews for restaurants. If changes are made offline, they sync to the web server when network access is restored.
+In the <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">Udacity Mobile Web Specialist Nanodegree program</a>, I built a restaurant reviews PWA that displays restaurant locations and info. The app provides offline access through the Service Worker, IndexedDB, and web manifest files. Users can add favorites and reviews for restaurants. If changes are made offline, they sync to the web server when network access is restored.
 
 [(Back to top)](#top)
