@@ -20,6 +20,11 @@
   max-height: 200px;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+}
+
 .theme-toggle {
   background-color: #2d3c49;
   color: #ddd;
