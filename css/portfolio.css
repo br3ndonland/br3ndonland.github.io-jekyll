@@ -30,6 +30,12 @@
   color: #ddd;
 }
 
+/* Addition to prism.css: wrap text blocks, but not other code blocks */
+code[class*="language-text"],
+pre[class*="language-text"] {
+  white-space: pre-wrap;
+}
+
 @media (min-width: 768px) {
   .img-thumbnail {
     max-height: 300px;
