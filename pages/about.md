@@ -22,29 +22,18 @@ permalink: /about
 
 ### When I'm working
 
-<h4 class="no-anchor">I'm a full-stack software engineer and scientist. I work at Invicro, a contract research biotech company focused on medical imaging.</h4>
+**I'm a full-stack software engineer and scientist. I work at Intellia Therapeutics, where I build software for CRISPR-Cas genome engineering, lab automation, and bioinformatics using Vue.js, Python, and AWS.**
 
-**Coding and science motivate me in the same ways: I learn new skills through focused personal growth, and I can use my skills to make a positive impact on the world.**
-
-**In the workplace, I value:**
-
-- Strong links between **design** and development
-- Participation in **open-source** computing
-- **Autonomy** and opportunities to take initiative
-- **Purposeful structure**, of development practices and of the work environment
-- Improvement and **growth**, in my skills and in the company
-- **Positive impact** of my work
+**Coding and science motivate me in similar ways: I learn new skills through focused personal growth, and I can use my skills to make a positive impact on the world.**
 
 ### When I'm not working
 
-<h4 class="no-anchor">Books | Music | Movies</h4>
-
-<h4 class="no-anchor">Specialty coffee</h4>
+**Specialty coffee**
 
 <img src="../img/george-howell-01.jpg" alt="George Howell Coffee Godfrey Hotel Modbar pour-over system" class="img-thumbnail">
 <img src="../img/Muscle-Meal-20171014-MuscleMania-NYC-Counter-Culture.jpg" alt="Brendon Smith and Kent Langston at the Counter Culture booth, 2017 New York Coffee Festival" class="img-thumbnail">
 
-<h4 class="no-anchor">Strength training</h4>
+**Strength training**
 
 <img src="../img/muscle-meal-20180919-pullups-02.png" alt="Brendon Smith doing pullups" class="img-thumbnail">
 <img src="../img/muscle-meal-20190309-biceps-02.png" alt="Brendon Smith doing biceps curls" class="img-thumbnail">
