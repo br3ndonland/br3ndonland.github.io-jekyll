@@ -6,6 +6,8 @@ permalink: /about
 
 # About me
 
+<img src="../img/Muscle-Meal-20171014-MuscleMania-NYC-Stumptown.jpg" alt="Brendon Smith at the 2017 New York Coffee Festival Stumptown booth" class="img-thumbnail">
+
 - [What I do](#what-i-do)
   - [When I'm working](#when-im-working)
   - [When I'm not working](#when-im-not-working)
@@ -17,8 +19,6 @@ permalink: /about
 ---
 
 ## What I do
-
-<img src="../img/brendon-smith-invicro-casual.jpg" alt="Brendon Smith at Invicro Boston" class="img-thumbnail">
 
 ### When I'm working
 
