@@ -94,7 +94,7 @@ After realizing that better technology tools could address many of the most pres
 
 <h3 class="no-anchor">Learning with Udacity</h3>
 
-I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together a custom computing curriculum, focused on practical web development training from Udacity and Google. I really enjoyed it. See the [Udacity](./udacity.md) page for more details on my training.
+I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together a custom computing curriculum, focused on practical web development training from Udacity and Google. I really enjoyed it. See the <a href="{{ 'udacity' | relative_url }}">Udacity page</a> for more details on my training.
 
 <h3 class="no-anchor">More resources</h3>
 
