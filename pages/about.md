@@ -22,7 +22,7 @@ permalink: /about
 
 ### When I'm working
 
-**I'm a full-stack software engineer and scientist. I work at Intellia Therapeutics, where I build software for CRISPR-Cas genome engineering, lab automation, and bioinformatics using Vue.js, Python, and AWS.**
+**I'm a scientist and full-stack software engineer. I work at Intellia Therapeutics, where I build software for CRISPR-Cas genome engineering, lab automation, and bioinformatics using Vue.js, Python, and AWS.**
 
 **Coding and science motivate me in similar ways: I learn new skills through focused personal growth, and I can use my skills to make a positive impact on the world.**
 
