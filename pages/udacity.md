@@ -273,7 +273,7 @@ Here's how it went down:
 - Started the challenge course materials on February 21, 2018.
 - Completed the challenge course materials on March 7, 2018. The course taught us how to build progressive web apps and use the new features in JavaScript ES6. I tracked my work and made it available on <a href="https://github.com/br3ndonland/udacity-google" target="_blank">GitHub</a>.
 - Attended five local meetups.
-- Started building a collaborative open-source transportation app, <a href="https://mbtaccess.org" target="_blank">MBTAccess</a>, in April 2018.
+- Started building a collaborative open-source transportation app, <a href="https://github.com/growwithgooglema/mbtaccess" target="_blank">MBTAccess</a>, in April 2018.
 - **Ranked in the top 10% of 10,000 students in the intermediate web developer track.** Ranking was based on completing all course materials, as well as participation in the Slack workspace, discussion forum, and meetups.
 - **Won a full scholarship to the [Udacity Mobile Web Specialist Nanodegree program](#mobile-web-specialist)** on April 17, 2018.
 
@@ -303,8 +303,7 @@ Here's how it went down:
 
 <img src="../img/mbtaccess-20190902-iPhone-X.png" alt="MBTAccess app screenshot simulating iPhone X" class="img-thumbnail">
 
-- <a href="https://mbtaccess.org" target="_blank">Web app</a>
-- <a href="https://github.com/growwithgooglema/mbtaccess" target="_blank">Source code on GitHub</a>
+<a href="https://github.com/growwithgooglema/mbtaccess" target="_blank">Source code on GitHub</a>
 
 **The [Grow with Google meetups](#meetups) led us to develop an app together.**
 
