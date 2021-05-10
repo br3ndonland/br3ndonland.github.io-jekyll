@@ -1,4 +1,8 @@
-description: GitHub portfolio
-email: br3ndonland@protonmail.com
-github_username: br3ndonland
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      type: "page"
+destination: ./_site
 title: Brendon Smith
