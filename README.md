@@ -34,10 +34,11 @@ This repository is provided under the terms of the [CC-BY-4.0 license](https://c
 
 ## Building the site locally
 
-- [Clone](https://help.github.com/en/articles/cloning-a-repository) (or [fork](https://help.github.com/en/articles/about-forks) then clone) this repo.
-- Install Ruby v2.6+ as explained in the [Jekyll docs](https://jekyllrb.com/docs/installation/) for your operating system (via [rbenv](https://github.com/rbenv/rbenv), for example). Bundler should already be installed along with Ruby.
-- Install the site and generate [Gemfile.lock](https://jekyllrb.com/docs/ruby-101/#gemfile): `bundle install --path vendor/bundle`. This installs Ruby gems to _./vendor/bundle_, which avoids having to write to the system RubyGems directory.
-- Serve the site: `bundle exec jekyll serve`
+- [Clone](https://help.github.com/en/articles/cloning-a-repository) the repo.
+- Install Ruby as explained in the [Jekyll docs](https://jekyllrb.com/docs/installation/) for your operating system. If a specific Ruby version is pinned in the [Gemfile](https://jekyllrb.com/docs/ruby-101/#gemfile), install that version and add it to the `$PATH` (via [Homebrew](https://formulae.brew.sh/formula/ruby@2.7) or [rbenv](https://github.com/rbenv/rbenv), for example). Bundler will be installed along with Ruby.
+- Install the site and generate [Gemfile.lock](https://jekyllrb.com/docs/ruby-101/#gemfile): `bundle`.
+- Build the site: `bundle exec jekyll build`
+- Serve the site: `bundle exec jekyll serve` (also builds the site)
 - View the site in a browser at [localhost:4000](http://localhost:4000).
 
 ## Code style
