@@ -4,43 +4,22 @@ permalink: /about
 
 # About me
 
-<img src="../img/Muscle-Meal-20171014-MuscleMania-NYC-Stumptown.jpg" alt="Brendon Smith at the 2017 New York Coffee Festival Stumptown booth" class="img-thumbnail">
-
 - [What I do](#what-i-do)
-  - [When I'm working](#when-im-working)
-  - [When I'm not working](#when-im-not-working)
-- [What I did](#what-i-did)
+- [My background](#my-background)
   - [Fitness](#fitness)
   - [Science](#science)
   - [Tech](#tech)
+- [When I'm not working](#when-im-not-working)
 
 ---
 
 ## What I do
 
-### When I'm working
-
-**I'm a scientist and full-stack software engineer. I work at Intellia Therapeutics, where I build software for CRISPR-Cas genome engineering, lab automation, and bioinformatics using Vue.js, Python, and AWS.**
-
-**Coding and science motivate me in similar ways: I learn new skills through focused personal growth, and I can use my skills to make a positive impact on the world.**
-
-### When I'm not working
-
-**Specialty coffee**
-
-<img src="../img/george-howell-01.jpg" alt="George Howell Coffee Godfrey Hotel Modbar pour-over system" class="img-thumbnail">
-<img src="../img/Muscle-Meal-20171014-MuscleMania-NYC-Counter-Culture.jpg" alt="Brendon Smith and Kent Langston at the Counter Culture booth, 2017 New York Coffee Festival" class="img-thumbnail">
-
-**Strength training**
-
-<img src="../img/muscle-meal-20180919-pullups-02.png" alt="Brendon Smith doing pullups" class="img-thumbnail">
-<img src="../img/muscle-meal-20190309-biceps-02.png" alt="Brendon Smith doing biceps curls" class="img-thumbnail">
-
-[(Back to top)](#top)
+**I'm a Senior DevOps engineer building software to support the creation, curation, and application of scientific knowledge.**
 
 ---
 
-## What I did
+## My background
 
 I've gone through three major transitions that shaped who I am today: Fitness, Science, and Tech.
 
@@ -94,6 +73,8 @@ After realizing that better technology tools could address many of the most pres
 
 I considered various ways to learn, like code bootcamps or computer science grad school. I decided to put together a custom computing curriculum, focused on practical web development training from Udacity and Google. I really enjoyed it. See the <a href="{{ 'udacity' | relative_url }}">Udacity page</a> for more details on my training.
 
+**Coding and science motivate me in similar ways: I learn new skills through focused personal growth, and I can use my skills to make a positive impact on the world.**
+
 <h3 class="no-anchor">More resources</h3>
 
 Here are some resources, in addition to Udacity and Google, that have helped me learn about computers.
@@ -130,5 +111,22 @@ Here are some resources, in addition to Udacity and Google, that have helped me 
   - <a href="https://www.imdb.com/title/tt2543312/" target="_blank">Halt and Catch Fire</a>
   - <a href="https://www.imdb.com/title/tt2575988/" target="_blank">Silicon Valley</a>
   - <a href="https://www.imdb.com/title/tt4158110/" target="_blank">Mr. Robot</a>
+
+[(Back to top)](#top)
+
+---
+
+## When I'm not working
+
+**Specialty coffee**
+
+<img src="../img/george-howell-01.jpg" alt="George Howell Coffee Godfrey Hotel Modbar pour-over system" class="img-thumbnail">
+<img src="../img/Muscle-Meal-20171014-MuscleMania-NYC-Counter-Culture.jpg" alt="Brendon Smith and Kent Langston at the Counter Culture booth, 2017 New York Coffee Festival" class="img-thumbnail">
+<img src="../img/Muscle-Meal-20171014-MuscleMania-NYC-Stumptown.jpg" alt="Brendon Smith at the 2017 New York Coffee Festival Stumptown booth" class="img-thumbnail">
+
+**Strength training**
+
+<img src="../img/muscle-meal-20180919-pullups-02.png" alt="Brendon Smith doing pullups" class="img-thumbnail">
+<img src="../img/muscle-meal-20190309-biceps-02.png" alt="Brendon Smith doing biceps curls" class="img-thumbnail">
 
 [(Back to top)](#top)
